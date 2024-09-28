@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_666bb592f35d0e8302e48732f030bcae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_666bb592f35d0e8302e48732f030bcae" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_666bb592f35d0e8302e48732f030bcae = L.map(
+                "map_666bb592f35d0e8302e48732f030bcae",
+                {
+                    center: [39.5501, -105.7821],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4ebb88ffc2d4e26fdba1bbdebf86c064 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4ebb88ffc2d4e26fdba1bbdebf86c064.addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+            var marker_923a2012f9575eb7543fd217755530e6 = L.marker(
+                [39.7753959, -104.9422916],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_c5da43e696e0861044e166223b028e5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a90b6d4a418e45781246bf07bdb73946 = $(`<div id="html_a90b6d4a418e45781246bf07bdb73946" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF DENVER</strong><br>     6240 Smith Rd<br>     Denver, CO 80207<br>     Phone: (720) 799-9400<br>     Website: http://ccdenver.org/marisolservices/marisol-homes/     </div>`)[0];
+                popup_c5da43e696e0861044e166223b028e5a.setContent(html_a90b6d4a418e45781246bf07bdb73946);
+            
+        
+
+        marker_923a2012f9575eb7543fd217755530e6.bindPopup(popup_c5da43e696e0861044e166223b028e5a)
+        ;
+
+        
+    
+    
+            var marker_88e029f96cbddf3aa2515ea4c1e48bee = L.marker(
+                [39.7556512, -104.9872002],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_bed5a28e10fb2f889227816cf690cb4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19b62b8cdc9f0ab3b81698488bc20f90 = $(`<div id="html_19b62b8cdc9f0ab3b81698488bc20f90" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF DENVER</strong><br>     2301 Lawrence St<br>     Denver, CO 80205<br>     Phone: (720) 799-9506 (Samaritan House at 48th)<br>     Website: No Website Listed     </div>`)[0];
+                popup_bed5a28e10fb2f889227816cf690cb4a.setContent(html_19b62b8cdc9f0ab3b81698488bc20f90);
+            
+        
+
+        marker_88e029f96cbddf3aa2515ea4c1e48bee.bindPopup(popup_bed5a28e10fb2f889227816cf690cb4a)
+        ;
+
+        
+    
+    
+            var marker_7da5820276eab42119d22327c1a28ca4 = L.marker(
+                [39.7293389, -104.9827188],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_a9a8670f2b9ba6f9106f0e21222243e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40b1182c6b479a3247ef21f103389398 = $(`<div id="html_40b1182c6b479a3247ef21f103389398" style="width: 100.0%; height: 100.0%;">     <strong>PROVIDENCE NETWORK</strong><br>     801 Logan St<br>     Denver, CO 80203<br>     Phone: (303) 860-8404<br>     Website: http://providencenetwork.org     </div>`)[0];
+                popup_a9a8670f2b9ba6f9106f0e21222243e5.setContent(html_40b1182c6b479a3247ef21f103389398);
+            
+        
+
+        marker_7da5820276eab42119d22327c1a28ca4.bindPopup(popup_a9a8670f2b9ba6f9106f0e21222243e5)
+        ;
+
+        
+    
+    
+            var marker_a05366ffd017e01898f39a4b4e98af53 = L.marker(
+                [39.661077, -104.847177],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_0465a3d313ea5b0586d503b92b439f35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e95eaf99c4c49957e74d20840dfc68b = $(`<div id="html_8e95eaf99c4c49957e74d20840dfc68b" style="width: 100.0%; height: 100.0%;">     <strong>BRIDGE HOUSE</strong><br>     3176 S Peoria Ct<br>     Denver, CO 80014<br>     Phone: (303) 442-8300<br>     Website: http://boulderbridgehouse.org     </div>`)[0];
+                popup_0465a3d313ea5b0586d503b92b439f35.setContent(html_8e95eaf99c4c49957e74d20840dfc68b);
+            
+        
+
+        marker_a05366ffd017e01898f39a4b4e98af53.bindPopup(popup_0465a3d313ea5b0586d503b92b439f35)
+        ;
+
+        
+    
+    
+            var marker_0ec8d3c3272a2751f0a83d22c6e8c69e = L.marker(
+                [39.7556512, -104.9872002],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_4da12b25b88c7cefc6a89eb884f00f27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ffc548a2e4b20bcb658a755d196a043 = $(`<div id="html_8ffc548a2e4b20bcb658a755d196a043" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF DENVER</strong><br>     2301 Lawrence St<br>     Denver, CO 80205<br>     Phone: (303) 295-3366 (Connection Center)<br>     Website: http://ccdenver.org/denver-samaritan-house/     </div>`)[0];
+                popup_4da12b25b88c7cefc6a89eb884f00f27.setContent(html_8ffc548a2e4b20bcb658a755d196a043);
+            
+        
+
+        marker_0ec8d3c3272a2751f0a83d22c6e8c69e.bindPopup(popup_4da12b25b88c7cefc6a89eb884f00f27)
+        ;
+
+        
+    
+    
+            var marker_158cdb9123b1cd624ebe4f84ec8c713e = L.marker(
+                [39.7293389, -104.9827188],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_20f9e17237b58aa2cbeceb21ee7ce457 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_865b0f4286afb0599b01a671dffe8134 = $(`<div id="html_865b0f4286afb0599b01a671dffe8134" style="width: 100.0%; height: 100.0%;">     <strong>PROVIDENCE NETWORK</strong><br>     801 Logan St<br>     Denver, CO 80203<br>     Phone: (303) 860-8404<br>     Website: http://sites.google.com/providencenetwork.org/joyhouseorientation/home     </div>`)[0];
+                popup_20f9e17237b58aa2cbeceb21ee7ce457.setContent(html_865b0f4286afb0599b01a671dffe8134);
+            
+        
+
+        marker_158cdb9123b1cd624ebe4f84ec8c713e.bindPopup(popup_20f9e17237b58aa2cbeceb21ee7ce457)
+        ;
+
+        
+    
+    
+            var marker_75f85fd378dbeeb640d04270deb3c24a = L.marker(
+                [39.7680453, -104.9569554],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_7a979b37860cde56cb437ef21f8f74d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c9cf4137e5a8dcf94954754e28e0424 = $(`<div id="html_1c9cf4137e5a8dcf94954754e28e0424" style="width: 100.0%; height: 100.0%;">     <strong>FAMILY HOMESTEAD</strong><br>     2520 E 37th Ave<br>     Denver, CO 80205<br>     Phone: (303) 623-6514<br>     Website: http://familyhomestead.org     </div>`)[0];
+                popup_7a979b37860cde56cb437ef21f8f74d5.setContent(html_1c9cf4137e5a8dcf94954754e28e0424);
+            
+        
+
+        marker_75f85fd378dbeeb640d04270deb3c24a.bindPopup(popup_7a979b37860cde56cb437ef21f8f74d5)
+        ;
+
+        
+    
+    
+            var marker_fb911dd0b2ec974544bbd5631927432a = L.marker(
+                [39.7504559, -104.9866068],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_218dd8b0c46c337cd27738274fe23117 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b3ba9c2769abe35edaf9c138c4cd76a = $(`<div id="html_7b3ba9c2769abe35edaf9c138c4cd76a" style="width: 100.0%; height: 100.0%;">     <strong>URBAN PEAK</strong><br>     2100 Stout St<br>     Denver, CO 80205<br>     Phone: (303) 974-2900<br>     Website: http://urbanpeak.org/cnd-help-now#drop-in     </div>`)[0];
+                popup_218dd8b0c46c337cd27738274fe23117.setContent(html_7b3ba9c2769abe35edaf9c138c4cd76a);
+            
+        
+
+        marker_fb911dd0b2ec974544bbd5631927432a.bindPopup(popup_218dd8b0c46c337cd27738274fe23117)
+        ;
+
+        
+    
+    
+            var marker_1fa2e507ebcda90a768395e0b0aebaf4 = L.marker(
+                [39.7602029, -104.9810533],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_eea044507ebd5e55c476a421fcc6466a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d625ee36db9c301747260e230356568f = $(`<div id="html_d625ee36db9c301747260e230356568f" style="width: 100.0%; height: 100.0%;">     <strong>SACRED HEART HOUSE OF DENVER</strong><br>     2844 Lawrence St<br>     Denver, CO 80205<br>     Phone: (303) 296-6686<br>     Website: http://sacredhearthouse.com     </div>`)[0];
+                popup_eea044507ebd5e55c476a421fcc6466a.setContent(html_d625ee36db9c301747260e230356568f);
+            
+        
+
+        marker_1fa2e507ebcda90a768395e0b0aebaf4.bindPopup(popup_eea044507ebd5e55c476a421fcc6466a)
+        ;
+
+        
+    
+    
+            var marker_b9b8aa86511444533ff76182fbb4fd03 = L.marker(
+                [39.756521, -105.025345],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_83ac890328ba51126b7177a23d8b8d55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6490957a3d47417a56f82c92e76a0390 = $(`<div id="html_6490957a3d47417a56f82c92e76a0390" style="width: 100.0%; height: 100.0%;">     <strong>SALVATION ARMY DENVER</strong><br>     2741 N. Federal Boulevard<br>     Denver, CO 80211<br>     Phone: (303) 295-3366<br>     Website: http://lambuthfamilycenter.salvationarmy.org     </div>`)[0];
+                popup_83ac890328ba51126b7177a23d8b8d55.setContent(html_6490957a3d47417a56f82c92e76a0390);
+            
+        
+
+        marker_b9b8aa86511444533ff76182fbb4fd03.bindPopup(popup_83ac890328ba51126b7177a23d8b8d55)
+        ;
+
+        
+    
+    
+            var marker_14b4cb91ec6cba903728145f2520eb59 = L.marker(
+                [39.7543166, -104.9860842],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_70021d7fa316f7dfb73680eeaa3926c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9eda67db77832736d951cfba9f499b12 = $(`<div id="html_9eda67db77832736d951cfba9f499b12" style="width: 100.0%; height: 100.0%;">     <strong>ST FRANCIS CENTER</strong><br>     2323 Curtis Street<br>     Denver, CO 80205<br>     Phone: (303) 297-1576<br>     Website: http://sfcdenver.org/day_services.html     </div>`)[0];
+                popup_70021d7fa316f7dfb73680eeaa3926c6.setContent(html_9eda67db77832736d951cfba9f499b12);
+            
+        
+
+        marker_14b4cb91ec6cba903728145f2520eb59.bindPopup(popup_70021d7fa316f7dfb73680eeaa3926c6)
+        ;
+
+        
+    
+    
+            var marker_8e5caa733b2aac471ec34e560ccf4b14 = L.marker(
+                [39.7182486, -104.9732171],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_37565f10ff54b311f999a44bf31231f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da6e2b7c9947d2c7df4e1b707e84b124 = $(`<div id="html_da6e2b7c9947d2c7df4e1b707e84b124" style="width: 100.0%; height: 100.0%;">     <strong>FAMILY PROMISE OF GREATER DENVER</strong><br>     1600 N Downing St<br>     Denver, CO 80218<br>     Phone: (303) 675-0713<br>     Website: http://fpgd.org/shelter     </div>`)[0];
+                popup_37565f10ff54b311f999a44bf31231f1.setContent(html_da6e2b7c9947d2c7df4e1b707e84b124);
+            
+        
+
+        marker_8e5caa733b2aac471ec34e560ccf4b14.bindPopup(popup_37565f10ff54b311f999a44bf31231f1)
+        ;
+
+        
+    
+    
+            var marker_e13fc534b14d3e0bfcbe4c485e9e883f = L.marker(
+                [39.7547589, -104.9879997],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_d85502febcfd85cfc4703295fb5d9011 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d91ee611cac51802003aa205805b0dac = $(`<div id="html_d91ee611cac51802003aa205805b0dac" style="width: 100.0%; height: 100.0%;">     <strong>DENVER RESCUE MISSION</strong><br>     1130 Park Ave W<br>     Denver, CO 80205<br>     Phone: (303) 294-0157<br>     Website: http://denverrescuemission.org/location/lawrence-street-shelter     </div>`)[0];
+                popup_d85502febcfd85cfc4703295fb5d9011.setContent(html_d91ee611cac51802003aa205805b0dac);
+            
+        
+
+        marker_e13fc534b14d3e0bfcbe4c485e9e883f.bindPopup(popup_d85502febcfd85cfc4703295fb5d9011)
+        ;
+
+        
+    
+    
+            var marker_2a3d893dc7354c3c2e2d4d0bee02a33f = L.marker(
+                [39.7392364, -104.984862],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_ff448df3904a19f22c62c3c8c0c8c61a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de0a28db5ec915d9b5e21e173f1b475d = $(`<div id="html_de0a28db5ec915d9b5e21e173f1b475d" style="width: 100.0%; height: 100.0%;">     <strong>DELORES PROJECT</strong><br>     P.O. Box 1406<br>     Denver, CO 80201<br>     Phone: (303) 534-5411<br>     Website: http://thedeloresproject.org     </div>`)[0];
+                popup_ff448df3904a19f22c62c3c8c0c8c61a.setContent(html_de0a28db5ec915d9b5e21e173f1b475d);
+            
+        
+
+        marker_2a3d893dc7354c3c2e2d4d0bee02a33f.bindPopup(popup_ff448df3904a19f22c62c3c8c0c8c61a)
+        ;
+
+        
+    
+    
+            var marker_74412b0fd3f192f9ecc907ee8d2e9e67 = L.marker(
+                [39.7306416, -105.0146443],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_3683e655334fb5b559fccf71ae25f2e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5758870804a12e0cb4e62beccdf8688 = $(`<div id="html_e5758870804a12e0cb4e62beccdf8688" style="width: 100.0%; height: 100.0%;">     <strong>MILE HIGH MINISTRIES</strong><br>     2330 W Mulberry Pl<br>     Denver, CO 80204<br>     Phone: (720) 377-1103<br>     Website: http://milehighmin.org/joshua-station/     </div>`)[0];
+                popup_3683e655334fb5b559fccf71ae25f2e9.setContent(html_e5758870804a12e0cb4e62beccdf8688);
+            
+        
+
+        marker_74412b0fd3f192f9ecc907ee8d2e9e67.bindPopup(popup_3683e655334fb5b559fccf71ae25f2e9)
+        ;
+
+        
+    
+    
+            var marker_db1e980812a776464f026a79c9c87bf7 = L.marker(
+                [39.7447102, -104.9766091],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_16228e3e0545458da723226df9f63be9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d31691c2f1d12e330f51ba28808e8bd9 = $(`<div id="html_d31691c2f1d12e330f51ba28808e8bd9" style="width: 100.0%; height: 100.0%;">     <strong>SENIOR SUPPORT SERVICES</strong><br>     846 E 18th Ave<br>     Denver, CO 80218<br>     Phone: (303) 832-1622<br>     Website: http://seniorsupportservices.org     </div>`)[0];
+                popup_16228e3e0545458da723226df9f63be9.setContent(html_d31691c2f1d12e330f51ba28808e8bd9);
+            
+        
+
+        marker_db1e980812a776464f026a79c9c87bf7.bindPopup(popup_16228e3e0545458da723226df9f63be9)
+        ;
+
+        
+    
+    
+            var marker_e5470be1f00a478a7e30188ea33a4fbd = L.marker(
+                [39.7753959, -104.9422916],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_73c9b0715aa252b3579ba3a4721a1ec6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76592ee7989c46a3318340fbad98ebf8 = $(`<div id="html_76592ee7989c46a3318340fbad98ebf8" style="width: 100.0%; height: 100.0%;">     <strong>DENVER RESCUE MISSION</strong><br>     6090 Smith Rd<br>     Denver, CO 80207<br>     Phone: (303) 953-3963<br>     Website: http://denverrescuemission.org/who-we-are/locations/the-crossing     </div>`)[0];
+                popup_73c9b0715aa252b3579ba3a4721a1ec6.setContent(html_76592ee7989c46a3318340fbad98ebf8);
+            
+        
+
+        marker_e5470be1f00a478a7e30188ea33a4fbd.bindPopup(popup_73c9b0715aa252b3579ba3a4721a1ec6)
+        ;
+
+        
+    
+    
+            var marker_cdeb062922d31d51ec352c51ac8cf3e7 = L.marker(
+                [39.7374544, -104.9674456],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_cb5b0d7bd1bcb0c635697add1cc8c590 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f67a072898d4d96a850d0abf989401b = $(`<div id="html_0f67a072898d4d96a850d0abf989401b" style="width: 100.0%; height: 100.0%;">     <strong>WARREN VILLAGE</strong><br>     1323 Gilpin St<br>     Denver, CO 80218<br>     Phone: (303) 321-2345<br>     Website: http://warrenvillage.org     </div>`)[0];
+                popup_cb5b0d7bd1bcb0c635697add1cc8c590.setContent(html_0f67a072898d4d96a850d0abf989401b);
+            
+        
+
+        marker_cdeb062922d31d51ec352c51ac8cf3e7.bindPopup(popup_cb5b0d7bd1bcb0c635697add1cc8c590)
+        ;
+
+        
+    
+    
+            var marker_d1e54d63c6c4cebc89b5bc4b761abe0b = L.marker(
+                [39.7374544, -104.9674456],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_6a69100fd5cd6a1ce27a09a391e200f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76ed1b43d37f32f431f73e45f493d058 = $(`<div id="html_76ed1b43d37f32f431f73e45f493d058" style="width: 100.0%; height: 100.0%;">     <strong>WARREN VILLAGE</strong><br>     1323 Gilpin St<br>     Denver, CO 80218<br>     Phone: (303) 320-5080<br>     Website: http://warrenvillage.org     </div>`)[0];
+                popup_6a69100fd5cd6a1ce27a09a391e200f6.setContent(html_76ed1b43d37f32f431f73e45f493d058);
+            
+        
+
+        marker_d1e54d63c6c4cebc89b5bc4b761abe0b.bindPopup(popup_6a69100fd5cd6a1ce27a09a391e200f6)
+        ;
+
+        
+    
+    
+            var marker_08ec6d0656036b6624482e767276b4cb = L.marker(
+                [39.7527751, -104.9915678],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_31da02dafb2b795debb128435b9d645c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93bb31e9791891cc3d6b05754af292b7 = $(`<div id="html_93bb31e9791891cc3d6b05754af292b7" style="width: 100.0%; height: 100.0%;">     <strong>SOX PLACE</strong><br>     2017 Lawrence St<br>     Denver, CO 80205<br>     Phone: (303) 296-3412<br>     Website: http://soxplace.com     </div>`)[0];
+                popup_31da02dafb2b795debb128435b9d645c.setContent(html_93bb31e9791891cc3d6b05754af292b7);
+            
+        
+
+        marker_08ec6d0656036b6624482e767276b4cb.bindPopup(popup_31da02dafb2b795debb128435b9d645c)
+        ;
+
+        
+    
+    
+            var marker_bcca1c98b4fd6360aa09728ba8d42582 = L.marker(
+                [39.7820388, -104.9711284],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_f5df23831ef2b8ba3a28f7e77a5d7fe7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8625a6a953a76cc8f3eca0d2163793a0 = $(`<div id="html_8625a6a953a76cc8f3eca0d2163793a0" style="width: 100.0%; height: 100.0%;">     <strong>OPEN DOOR MINISTRIES</strong><br>     1530 N Marion St<br>     Denver, CO 80218<br>     Phone: (303) 830-2201<br>     Website: http://odmdenver.org/need-housing     </div>`)[0];
+                popup_f5df23831ef2b8ba3a28f7e77a5d7fe7.setContent(html_8625a6a953a76cc8f3eca0d2163793a0);
+            
+        
+
+        marker_bcca1c98b4fd6360aa09728ba8d42582.bindPopup(popup_f5df23831ef2b8ba3a28f7e77a5d7fe7)
+        ;
+
+        
+    
+    
+            var marker_0ee8c295a8499320223098fcc1a0f2d5 = L.marker(
+                [39.7300143, -104.9857543],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_4158fa702432549b4f2eef6531d4f444 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2dfd3bf65c258d7e2bc328b50d1442a = $(`<div id="html_d2dfd3bf65c258d7e2bc328b50d1442a" style="width: 100.0%; height: 100.0%;">     <strong>CHRIST'S BODY MINISTRIES</strong><br>     850 Lincoln St<br>     Denver, CO 80203<br>     Phone: (303) 860-1272<br>     Website: http://christsbody.org     </div>`)[0];
+                popup_4158fa702432549b4f2eef6531d4f444.setContent(html_d2dfd3bf65c258d7e2bc328b50d1442a);
+            
+        
+
+        marker_0ee8c295a8499320223098fcc1a0f2d5.bindPopup(popup_4158fa702432549b4f2eef6531d4f444)
+        ;
+
+        
+    
+    
+            var marker_f1ca740e20ccfbb12587056ec0eb9a32 = L.marker(
+                [39.7056105, -105.0301767],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_663361ff792f8a05dd3a472fdfdd742c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c573e93340fcc4cf94195666cccb57a4 = $(`<div id="html_c573e93340fcc4cf94195666cccb57a4" style="width: 100.0%; height: 100.0%;">     <strong>VOLUNTEERS OF AMERICA COLORADO</strong><br>     601 S Irving St<br>     Denver, CO 80219<br>     Phone: (303) 934-9501<br>     Website: http://voacolorado.org/gethelp-denvermetro-ryes-irving     </div>`)[0];
+                popup_663361ff792f8a05dd3a472fdfdd742c.setContent(html_c573e93340fcc4cf94195666cccb57a4);
+            
+        
+
+        marker_f1ca740e20ccfbb12587056ec0eb9a32.bindPopup(popup_663361ff792f8a05dd3a472fdfdd742c)
+        ;
+
+        
+    
+    
+            var marker_2c3f0f8d634f463f324353c22786468f = L.marker(
+                [39.7274809, -105.0020582],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_5ed80977a44a009da3037f00b7c3d92c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4287642d080699e959905e232e400501 = $(`<div id="html_4287642d080699e959905e232e400501" style="width: 100.0%; height: 100.0%;">     <strong>HAVEN OF HOPE</strong><br>     1101 W 7th Ave<br>     Denver, CO 80204<br>     Phone: (303) 607-0855<br>     Website: http://thoh.org/     </div>`)[0];
+                popup_5ed80977a44a009da3037f00b7c3d92c.setContent(html_4287642d080699e959905e232e400501);
+            
+        
+
+        marker_2c3f0f8d634f463f324353c22786468f.bindPopup(popup_5ed80977a44a009da3037f00b7c3d92c)
+        ;
+
+        
+    
+    
+            var marker_1b86e59d26146de53092861a5ce8d925 = L.marker(
+                [39.7656152, -104.987605],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_2fa7b7f15a9844286c44dfaa86db7869 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a61dfe265b2624dcbc6ec60abb611324 = $(`<div id="html_a61dfe265b2624dcbc6ec60abb611324" style="width: 100.0%; height: 100.0%;">     <strong>SALVATION ARMY DENVER</strong><br>     1901 29th St<br>     Denver, CO 80216<br>     Phone: (720) 305-4640<br>     Website: http://crossroadscenter.salvationarmy.org     </div>`)[0];
+                popup_2fa7b7f15a9844286c44dfaa86db7869.setContent(html_a61dfe265b2624dcbc6ec60abb611324);
+            
+        
+
+        marker_1b86e59d26146de53092861a5ce8d925.bindPopup(popup_2fa7b7f15a9844286c44dfaa86db7869)
+        ;
+
+        
+    
+    
+            var marker_c1f134bd47d2d1fc4144798adaafe60e = L.marker(
+                [39.7556512, -104.9872002],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_5da5d0abd247a795c9c5ad5ca9f16e2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7bd56edcf13d3acaaf1fbd02827d30c = $(`<div id="html_a7bd56edcf13d3acaaf1fbd02827d30c" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF DENVER</strong><br>     2301 Lawrence St<br>     Denver, CO 80205<br>     Phone: (303) 294-0241<br>     Website: http://ccdenver.org/denver-samaritan-house/     </div>`)[0];
+                popup_5da5d0abd247a795c9c5ad5ca9f16e2f.setContent(html_a7bd56edcf13d3acaaf1fbd02827d30c);
+            
+        
+
+        marker_c1f134bd47d2d1fc4144798adaafe60e.bindPopup(popup_5da5d0abd247a795c9c5ad5ca9f16e2f)
+        ;
+
+        
+    
+    
+            var marker_b6ebe1855aa527a57a61cc2efce92ef7 = L.marker(
+                [39.747357, -104.9874],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_eebf8ee13d95aaff9d229ef7f9d94924 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_737ad5cedc5b60d63c9f5bc1d81c0459 = $(`<div id="html_737ad5cedc5b60d63c9f5bc1d81c0459" style="width: 100.0%; height: 100.0%;">     <strong>MERCY HOUSING</strong><br>     1600 N Broadway Suite 2000<br>     Denver, CO 80202<br>     Phone: (303) 830-3300<br>     Website: http://mercyhousing.org     </div>`)[0];
+                popup_eebf8ee13d95aaff9d229ef7f9d94924.setContent(html_737ad5cedc5b60d63c9f5bc1d81c0459);
+            
+        
+
+        marker_b6ebe1855aa527a57a61cc2efce92ef7.bindPopup(popup_eebf8ee13d95aaff9d229ef7f9d94924)
+        ;
+
+        
+    
+    
+            var marker_01f0585d4b34bdb97c76453d82574cd3 = L.marker(
+                [39.7362019, -104.9991069],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_85795a139f6a6a738c5e1c5b8f4fd969 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_554ddda86990a71be5c5ab20c886ff81 = $(`<div id="html_554ddda86990a71be5c5ab20c886ff81" style="width: 100.0%; height: 100.0%;">     <strong>VOLUNTEERS OF AMERICA COLORADO</strong><br>     1247 Santa Fe Dr<br>     Denver, CO 80204<br>     Phone: (720) 501-3369<br>     Website: http://voacolorado.org/veteran-services-center     </div>`)[0];
+                popup_85795a139f6a6a738c5e1c5b8f4fd969.setContent(html_554ddda86990a71be5c5ab20c886ff81);
+            
+        
+
+        marker_01f0585d4b34bdb97c76453d82574cd3.bindPopup(popup_85795a139f6a6a738c5e1c5b8f4fd969)
+        ;
+
+        
+    
+    
+            var marker_977895d5a0bb103a0b73bbb415623165 = L.marker(
+                [39.7362019, -104.9991069],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_a9d4d8807f861f803556dc678d18b3b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_712d0d2dbfec6ec922f5f377a608d79b = $(`<div id="html_712d0d2dbfec6ec922f5f377a608d79b" style="width: 100.0%; height: 100.0%;">     <strong>VOLUNTEERS OF AMERICA COLORADO</strong><br>     1247 Santa Fe Dr<br>     Denver, CO 80204<br>     Phone: (720) 234-5195<br>     Website: No Website Listed     </div>`)[0];
+                popup_a9d4d8807f861f803556dc678d18b3b4.setContent(html_712d0d2dbfec6ec922f5f377a608d79b);
+            
+        
+
+        marker_977895d5a0bb103a0b73bbb415623165.bindPopup(popup_a9d4d8807f861f803556dc678d18b3b4)
+        ;
+
+        
+    
+    
+            var marker_5ec8720f58ec97be80896c1e7e472a5a = L.marker(
+                [39.7753959, -104.9422916],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_4dd55e055e489501b43f0bf4173614cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32e73ec0bfcc14d75e6a867ed9144183 = $(`<div id="html_32e73ec0bfcc14d75e6a867ed9144183" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF DENVER</strong><br>     6240 Smith Rd<br>     Denver, CO 80207<br>     Phone: (720) 799-9400<br>     Website: http://ccdenver.org/marisolservices/marisol-homes/     </div>`)[0];
+                popup_4dd55e055e489501b43f0bf4173614cc.setContent(html_32e73ec0bfcc14d75e6a867ed9144183);
+            
+        
+
+        marker_5ec8720f58ec97be80896c1e7e472a5a.bindPopup(popup_4dd55e055e489501b43f0bf4173614cc)
+        ;
+
+        
+    
+    
+            var marker_6ccfbabaeda04f4313163080756f5f29 = L.marker(
+                [39.7833193, -104.9371448],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_eda2b667884f02ff595b331a90e090c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0587ca8ed01d1cf00812da5f8a1a0efe = $(`<div id="html_0587ca8ed01d1cf00812da5f8a1a0efe" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF DENVER</strong><br>     4330 E 48th Ave<br>     Denver, CO 80216<br>     Phone: (720) 799-9506<br>     Website: http://ccdenver.org/colorado-homeless-shelters/     </div>`)[0];
+                popup_eda2b667884f02ff595b331a90e090c2.setContent(html_0587ca8ed01d1cf00812da5f8a1a0efe);
+            
+        
+
+        marker_6ccfbabaeda04f4313163080756f5f29.bindPopup(popup_eda2b667884f02ff595b331a90e090c2)
+        ;
+
+        
+    
+    
+            var marker_88913f79efba5b8338fb60dca45cb4ed = L.marker(
+                [39.7504559, -104.9866068],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_97c118d368aa02e5c8f8d17f162f9471 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34aec4b6ea8f10afc478e43f92cd3859 = $(`<div id="html_34aec4b6ea8f10afc478e43f92cd3859" style="width: 100.0%; height: 100.0%;">     <strong>URBAN PEAK</strong><br>     2100 Stout St<br>     Denver, CO 80205<br>     Phone: (303) 974-2900<br>     Website: http://urbanpeak.org/services#housing     </div>`)[0];
+                popup_97c118d368aa02e5c8f8d17f162f9471.setContent(html_34aec4b6ea8f10afc478e43f92cd3859);
+            
+        
+
+        marker_88913f79efba5b8338fb60dca45cb4ed.bindPopup(popup_97c118d368aa02e5c8f8d17f162f9471)
+        ;
+
+        
+    
+    
+            var marker_78d1514fb61a509bd6faf07b7e568c0c = L.marker(
+                [39.7543166, -104.9860842],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_e0ac3b413b6a7243fca9e503c826b899 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fd699b689163be290f92ceae242f5c2 = $(`<div id="html_1fd699b689163be290f92ceae242f5c2" style="width: 100.0%; height: 100.0%;">     <strong>ST FRANCIS CENTER</strong><br>     2323 Curtis Street<br>     Denver, CO 81501<br>     Phone: (303) 297-1576<br>     Website: http://sfcdenver.org     </div>`)[0];
+                popup_e0ac3b413b6a7243fca9e503c826b899.setContent(html_1fd699b689163be290f92ceae242f5c2);
+            
+        
+
+        marker_78d1514fb61a509bd6faf07b7e568c0c.bindPopup(popup_e0ac3b413b6a7243fca9e503c826b899)
+        ;
+
+        
+    
+    
+            var marker_7d28228889482b58e32454b989e6394b = L.marker(
+                [39.740758, -104.9650989],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_884836d8eb329e491773b2c4c02358dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84364efffe0ac407093c0539f4c53b35 = $(`<div id="html_84364efffe0ac407093c0539f4c53b35" style="width: 100.0%; height: 100.0%;">     <strong>GATHERING PLACE</strong><br>     1535 High St<br>     Denver, CO 80218<br>     Phone: (303) 321-4198<br>     Website: http://tgpdenver.org     </div>`)[0];
+                popup_884836d8eb329e491773b2c4c02358dc.setContent(html_84364efffe0ac407093c0539f4c53b35);
+            
+        
+
+        marker_7d28228889482b58e32454b989e6394b.bindPopup(popup_884836d8eb329e491773b2c4c02358dc)
+        ;
+
+        
+    
+    
+            var marker_554b8e41803166edeb6181220e4c0507 = L.marker(
+                [39.721851, -104.987541],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_94ac53926dd5fb1c293890a7c767bf31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2a82076023a9a1dc78aad9093709735 = $(`<div id="html_d2a82076023a9a1dc78aad9093709735" style="width: 100.0%; height: 100.0%;">     <strong>PROVIDENCE NETWORK</strong><br>     357 N Broadway<br>     Denver, CO 80203<br>     Phone: (303) 860-8404<br>     Website: http://sites.google.com/providencenetwork.org/joyhouseorientation/home     </div>`)[0];
+                popup_94ac53926dd5fb1c293890a7c767bf31.setContent(html_d2a82076023a9a1dc78aad9093709735);
+            
+        
+
+        marker_554b8e41803166edeb6181220e4c0507.bindPopup(popup_94ac53926dd5fb1c293890a7c767bf31)
+        ;
+
+        
+    
+    
+            var marker_5269bc9a664a2acd2b4a6d0e76ceadf4 = L.marker(
+                [39.7547589, -104.9879997],
+                {}
+            ).addTo(map_666bb592f35d0e8302e48732f030bcae);
+        
+    
+        var popup_3453bde31d44d9f882480f3196c4cb64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21397e3d5af55748598fb98194106a24 = $(`<div id="html_21397e3d5af55748598fb98194106a24" style="width: 100.0%; height: 100.0%;">     <strong>DENVER RESCUE MISSION</strong><br>     1130 Park Ave W<br>     Denver, CO 80205<br>     Phone: (303) 294-0157<br>     Website: http://denverrescuemission.org/who-we-are/locations/lawrence-street-community-center     </div>`)[0];
+                popup_3453bde31d44d9f882480f3196c4cb64.setContent(html_21397e3d5af55748598fb98194106a24);
+            
+        
+
+        marker_5269bc9a664a2acd2b4a6d0e76ceadf4.bindPopup(popup_3453bde31d44d9f882480f3196c4cb64)
+        ;
+
+        
+    
+</script>
+</html>
