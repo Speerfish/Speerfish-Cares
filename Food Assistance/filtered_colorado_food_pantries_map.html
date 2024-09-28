@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3da53db880699dea682d828ec9071e07 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3da53db880699dea682d828ec9071e07" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3da53db880699dea682d828ec9071e07 = L.map(
+                "map_3da53db880699dea682d828ec9071e07",
+                {
+                    center: [39.5501, -105.7821],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3af25fafff40ad9587a23367db2320ca = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3af25fafff40ad9587a23367db2320ca.addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+            var marker_385cda6538b4204cf2645482293149e7 = L.marker(
+                [39.7446234, -104.9730507],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_d42f09704c2aa3be448959a32aa7fa53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b54c12eb42bc0644ba1200a6cfb96447 = $(`<div id="html_b54c12eb42bc0644ba1200a6cfb96447" style="width: 100.0%; height: 100.0%;">     <strong>METRO CARING</strong><br>     1100 E 18th Ave<br>     Denver, CO 80218<br>     Phone: Monday, Thursday, 9 a.m. - 11:30 a.m. - 12:30 p.m...<br>     Website: (303) 860-7200     </div>`)[0];
+                popup_d42f09704c2aa3be448959a32aa7fa53.setContent(html_b54c12eb42bc0644ba1200a6cfb96447);
+            
+        
+
+        marker_385cda6538b4204cf2645482293149e7.bindPopup(popup_d42f09704c2aa3be448959a32aa7fa53)
+        ;
+
+        
+    
+    
+            var marker_b8b14a424261a234495abe86b64a87d1 = L.marker(
+                [39.6614613, -104.9122488],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_ead986758c0108ef831a394707b090bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_853da11edcebf92a4f70e38048bb13af = $(`<div id="html_853da11edcebf92a4f70e38048bb13af" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     3060 S Monaco St Pkwy<br>     Denver, CO 80222<br>     Phone: (303) 375-5853<br>     Website: http://foodbankrockies.org     </div>`)[0];
+                popup_ead986758c0108ef831a394707b090bf.setContent(html_853da11edcebf92a4f70e38048bb13af);
+            
+        
+
+        marker_b8b14a424261a234495abe86b64a87d1.bindPopup(popup_ead986758c0108ef831a394707b090bf)
+        ;
+
+        
+    
+    
+            var marker_fd94f4d4a21d03a1bdacb983604a6464 = L.marker(
+                [39.7260565, -105.0501581],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_a09f13e4aaa17a6cf7080bd703c1eaa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a11d786b3bb0720a4fdf5a868e8a2ec = $(`<div id="html_9a11d786b3bb0720a4fdf5a868e8a2ec" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     13300 W 6th Ave<br>     Denver, CO 80215<br>     Phone: (303) 375-5853<br>     Website: http://foodbankrockies.org     </div>`)[0];
+                popup_a09f13e4aaa17a6cf7080bd703c1eaa0.setContent(html_9a11d786b3bb0720a4fdf5a868e8a2ec);
+            
+        
+
+        marker_fd94f4d4a21d03a1bdacb983604a6464.bindPopup(popup_a09f13e4aaa17a6cf7080bd703c1eaa0)
+        ;
+
+        
+    
+    
+            var marker_36c5182fedae5de40de5cc8666bb3275 = L.marker(
+                [39.6851808, -105.0160784],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_37c5bc53d5c60e9a07fc854eb17b5abb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d070c8e4b1c1b32c07ad2f74c60b01e0 = $(`<div id="html_d070c8e4b1c1b32c07ad2f74c60b01e0" style="width: 100.0%; height: 100.0%;">     <strong>COMMUNITY MINISTRY</strong><br>     1755 S Zuni St<br>     Denver, CO 80219<br>     Phone: (303) 935-3428<br>     Website: http://comministry-denver.org     </div>`)[0];
+                popup_37c5bc53d5c60e9a07fc854eb17b5abb.setContent(html_d070c8e4b1c1b32c07ad2f74c60b01e0);
+            
+        
+
+        marker_36c5182fedae5de40de5cc8666bb3275.bindPopup(popup_37c5bc53d5c60e9a07fc854eb17b5abb)
+        ;
+
+        
+    
+    
+            var marker_f0e08671dd0f8154973aafd1acf78a7c = L.marker(
+                [39.7570034, -104.9284063],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_f486e5f96c853379eee48fbd70d2a7d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_436c892e527563e6306a9ca4418d461e = $(`<div id="html_436c892e527563e6306a9ca4418d461e" style="width: 100.0%; height: 100.0%;">     <strong>GREATER PARK HILL COMMUNITY</strong><br>     2823 Fairfax St<br>     Denver, CO 80207<br>     Phone: (303) 388-0918<br>     Website: http://greaterparkhillcommunity.org     </div>`)[0];
+                popup_f486e5f96c853379eee48fbd70d2a7d6.setContent(html_436c892e527563e6306a9ca4418d461e);
+            
+        
+
+        marker_f0e08671dd0f8154973aafd1acf78a7c.bindPopup(popup_f486e5f96c853379eee48fbd70d2a7d6)
+        ;
+
+        
+    
+    
+            var marker_b6c8dfbf51ae914ee6de76584aade72c = L.marker(
+                [39.7623504, -105.0064418],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_7e160f49252d3e2f905089defbdcd48b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d224a97b49bbe9f883b47aeb1fe8d6d2 = $(`<div id="html_d224a97b49bbe9f883b47aeb1fe8d6d2" style="width: 100.0%; height: 100.0%;">     <strong>BIENVENIDOS FOOD BANK</strong><br>     3810 N Pecos St<br>     Denver, CO 80211<br>     Phone: (303) 433-6328<br>     Website: http://bienvenidosfoodbank.org     </div>`)[0];
+                popup_7e160f49252d3e2f905089defbdcd48b.setContent(html_d224a97b49bbe9f883b47aeb1fe8d6d2);
+            
+        
+
+        marker_b6c8dfbf51ae914ee6de76584aade72c.bindPopup(popup_7e160f49252d3e2f905089defbdcd48b)
+        ;
+
+        
+    
+    
+            var marker_e13ee0d7f824842d06b7d3af6769bce6 = L.marker(
+                [39.7388479, -105.0272106],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_7da8cc2decaa2b9019f1a435f4439fe3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4244eb56f2aa3b7b5d1f004940b6ed4 = $(`<div id="html_c4244eb56f2aa3b7b5d1f004940b6ed4" style="width: 100.0%; height: 100.0%;">     <strong>SERVICIOS DE LA RAZA</strong><br>     3131 W 14th Ave<br>     Denver, CO 80204<br>     Phone: (303) 458-5851<br>     Website: http://serviciosdelaraza.org/services/essential-services/     </div>`)[0];
+                popup_7da8cc2decaa2b9019f1a435f4439fe3.setContent(html_c4244eb56f2aa3b7b5d1f004940b6ed4);
+            
+        
+
+        marker_e13ee0d7f824842d06b7d3af6769bce6.bindPopup(popup_7da8cc2decaa2b9019f1a435f4439fe3)
+        ;
+
+        
+    
+    
+            var marker_c8e35edef8d72f21256901b5400b9bfc = L.marker(
+                [39.7876904, -104.9592562],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_f3c3bc56b4fcfd2cb3ee4e9add2fe8c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b62cadcc703ffc4ab640700247fdec0e = $(`<div id="html_b62cadcc703ffc4ab640700247fdec0e" style="width: 100.0%; height: 100.0%;">     <strong>THORNTON COMMUNITY FOOD BANK</strong><br>     8990 York St<br>     Denver, CO 80229<br>     Phone: (303) 287-7268<br>     Website: No Website Listed     </div>`)[0];
+                popup_f3c3bc56b4fcfd2cb3ee4e9add2fe8c6.setContent(html_b62cadcc703ffc4ab640700247fdec0e);
+            
+        
+
+        marker_c8e35edef8d72f21256901b5400b9bfc.bindPopup(popup_f3c3bc56b4fcfd2cb3ee4e9add2fe8c6)
+        ;
+
+        
+    
+    
+            var marker_dd4e58f6d24c1fe3b927ec1fde67749e = L.marker(
+                [39.7606775, -104.9813693],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_e5fe9215f9a781c3d7d242ff3c550ab8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93dae8a6bf18d5937790e651426f76b3 = $(`<div id="html_93dae8a6bf18d5937790e651426f76b3" style="width: 100.0%; height: 100.0%;">     <strong>VOLUNTEERS OF AMERICA COLORADO</strong><br>     2877 Lawrence St<br>     Denver, CO 80205<br>     Phone: (303) 295-2165 (Mission)<br>     Website: http://voacolorado.org/gethelp-denvermetro-foodnutrition-themission     </div>`)[0];
+                popup_e5fe9215f9a781c3d7d242ff3c550ab8.setContent(html_93dae8a6bf18d5937790e651426f76b3);
+            
+        
+
+        marker_dd4e58f6d24c1fe3b927ec1fde67749e.bindPopup(popup_e5fe9215f9a781c3d7d242ff3c550ab8)
+        ;
+
+        
+    
+    
+            var marker_ba92831b41b4bbeb4fe0e338bc37849c = L.marker(
+                [39.7447102, -104.9766091],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_371bc1a0b5474cdb7775b4075b224025 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f577f332e905d3d10d5613ca6cea53c = $(`<div id="html_5f577f332e905d3d10d5613ca6cea53c" style="width: 100.0%; height: 100.0%;">     <strong>SENIOR SUPPORT SERVICES</strong><br>     846 E 18th Ave<br>     Denver, CO 80218<br>     Phone: (303) 832-1622<br>     Website: http://seniorsupportservices.org     </div>`)[0];
+                popup_371bc1a0b5474cdb7775b4075b224025.setContent(html_5f577f332e905d3d10d5613ca6cea53c);
+            
+        
+
+        marker_ba92831b41b4bbeb4fe0e338bc37849c.bindPopup(popup_371bc1a0b5474cdb7775b4075b224025)
+        ;
+
+        
+    
+    
+            var marker_5085c84f987ece18f2e87503e7466f98 = L.marker(
+                [39.6569728, -104.9000373],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_fd91a03485dee62e11e00ce6155739cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4146c86bd21926234c6178de73e2f1eb = $(`<div id="html_4146c86bd21926234c6178de73e2f1eb" style="width: 100.0%; height: 100.0%;">     <strong>JEWISH FAMILY SERVICE OF COLORADO</strong><br>     3201 S Tamarac Dr<br>     Denver, CO 80231<br>     Phone: (833) 340-1096<br>     Website: https://newclient.link2feed.com/     </div>`)[0];
+                popup_fd91a03485dee62e11e00ce6155739cf.setContent(html_4146c86bd21926234c6178de73e2f1eb);
+            
+        
+
+        marker_5085c84f987ece18f2e87503e7466f98.bindPopup(popup_fd91a03485dee62e11e00ce6155739cf)
+        ;
+
+        
+    
+    
+            var marker_49aa503877c8c490c23ec8cdc88428bb = L.marker(
+                [39.7317733, -104.977256],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_98dc89bbb8025828eb3d8aaf0c2faaae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6293fd0ee9ea249c70dcce4fa335401f = $(`<div id="html_6293fd0ee9ea249c70dcce4fa335401f" style="width: 100.0%; height: 100.0%;">     <strong>METROPOLITAN COMMUNITY CHURCH OF THE ROCKIES</strong><br>     980 Clarkson St<br>     Denver, CO 80218<br>     Phone: (303) 860-1819<br>     Website: http://facebook.com/groups/MCCRFoodPantry     </div>`)[0];
+                popup_98dc89bbb8025828eb3d8aaf0c2faaae.setContent(html_6293fd0ee9ea249c70dcce4fa335401f);
+            
+        
+
+        marker_49aa503877c8c490c23ec8cdc88428bb.bindPopup(popup_98dc89bbb8025828eb3d8aaf0c2faaae)
+        ;
+
+        
+    
+    
+            var marker_c6929d62585187b87778f43b532c4825 = L.marker(
+                [39.7404343, -105.0480555],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_645ab50ca5a05412ba7558c2116e9096 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dfa878128d8717bb0402d4c4d489380 = $(`<div id="html_4dfa878128d8717bb0402d4c4d489380" style="width: 100.0%; height: 100.0%;">     <strong>BIENVENIDOS FOOD BANK</strong><br>     4747 W Colfax Ave<br>     Denver, CO 80204<br>     Phone: (303) 433-6328<br>     Website: http://bienvenidosfoodbank.org     </div>`)[0];
+                popup_645ab50ca5a05412ba7558c2116e9096.setContent(html_4dfa878128d8717bb0402d4c4d489380);
+            
+        
+
+        marker_c6929d62585187b87778f43b532c4825.bindPopup(popup_645ab50ca5a05412ba7558c2116e9096)
+        ;
+
+        
+    
+    
+            var marker_a246fe39ca7fb0cd09dfc2dba25ad315 = L.marker(
+                [39.7711399, -104.9210631],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_0fc28c328afd8a4c948288b02817725a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60ef02dad65a3b47031cb8fe810a023a = $(`<div id="html_60ef02dad65a3b47031cb8fe810a023a" style="width: 100.0%; height: 100.0%;">     <strong>DENVER RESCUE MISSION</strong><br>     5725 E 39th Ave<br>     Denver, CO 80207<br>     Phone: (303) 297-1815<br>     Website: http://denverrescuemission.org/who-we-are/locations/ministry-outreach-center     </div>`)[0];
+                popup_0fc28c328afd8a4c948288b02817725a.setContent(html_60ef02dad65a3b47031cb8fe810a023a);
+            
+        
+
+        marker_a246fe39ca7fb0cd09dfc2dba25ad315.bindPopup(popup_0fc28c328afd8a4c948288b02817725a)
+        ;
+
+        
+    
+    
+            var marker_5efd141905062d5e0e773e92434a85c5 = L.marker(
+                [39.6385694, -105.0873123],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_4ee6f6bbb6ef972e108143f5068de77b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_308a799ffbeb9fba6eeb775b5d8dad99 = $(`<div id="html_308a799ffbeb9fba6eeb775b5d8dad99" style="width: 100.0%; height: 100.0%;">     <strong>MEAN STREET MINISTRY</strong><br>     1380 Ammons St<br>     Denver, CO 80232<br>     Phone: (303) 232-2500<br>     Website: http://meanstreetministry.org     </div>`)[0];
+                popup_4ee6f6bbb6ef972e108143f5068de77b.setContent(html_308a799ffbeb9fba6eeb775b5d8dad99);
+            
+        
+
+        marker_5efd141905062d5e0e773e92434a85c5.bindPopup(popup_4ee6f6bbb6ef972e108143f5068de77b)
+        ;
+
+        
+    
+    
+            var marker_109aac0dac73a37bf362ae8c774ab846 = L.marker(
+                [39.741322, -104.960937],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_a6d109ff9dd331a86cd1e53a1a36badb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fea9f0df852d29c45526105fbc57eb1c = $(`<div id="html_fea9f0df852d29c45526105fbc57eb1c" style="width: 100.0%; height: 100.0%;">     <strong>CHURCH IN THE CITY BETH ABRAHAM</strong><br>     1580 N Gaylord St<br>     Denver, CO 80206<br>     Phone: (303) 322-5733<br>     Website: http://churchinthecity.org     </div>`)[0];
+                popup_a6d109ff9dd331a86cd1e53a1a36badb.setContent(html_fea9f0df852d29c45526105fbc57eb1c);
+            
+        
+
+        marker_109aac0dac73a37bf362ae8c774ab846.bindPopup(popup_a6d109ff9dd331a86cd1e53a1a36badb)
+        ;
+
+        
+    
+    
+            var marker_f6f333d8b11885ca3638a30cebb839a4 = L.marker(
+                [39.7539162, -104.9813788],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_143ca812555fe3a83df74c33b5b969ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3109ca3f21cbc55d560e10fcb6bad9d4 = $(`<div id="html_3109ca3f21cbc55d560e10fcb6bad9d4" style="width: 100.0%; height: 100.0%;">     <strong>AGAPE CHRISTIAN CHURCH</strong><br>     2501 California St<br>     Denver, CO 80205<br>     Phone: (303) 296-2454<br>     Website: No Website Listed     </div>`)[0];
+                popup_143ca812555fe3a83df74c33b5b969ff.setContent(html_3109ca3f21cbc55d560e10fcb6bad9d4);
+            
+        
+
+        marker_f6f333d8b11885ca3638a30cebb839a4.bindPopup(popup_143ca812555fe3a83df74c33b5b969ff)
+        ;
+
+        
+    
+    
+            var marker_3f3844274f8c6ef8af11aed71ff2c1d7 = L.marker(
+                [39.7150853, -104.9931475],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_d6a50d2924710d6a8e8ea3c2b759ca1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24ddc8ba6dc8a9890e3a82d39c6414e9 = $(`<div id="html_24ddc8ba6dc8a9890e3a82d39c6414e9" style="width: 100.0%; height: 100.0%;">     <strong>BAYAUD ENTERPRISES</strong><br>     313 W Bayaud Ave<br>     Denver, CO 80223<br>     Phone: (303) 830-6885<br>     Website: http://bayaudenterprises.org     </div>`)[0];
+                popup_d6a50d2924710d6a8e8ea3c2b759ca1e.setContent(html_24ddc8ba6dc8a9890e3a82d39c6414e9);
+            
+        
+
+        marker_3f3844274f8c6ef8af11aed71ff2c1d7.bindPopup(popup_d6a50d2924710d6a8e8ea3c2b759ca1e)
+        ;
+
+        
+    
+    
+            var marker_9553d3ce4176a86254ba74752b91a7c1 = L.marker(
+                [39.7184431, -105.0515586],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_8039b11e4cb7d81a142a84bc179e5d01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebc296b526baac01932d2d322cf34284 = $(`<div id="html_ebc296b526baac01932d2d322cf34284" style="width: 100.0%; height: 100.0%;">     <strong>SOUTHWEST IMPROVEMENT COUNCIL</strong><br>     5045 W 1st Ave<br>     Denver, CO 80219<br>     Phone: (303) 934-2181<br>     Website: http://swic-denver.org     </div>`)[0];
+                popup_8039b11e4cb7d81a142a84bc179e5d01.setContent(html_ebc296b526baac01932d2d322cf34284);
+            
+        
+
+        marker_9553d3ce4176a86254ba74752b91a7c1.bindPopup(popup_8039b11e4cb7d81a142a84bc179e5d01)
+        ;
+
+        
+    
+    
+            var marker_7829631a673134d091c908157827094d = L.marker(
+                [39.7274685, -105.0317192],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_4f28f0777fae4c43779b84235c62f196 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8d123018575ecb01a3178afa8338f5c = $(`<div id="html_c8d123018575ecb01a3178afa8338f5c" style="width: 100.0%; height: 100.0%;">     <strong>WE DON'T WASTE</strong><br>     695 Julian St<br>     Denver, CO 80204<br>     Phone: (720) 943-2699<br>     Website: http://wedontwaste.org/mobile-food-markets     </div>`)[0];
+                popup_4f28f0777fae4c43779b84235c62f196.setContent(html_c8d123018575ecb01a3178afa8338f5c);
+            
+        
+
+        marker_7829631a673134d091c908157827094d.bindPopup(popup_4f28f0777fae4c43779b84235c62f196)
+        ;
+
+        
+    
+    
+            var marker_349a309612b4b9a6d1675852801b741d = L.marker(
+                [39.7820807, -104.8504283],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_05b4b0b2892f2be1fff2fe73108bca37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e28eada6532dd8679b0a1036d472529 = $(`<div id="html_6e28eada6532dd8679b0a1036d472529" style="width: 100.0%; height: 100.0%;">     <strong>STRUGGLE OF LOVE FOUNDATION</strong><br>     12000 E 47th Ave Suite 403<br>     Denver, CO 80239<br>     Phone: (720) 923-6122<br>     Website: http://struggleofovefoundation.org/     </div>`)[0];
+                popup_05b4b0b2892f2be1fff2fe73108bca37.setContent(html_6e28eada6532dd8679b0a1036d472529);
+            
+        
+
+        marker_349a309612b4b9a6d1675852801b741d.bindPopup(popup_05b4b0b2892f2be1fff2fe73108bca37)
+        ;
+
+        
+    
+    
+            var marker_ad834c7f4d50b2fecc42e082d0947a77 = L.marker(
+                [39.7079062, -104.9263138],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_e2502243b40d83ad35a1aa8b0c0c4946 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa574bebfc0e2a2f5be2e2cd4e91a28f = $(`<div id="html_fa574bebfc0e2a2f5be2e2cd4e91a28f" style="width: 100.0%; height: 100.0%;">     <strong>VIVENT HEALTH</strong><br>     5250 Leetsdale Dr Suite 300<br>     Denver, CO 80246<br>     Phone: (303) 393-8050<br>     Website: http://viventhealth.org     </div>`)[0];
+                popup_e2502243b40d83ad35a1aa8b0c0c4946.setContent(html_fa574bebfc0e2a2f5be2e2cd4e91a28f);
+            
+        
+
+        marker_ad834c7f4d50b2fecc42e082d0947a77.bindPopup(popup_e2502243b40d83ad35a1aa8b0c0c4946)
+        ;
+
+        
+    
+    
+            var marker_8b9a20d3ced6ceb7c00efda4beb34a1f = L.marker(
+                [39.7899826, -104.8062321],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_a89898236fe0d5a87e7324c983e0811f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f492e0ffb1e91265d7768da7a72eafc = $(`<div id="html_3f492e0ffb1e91265d7768da7a72eafc" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     15555 E 53rd Ave<br>     Denver, CO 80239<br>     Phone: (303) 375-5853<br>     Website: http://foodbankrockies.org     </div>`)[0];
+                popup_a89898236fe0d5a87e7324c983e0811f.setContent(html_3f492e0ffb1e91265d7768da7a72eafc);
+            
+        
+
+        marker_8b9a20d3ced6ceb7c00efda4beb34a1f.bindPopup(popup_a89898236fe0d5a87e7324c983e0811f)
+        ;
+
+        
+    
+    
+            var marker_a27958c971a9bc4619fc7fcc09fec3eb = L.marker(
+                [39.7645786, -104.9651911],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_3cdca2224811019c3d917ee930838808 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb44a1de05b74e8513304821258469c0 = $(`<div id="html_eb44a1de05b74e8513304821258469c0" style="width: 100.0%; height: 100.0%;">     <strong>EPWORTH FOUNDATION</strong><br>     1865 Bruce Randolph Ave<br>     Denver, CO 80205<br>     Phone: (303) 296-6287<br>     Website: http://epworthfoundation.org     </div>`)[0];
+                popup_3cdca2224811019c3d917ee930838808.setContent(html_eb44a1de05b74e8513304821258469c0);
+            
+        
+
+        marker_a27958c971a9bc4619fc7fcc09fec3eb.bindPopup(popup_3cdca2224811019c3d917ee930838808)
+        ;
+
+        
+    
+    
+            var marker_eb4cef678fb69d41e76686c4fd1de892 = L.marker(
+                [39.6957721, -105.027704],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_3b87d33e8f9468acd615b122cff65461 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21d6fc6e821243359599c61ffa3ae7b1 = $(`<div id="html_21d6fc6e821243359599c61ffa3ae7b1" style="width: 100.0%; height: 100.0%;">     <strong>WE DON'T WASTE</strong><br>     3201 W Arizona Ave<br>     Denver, CO 80219<br>     Phone: (720) 943-2699<br>     Website: http://wedontwaste.org/mobile-food-markets     </div>`)[0];
+                popup_3b87d33e8f9468acd615b122cff65461.setContent(html_21d6fc6e821243359599c61ffa3ae7b1);
+            
+        
+
+        marker_eb4cef678fb69d41e76686c4fd1de892.bindPopup(popup_3b87d33e8f9468acd615b122cff65461)
+        ;
+
+        
+    
+    
+            var marker_e7244368577e88eaf330444589f9fcdc = L.marker(
+                [39.7700882, -104.9596329],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_c68c1b0847aeb5a036c4f32ddd082e36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_017acb067c7a888b93e66a53e30b5cef = $(`<div id="html_017acb067c7a888b93e66a53e30b5cef" style="width: 100.0%; height: 100.0%;">     <strong>GROWHAUS</strong><br>     3840 York Street Ste. 210<br>     Denver, CO 80205<br>     Phone: (720) 515-4751 Ext 724<br>     Website: http://foodboxes.thegrowhaus.org/     </div>`)[0];
+                popup_c68c1b0847aeb5a036c4f32ddd082e36.setContent(html_017acb067c7a888b93e66a53e30b5cef);
+            
+        
+
+        marker_e7244368577e88eaf330444589f9fcdc.bindPopup(popup_c68c1b0847aeb5a036c4f32ddd082e36)
+        ;
+
+        
+    
+    
+            var marker_2d7e8800f563f39abbfb9ac0aa941016 = L.marker(
+                [39.650594, -105.0525805],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_1087ab30a1513f3fba83dcf3f7866e60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43504a0b3437a78824174b933922cbb1 = $(`<div id="html_43504a0b3437a78824174b933922cbb1" style="width: 100.0%; height: 100.0%;">     <strong>YMCA OF METROPOLITAN DENVER</strong><br>     5181 W Kenyon Ave<br>     Denver, CO 80236<br>     Phone: (720) 460-6383<br>     Website: http://denverymca.org/food-distribution     </div>`)[0];
+                popup_1087ab30a1513f3fba83dcf3f7866e60.setContent(html_43504a0b3437a78824174b933922cbb1);
+            
+        
+
+        marker_2d7e8800f563f39abbfb9ac0aa941016.bindPopup(popup_1087ab30a1513f3fba83dcf3f7866e60)
+        ;
+
+        
+    
+    
+            var marker_6c9394d939e7e8bdf3b7a57de4026b8d = L.marker(
+                [39.7356182, -105.0024306],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_276d17240d52e168fbe4ed5ad86311fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8956097533a8756bfa302b78b725ac05 = $(`<div id="html_8956097533a8756bfa302b78b725ac05" style="width: 100.0%; height: 100.0%;">     <strong>DENVER INNER CITY PARISH</strong><br>     1212 Mariposa St<br>     Denver, CO 80204<br>     Phone: (303) 629-0636 Ext 6<br>     Website: http://dicp.org/hunger     </div>`)[0];
+                popup_276d17240d52e168fbe4ed5ad86311fb.setContent(html_8956097533a8756bfa302b78b725ac05);
+            
+        
+
+        marker_6c9394d939e7e8bdf3b7a57de4026b8d.bindPopup(popup_276d17240d52e168fbe4ed5ad86311fb)
+        ;
+
+        
+    
+    
+            var marker_6a82b7e31af7c65671b1234809f927c3 = L.marker(
+                [39.740758, -104.9650989],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_8ce64177098bf7d41d58de5ff72129ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9fc8de7b7a895205e1cd663fd1c0857 = $(`<div id="html_e9fc8de7b7a895205e1cd663fd1c0857" style="width: 100.0%; height: 100.0%;">     <strong>GATHERING PLACE</strong><br>     1535 High St<br>     Denver, CO 80218<br>     Phone: (303) 321-4198<br>     Website: http://tgpdenver.org     </div>`)[0];
+                popup_8ce64177098bf7d41d58de5ff72129ae.setContent(html_e9fc8de7b7a895205e1cd663fd1c0857);
+            
+        
+
+        marker_6a82b7e31af7c65671b1234809f927c3.bindPopup(popup_8ce64177098bf7d41d58de5ff72129ae)
+        ;
+
+        
+    
+    
+            var marker_82816dab15bfed3195f7bad72b974108 = L.marker(
+                [39.7400644, -104.9100043],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_91e267684241d2af3b100580f0f001a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db27ff8dd6d89fc757a850894b1b81fb = $(`<div id="html_db27ff8dd6d89fc757a850894b1b81fb" style="width: 100.0%; height: 100.0%;">     <strong>FAX PARTNERSHIP</strong><br>     6740 E Colfax Ave<br>     Denver, CO 80220<br>     Phone: (303) 284-4292<br>     Website: http://thefaxdenver.com/our-work/residential-services-oice/     </div>`)[0];
+                popup_91e267684241d2af3b100580f0f001a1.setContent(html_db27ff8dd6d89fc757a850894b1b81fb);
+            
+        
+
+        marker_82816dab15bfed3195f7bad72b974108.bindPopup(popup_91e267684241d2af3b100580f0f001a1)
+        ;
+
+        
+    
+    
+            var marker_20a0b30ada8ad9a7365c021b9cb3bdae = L.marker(
+                [39.7623504, -105.0064418],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_b3694820143543505cd957a17ff9d2c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa5931814306bee7cd47cad0b8b258e4 = $(`<div id="html_aa5931814306bee7cd47cad0b8b258e4" style="width: 100.0%; height: 100.0%;">     <strong>WE DON'T WASTE</strong><br>     4735 N Pecos St<br>     Denver, CO 80211<br>     Phone: (720) 943-2699<br>     Website: http://wedontwaste.org/mobile-food-markets     </div>`)[0];
+                popup_b3694820143543505cd957a17ff9d2c4.setContent(html_aa5931814306bee7cd47cad0b8b258e4);
+            
+        
+
+        marker_20a0b30ada8ad9a7365c021b9cb3bdae.bindPopup(popup_b3694820143543505cd957a17ff9d2c4)
+        ;
+
+        
+    
+    
+            var marker_b6f0cdba103ee57e6bd0e333cd716a7b = L.marker(
+                [39.7720087, -104.951353],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_28384a891a3987428b965b433d744ae4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_161c52fe56f5d8ec2f5d1adbb48fa22a = $(`<div id="html_161c52fe56f5d8ec2f5d1adbb48fa22a" style="width: 100.0%; height: 100.0%;">     <strong>WE DON'T WASTE</strong><br>     3955 Steele St<br>     Denver, CO 80205<br>     Phone: (720) 943-2699<br>     Website: http://wedontwaste.org/mobile-food-markets     </div>`)[0];
+                popup_28384a891a3987428b965b433d744ae4.setContent(html_161c52fe56f5d8ec2f5d1adbb48fa22a);
+            
+        
+
+        marker_b6f0cdba103ee57e6bd0e333cd716a7b.bindPopup(popup_28384a891a3987428b965b433d744ae4)
+        ;
+
+        
+    
+    
+            var marker_6ee5c4f7caddacb4aaf6ee7257412682 = L.marker(
+                [39.7585593, -105.0254446],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_22683576e78c838409c6111982fa2639 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d62d1314693d05d9963541895a5d3bed = $(`<div id="html_d62d1314693d05d9963541895a5d3bed" style="width: 100.0%; height: 100.0%;">     <strong>SAINT MARGARET OF CASTELLO FAMILY CENTER</strong><br>     3005 W 29th Ave<br>     Denver, CO 80211<br>     Phone: (303) 455-3613<br>     Website: http://stdominicdenver.org     </div>`)[0];
+                popup_22683576e78c838409c6111982fa2639.setContent(html_d62d1314693d05d9963541895a5d3bed);
+            
+        
+
+        marker_6ee5c4f7caddacb4aaf6ee7257412682.bindPopup(popup_22683576e78c838409c6111982fa2639)
+        ;
+
+        
+    
+    
+            var marker_30cee776f219b225c40cb111bd016bb3 = L.marker(
+                [39.7356182, -105.0024306],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_b161a73fab7878d3fa7dd5f43480c7e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e056aa71389e6ccb722a8ffbd434afac = $(`<div id="html_e056aa71389e6ccb722a8ffbd434afac" style="width: 100.0%; height: 100.0%;">     <strong>DENVER INNER CITY PARISH</strong><br>     1212 Mariposa St<br>     Denver, CO 80204<br>     Phone: (303) 629-0636<br>     Website: http://dicp.org/hunger     </div>`)[0];
+                popup_b161a73fab7878d3fa7dd5f43480c7e2.setContent(html_e056aa71389e6ccb722a8ffbd434afac);
+            
+        
+
+        marker_30cee776f219b225c40cb111bd016bb3.bindPopup(popup_b161a73fab7878d3fa7dd5f43480c7e2)
+        ;
+
+        
+    
+    
+            var marker_43fb79076cddd42ffc096aa721ad0106 = L.marker(
+                [39.7406915, -104.9820667],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_e3cfd51987e42d7c064374cbcb7b854e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_390983d93f5d0bedfd69f0661f99b1ed = $(`<div id="html_390983d93f5d0bedfd69f0661f99b1ed" style="width: 100.0%; height: 100.0%;">     <strong>CATHEDRAL BASILICA OF THE IMMACULATE CONCEPTION</strong><br>     1530 Logan St<br>     Denver, CO 80203<br>     Phone: (303) 831-7010<br>     Website: No Website Listed     </div>`)[0];
+                popup_e3cfd51987e42d7c064374cbcb7b854e.setContent(html_390983d93f5d0bedfd69f0661f99b1ed);
+            
+        
+
+        marker_43fb79076cddd42ffc096aa721ad0106.bindPopup(popup_e3cfd51987e42d7c064374cbcb7b854e)
+        ;
+
+        
+    
+    
+            var marker_5cf346542bf7b29800311625c6d29beb = L.marker(
+                [39.7274809, -105.0020582],
+                {}
+            ).addTo(map_3da53db880699dea682d828ec9071e07);
+        
+    
+        var popup_929c3e46e7047c6ed6a211f13b1844bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c52e352c0091268c99f6ed8f3d147f71 = $(`<div id="html_c52e352c0091268c99f6ed8f3d147f71" style="width: 100.0%; height: 100.0%;">     <strong>HAVEN OF HOPE</strong><br>     1101 W 7th Ave<br>     Denver, CO 80204<br>     Phone: Monday - Friday, 7 a.m. - 9:30 a.m., 10:30 a.m. -...<br>     Website: (303) 607-0855     </div>`)[0];
+                popup_929c3e46e7047c6ed6a211f13b1844bd.setContent(html_c52e352c0091268c99f6ed8f3d147f71);
+            
+        
+
+        marker_5cf346542bf7b29800311625c6d29beb.bindPopup(popup_929c3e46e7047c6ed6a211f13b1844bd)
+        ;
+
+        
+    
+</script>
+</html>
