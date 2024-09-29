@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9d9186a4e22827e098f0d3462f5632f5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9d9186a4e22827e098f0d3462f5632f5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9d9186a4e22827e098f0d3462f5632f5 = L.map(
+                "map_9d9186a4e22827e098f0d3462f5632f5",
+                {
+                    center: [39.7109, -105.0815],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1ed8d6565e24ebbcac0e0130c269f9fa = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1ed8d6565e24ebbcac0e0130c269f9fa.addTo(map_9d9186a4e22827e098f0d3462f5632f5);
+        
+    
+            var marker_f78c1c676ff8fd1fab9c9c8a6b4437fc = L.marker(
+                [39.6907746, -105.0714054],
+                {}
+            ).addTo(map_9d9186a4e22827e098f0d3462f5632f5);
+        
+    
+        var popup_292e220de8c72c99f4b8d1a0da42b702 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06eb195ee700da9615cae6c224bf7564 = $(`<div id="html_06eb195ee700da9615cae6c224bf7564" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     1450 S Pierce St<br>     Lakewood, CO 80232<br>     Phone: 1st Tuesday, 3 p.m. (While Supplies Last)<br>     Website: (303) 375-5853<br>     Services: Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_292e220de8c72c99f4b8d1a0da42b702.setContent(html_06eb195ee700da9615cae6c224bf7564);
+            
+        
+
+        marker_f78c1c676ff8fd1fab9c9c8a6b4437fc.bindPopup(popup_292e220de8c72c99f4b8d1a0da42b702)
+        ;
+
+        
+    
+    
+            var marker_79635f2fe2fecb269933998cbf743d20 = L.marker(
+                [39.7385136, -105.094918],
+                {}
+            ).addTo(map_9d9186a4e22827e098f0d3462f5632f5);
+        
+    
+        var popup_fcb8d03e22b3dcf65627126d5da665e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_191303a524233a04c90f8faf91124427 = $(`<div id="html_191303a524233a04c90f8faf91124427" style="width: 100.0%; height: 100.0%;">     <strong>ACTION CENTER</strong><br>     8745 W 14th Ave<br>     Lakewood, CO 80215<br>     Phone: (303) 237-7704<br>     Website: http://theactioncenter.org<br>     Services: Offers a community food pantry that individuals can utilize once a month. Groceries vary by day, but typically include non-perishable and perishable food items such as: Fresh vegetables Fruits Dairy Proteins Emergency diapers and personal hygiene items may...     </div>`)[0];
+                popup_fcb8d03e22b3dcf65627126d5da665e8.setContent(html_191303a524233a04c90f8faf91124427);
+            
+        
+
+        marker_79635f2fe2fecb269933998cbf743d20.bindPopup(popup_fcb8d03e22b3dcf65627126d5da665e8)
+        ;
+
+        
+    
+    
+            var marker_c9c62841058fbb7705558f0b03c2e23f = L.marker(
+                [39.7271071, -105.0816301],
+                {}
+            ).addTo(map_9d9186a4e22827e098f0d3462f5632f5);
+        
+    
+        var popup_00a01b27685a314703eda67c3c29736b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1f5ac57358e36dfc395b8cd754e2465 = $(`<div id="html_e1f5ac57358e36dfc395b8cd754e2465" style="width: 100.0%; height: 100.0%;">     <strong>CAT CARE SOCIETY</strong><br>     5787 W 6th Ave<br>     Lakewood, CO 80214<br>     Phone: (303) 239-9680<br>     Website: http://catcaresociety.org/programs/#nibbles-kibbles<br>     Services: Offers cat food and supplies to individuals who are experiencing temporary financial challenges.     </div>`)[0];
+                popup_00a01b27685a314703eda67c3c29736b.setContent(html_e1f5ac57358e36dfc395b8cd754e2465);
+            
+        
+
+        marker_c9c62841058fbb7705558f0b03c2e23f.bindPopup(popup_00a01b27685a314703eda67c3c29736b)
+        ;
+
+        
+    
+    
+            var marker_4983809ee8b8bd9fa976c00d9173cdea = L.marker(
+                [39.7110864, -105.060541],
+                {}
+            ).addTo(map_9d9186a4e22827e098f0d3462f5632f5);
+        
+    
+        var popup_46d2ca1f498e2e17b9e9b3d7720062a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a8e0f09886b7f7499382a94fb2f8925 = $(`<div id="html_7a8e0f09886b7f7499382a94fb2f8925" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     5810 W Alameda Ave<br>     Lakewood, CO 80226<br>     Phone: (303) 375-5853<br>     Website: http://foodbankrockies.org<br>     Services: Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_46d2ca1f498e2e17b9e9b3d7720062a4.setContent(html_7a8e0f09886b7f7499382a94fb2f8925);
+            
+        
+
+        marker_4983809ee8b8bd9fa976c00d9173cdea.bindPopup(popup_46d2ca1f498e2e17b9e9b3d7720062a4)
+        ;
+
+        
+    
+    
+            var marker_f96600a649df69c57988abd0b532958f = L.marker(
+                [39.732825, -105.100372],
+                {}
+            ).addTo(map_9d9186a4e22827e098f0d3462f5632f5);
+        
+    
+        var popup_381e64060e4a4a1e18fa97d8c72b9e92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4abc919e8adbaab29b52ddfa2e90592 = $(`<div id="html_c4abc919e8adbaab29b52ddfa2e90592" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     9200 W 10th Ave<br>     Lakewood, CO 80215<br>     Phone: (303) 375-5853<br>     Website: http://foodbankrockies.org<br>     Services: Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_381e64060e4a4a1e18fa97d8c72b9e92.setContent(html_c4abc919e8adbaab29b52ddfa2e90592);
+            
+        
+
+        marker_f96600a649df69c57988abd0b532958f.bindPopup(popup_381e64060e4a4a1e18fa97d8c72b9e92)
+        ;
+
+        
+    
+</script>
+</html>

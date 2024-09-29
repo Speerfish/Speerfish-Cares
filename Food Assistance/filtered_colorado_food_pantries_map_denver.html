@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5b4ecd222ea5ad9744e695fb5cffbb26 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5b4ecd222ea5ad9744e695fb5cffbb26" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5b4ecd222ea5ad9744e695fb5cffbb26 = L.map(
+                "map_5b4ecd222ea5ad9744e695fb5cffbb26",
+                {
+                    center: [39.5501, -105.7821],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bab95f173caa137c4a19ec9f63047ad0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_bab95f173caa137c4a19ec9f63047ad0.addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+            var marker_76c2aa7a2cdf4bbe421529cec607bc17 = L.marker(
+                [39.7446234, -104.9730507],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_624d49a04b3a88166f496e6edc0f1842 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0769f1cae8920e5ba6c13d5d5b7f325 = $(`<div id="html_c0769f1cae8920e5ba6c13d5d5b7f325" style="width: 100.0%; height: 100.0%;">     <strong>METRO CARING</strong><br>     1100 E 18th Ave<br>     Denver, CO 80218<br>     Phone: Monday, Thursday, 9 a.m. - 11:30 a.m. - 12:30 p.m...<br>     Website: (303) 860-7200<br>     Services: Provides a fresh food market where the community can choose from an array of nutritious foods,     </div>`)[0];
+                popup_624d49a04b3a88166f496e6edc0f1842.setContent(html_c0769f1cae8920e5ba6c13d5d5b7f325);
+            
+        
+
+        marker_76c2aa7a2cdf4bbe421529cec607bc17.bindPopup(popup_624d49a04b3a88166f496e6edc0f1842)
+        ;
+
+        
+    
+    
+            var marker_7765c97077bbb5a5f77401a1ae916a8c = L.marker(
+                [39.6614613, -104.9122488],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_1118d2e8846d7a3b1928317d42c779bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_647dbdf8ddba0b72bb0504ba569eeff1 = $(`<div id="html_647dbdf8ddba0b72bb0504ba569eeff1" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     3060 S Monaco St Pkwy<br>     Denver, CO 80222<br>     Phone: (303) 375-5853<br>     Website: http://foodbankrockies.org<br>     Services: Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_1118d2e8846d7a3b1928317d42c779bc.setContent(html_647dbdf8ddba0b72bb0504ba569eeff1);
+            
+        
+
+        marker_7765c97077bbb5a5f77401a1ae916a8c.bindPopup(popup_1118d2e8846d7a3b1928317d42c779bc)
+        ;
+
+        
+    
+    
+            var marker_a815841eeb42b326b422213d7f6d5cb8 = L.marker(
+                [39.7260565, -105.0501581],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_d293d2b29a3246fda9d14f3d7220ca01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d02f6eafaf1bd097e03b890b1a4ebab = $(`<div id="html_4d02f6eafaf1bd097e03b890b1a4ebab" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     13300 W 6th Ave<br>     Denver, CO 80215<br>     Phone: (303) 375-5853<br>     Website: http://foodbankrockies.org<br>     Services: Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_d293d2b29a3246fda9d14f3d7220ca01.setContent(html_4d02f6eafaf1bd097e03b890b1a4ebab);
+            
+        
+
+        marker_a815841eeb42b326b422213d7f6d5cb8.bindPopup(popup_d293d2b29a3246fda9d14f3d7220ca01)
+        ;
+
+        
+    
+    
+            var marker_84271781d8bea7da5def516f939da647 = L.marker(
+                [39.6851808, -105.0160784],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_7a4bb6739db1e0e380dfca4320ea4e8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb58211f9e73413fd397c44ba337fcff = $(`<div id="html_cb58211f9e73413fd397c44ba337fcff" style="width: 100.0%; height: 100.0%;">     <strong>COMMUNITY MINISTRY</strong><br>     1755 S Zuni St<br>     Denver, CO 80219<br>     Phone: (303) 935-3428<br>     Website: http://comministry-denver.org<br>     Services: Provides emergency food for families and individuals in need.     </div>`)[0];
+                popup_7a4bb6739db1e0e380dfca4320ea4e8b.setContent(html_cb58211f9e73413fd397c44ba337fcff);
+            
+        
+
+        marker_84271781d8bea7da5def516f939da647.bindPopup(popup_7a4bb6739db1e0e380dfca4320ea4e8b)
+        ;
+
+        
+    
+    
+            var marker_2a0a85db36484e4402518a11450554b5 = L.marker(
+                [39.7570034, -104.9284063],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_6109cf0905fd7328aca9e35c6ae49dcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_603d4327986d4dfe2a99f4da514846bf = $(`<div id="html_603d4327986d4dfe2a99f4da514846bf" style="width: 100.0%; height: 100.0%;">     <strong>GREATER PARK HILL COMMUNITY</strong><br>     2823 Fairfax St<br>     Denver, CO 80207<br>     Phone: (303) 388-0918<br>     Website: http://greaterparkhillcommunity.org<br>     Services: Offers a food pantry for persons living in the service area. Clients may receive food up to 24 times per calendar year.     </div>`)[0];
+                popup_6109cf0905fd7328aca9e35c6ae49dcc.setContent(html_603d4327986d4dfe2a99f4da514846bf);
+            
+        
+
+        marker_2a0a85db36484e4402518a11450554b5.bindPopup(popup_6109cf0905fd7328aca9e35c6ae49dcc)
+        ;
+
+        
+    
+    
+            var marker_0484f8fab4fb84ab37b89dc34c41a2a0 = L.marker(
+                [39.7623504, -105.0064418],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_4fbdb9eb56a7033427a27cbea1c27726 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bda3345fcb216f52df5f198a4d08b64 = $(`<div id="html_8bda3345fcb216f52df5f198a4d08b64" style="width: 100.0%; height: 100.0%;">     <strong>BIENVENIDOS FOOD BANK</strong><br>     3810 N Pecos St<br>     Denver, CO 80211<br>     Phone: (303) 433-6328<br>     Website: http://bienvenidosfoodbank.org<br>     Services: Distributes fresh and nonperishable food items.Also provides:Diapers Pet food SNAP assistance     </div>`)[0];
+                popup_4fbdb9eb56a7033427a27cbea1c27726.setContent(html_8bda3345fcb216f52df5f198a4d08b64);
+            
+        
+
+        marker_0484f8fab4fb84ab37b89dc34c41a2a0.bindPopup(popup_4fbdb9eb56a7033427a27cbea1c27726)
+        ;
+
+        
+    
+    
+            var marker_909144f2d7573e38ac87845dc0b9a724 = L.marker(
+                [39.7388479, -105.0272106],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_08cf4d47f2d078377795e5277cdf17be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cdaad80b9ac40c833294b5640243e90 = $(`<div id="html_0cdaad80b9ac40c833294b5640243e90" style="width: 100.0%; height: 100.0%;">     <strong>SERVICIOS DE LA RAZA</strong><br>     3131 W 14th Ave<br>     Denver, CO 80204<br>     Phone: (303) 458-5851<br>     Website: http://serviciosdelaraza.org/services/essential-services/<br>     Services: Offers emergency food items and pet food.     </div>`)[0];
+                popup_08cf4d47f2d078377795e5277cdf17be.setContent(html_0cdaad80b9ac40c833294b5640243e90);
+            
+        
+
+        marker_909144f2d7573e38ac87845dc0b9a724.bindPopup(popup_08cf4d47f2d078377795e5277cdf17be)
+        ;
+
+        
+    
+    
+            var marker_a68abbdabfef6a34234a84716ad92e6a = L.marker(
+                [39.7876904, -104.9592562],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_84ec7aac4e4bdf49b2deb6d2f87dab57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1724ece621483c5b70c396f20d598f33 = $(`<div id="html_1724ece621483c5b70c396f20d598f33" style="width: 100.0%; height: 100.0%;">     <strong>THORNTON COMMUNITY FOOD BANK</strong><br>     8990 York St<br>     Denver, CO 80229<br>     Phone: (303) 287-7268<br>     Website: No Website Listed<br>     Services: Offers a 5-day supply of food for residents living in the service area. Residents may visit once a month, every month for USDA commodities...     </div>`)[0];
+                popup_84ec7aac4e4bdf49b2deb6d2f87dab57.setContent(html_1724ece621483c5b70c396f20d598f33);
+            
+        
+
+        marker_a68abbdabfef6a34234a84716ad92e6a.bindPopup(popup_84ec7aac4e4bdf49b2deb6d2f87dab57)
+        ;
+
+        
+    
+    
+            var marker_3f4bc1e14a6e27af7f55fd00641bdfaa = L.marker(
+                [39.7606775, -104.9813693],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_64b4b12ed7936bb5e4c0bcdb6c017011 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e25f9e30333a421b08cbd2c4fa7aff37 = $(`<div id="html_e25f9e30333a421b08cbd2c4fa7aff37" style="width: 100.0%; height: 100.0%;">     <strong>VOLUNTEERS OF AMERICA COLORADO</strong><br>     2877 Lawrence St<br>     Denver, CO 80205<br>     Phone: (303) 295-2165 (Mission)<br>     Website: http://voacolorado.org/gethelp-denvermetro-foodnutrition-themission<br>     Services: Offers emergency food boxes once per month for families who have a home.     </div>`)[0];
+                popup_64b4b12ed7936bb5e4c0bcdb6c017011.setContent(html_e25f9e30333a421b08cbd2c4fa7aff37);
+            
+        
+
+        marker_3f4bc1e14a6e27af7f55fd00641bdfaa.bindPopup(popup_64b4b12ed7936bb5e4c0bcdb6c017011)
+        ;
+
+        
+    
+    
+            var marker_22778136d06105a9b70d1fdcb021d840 = L.marker(
+                [39.7447102, -104.9766091],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_5a5b1831d30c67c874088401ef784a11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8783cf4a840b173efd0615556d6899db = $(`<div id="html_8783cf4a840b173efd0615556d6899db" style="width: 100.0%; height: 100.0%;">     <strong>SENIOR SUPPORT SERVICES</strong><br>     846 E 18th Ave<br>     Denver, CO 80218<br>     Phone: (303) 832-1622<br>     Website: http://seniorsupportservices.org<br>     Services: Provides: Meals, as available Telephone Mail service Computer access Transportation assistance Storage for personal items Television room Library Hygiene items     </div>`)[0];
+                popup_5a5b1831d30c67c874088401ef784a11.setContent(html_8783cf4a840b173efd0615556d6899db);
+            
+        
+
+        marker_22778136d06105a9b70d1fdcb021d840.bindPopup(popup_5a5b1831d30c67c874088401ef784a11)
+        ;
+
+        
+    
+    
+            var marker_73c8b7cf6952191ee39006f31eba948c = L.marker(
+                [39.6569728, -104.9000373],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_529667dfec9a9de6d82105e48b596fa6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6da8b2d3a4f21a5183573b2a9de85474 = $(`<div id="html_6da8b2d3a4f21a5183573b2a9de85474" style="width: 100.0%; height: 100.0%;">     <strong>JEWISH FAMILY SERVICE OF COLORADO</strong><br>     3201 S Tamarac Dr<br>     Denver, CO 80231<br>     Phone: (833) 340-1096<br>     Website: https://newclient.link2feed.com/<br>     Services: Provides a pantry and food boxes. Clients may visit the pantry twice a month.     </div>`)[0];
+                popup_529667dfec9a9de6d82105e48b596fa6.setContent(html_6da8b2d3a4f21a5183573b2a9de85474);
+            
+        
+
+        marker_73c8b7cf6952191ee39006f31eba948c.bindPopup(popup_529667dfec9a9de6d82105e48b596fa6)
+        ;
+
+        
+    
+    
+            var marker_13f7cff73b88b1f7aa91b2a7e3ff684a = L.marker(
+                [39.7317733, -104.977256],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_1d3f95dd31f0d7d834ce7e9dd137198a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9e59ada799eba95c27104bc3e788eb7 = $(`<div id="html_f9e59ada799eba95c27104bc3e788eb7" style="width: 100.0%; height: 100.0%;">     <strong>METROPOLITAN COMMUNITY CHURCH OF THE ROCKIES</strong><br>     980 Clarkson St<br>     Denver, CO 80218<br>     Phone: (303) 860-1819<br>     Website: http://facebook.com/groups/MCCRFoodPantry<br>     Services: Provides a food and clothes pantry to those in need. Also serves as a distribution location for The Emergency Food Assistance Program (TEFAP)...     </div>`)[0];
+                popup_1d3f95dd31f0d7d834ce7e9dd137198a.setContent(html_f9e59ada799eba95c27104bc3e788eb7);
+            
+        
+
+        marker_13f7cff73b88b1f7aa91b2a7e3ff684a.bindPopup(popup_1d3f95dd31f0d7d834ce7e9dd137198a)
+        ;
+
+        
+    
+    
+            var marker_04497b4998c205fec58225f0639c0484 = L.marker(
+                [39.7404343, -105.0480555],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_353d3b31fd766f8069c77956be888089 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e122b547cb84dda2d97ecf20a7bc6be4 = $(`<div id="html_e122b547cb84dda2d97ecf20a7bc6be4" style="width: 100.0%; height: 100.0%;">     <strong>BIENVENIDOS FOOD BANK</strong><br>     4747 W Colfax Ave<br>     Denver, CO 80204<br>     Phone: (303) 433-6328<br>     Website: http://bienvenidosfoodbank.org<br>     Services: Distributes fresh and nonperishable food items.     </div>`)[0];
+                popup_353d3b31fd766f8069c77956be888089.setContent(html_e122b547cb84dda2d97ecf20a7bc6be4);
+            
+        
+
+        marker_04497b4998c205fec58225f0639c0484.bindPopup(popup_353d3b31fd766f8069c77956be888089)
+        ;
+
+        
+    
+    
+            var marker_dbd2f0eecd009a3248dfe60860d731b2 = L.marker(
+                [39.7711399, -104.9210631],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_c6830cb21e82c0517098a2353c0e7e94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d56a88d1d21e1a724458a09db21f656a = $(`<div id="html_d56a88d1d21e1a724458a09db21f656a" style="width: 100.0%; height: 100.0%;">     <strong>DENVER RESCUE MISSION</strong><br>     5725 E 39th Ave<br>     Denver, CO 80207<br>     Phone: (303) 297-1815<br>     Website: http://denverrescuemission.org/who-we-are/locations/ministry-outreach-center<br>     Services: Provides a food pantry on a walk-in basis.     </div>`)[0];
+                popup_c6830cb21e82c0517098a2353c0e7e94.setContent(html_d56a88d1d21e1a724458a09db21f656a);
+            
+        
+
+        marker_dbd2f0eecd009a3248dfe60860d731b2.bindPopup(popup_c6830cb21e82c0517098a2353c0e7e94)
+        ;
+
+        
+    
+    
+            var marker_82913328b9f498d07eec3095c7e72e39 = L.marker(
+                [39.6385694, -105.0873123],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_cb4ced2a32f1b912bc2ba7854da049c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9432defdf10af6d9bccd43da1f92d4b = $(`<div id="html_b9432defdf10af6d9bccd43da1f92d4b" style="width: 100.0%; height: 100.0%;">     <strong>MEAN STREET MINISTRY</strong><br>     1380 Ammons St<br>     Denver, CO 80232<br>     Phone: (303) 232-2500<br>     Website: http://meanstreetministry.org<br>     Services: Offers a food bank and cafe to individuals in need.     </div>`)[0];
+                popup_cb4ced2a32f1b912bc2ba7854da049c2.setContent(html_b9432defdf10af6d9bccd43da1f92d4b);
+            
+        
+
+        marker_82913328b9f498d07eec3095c7e72e39.bindPopup(popup_cb4ced2a32f1b912bc2ba7854da049c2)
+        ;
+
+        
+    
+    
+            var marker_bfda78de05dabbf062de4ec75dae423e = L.marker(
+                [39.741322, -104.960937],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_98608dfc4bb376adf23a8ccd1a690245 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60058c8dda0d03ebb2052015116e1340 = $(`<div id="html_60058c8dda0d03ebb2052015116e1340" style="width: 100.0%; height: 100.0%;">     <strong>CHURCH IN THE CITY BETH ABRAHAM</strong><br>     1580 N Gaylord St<br>     Denver, CO 80206<br>     Phone: (303) 322-5733<br>     Website: http://churchinthecity.org<br>     Services: Offers a walk-up food bank for those in need.     </div>`)[0];
+                popup_98608dfc4bb376adf23a8ccd1a690245.setContent(html_60058c8dda0d03ebb2052015116e1340);
+            
+        
+
+        marker_bfda78de05dabbf062de4ec75dae423e.bindPopup(popup_98608dfc4bb376adf23a8ccd1a690245)
+        ;
+
+        
+    
+    
+            var marker_46be56e616e5c68378f0fd4b974c8bb0 = L.marker(
+                [39.7539162, -104.9813788],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_3cfc62b4c7706abf270732af6d40a20e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_667ff20d433d2ae2cc8ef612c22f7a89 = $(`<div id="html_667ff20d433d2ae2cc8ef612c22f7a89" style="width: 100.0%; height: 100.0%;">     <strong>AGAPE CHRISTIAN CHURCH</strong><br>     2501 California St<br>     Denver, CO 80205<br>     Phone: (303) 296-2454<br>     Website: No Website Listed<br>     Services: Provides services to the community, including:Food pantry Hot meals Clothing and resources, available upon request All services are provided in a sit-down environment...     </div>`)[0];
+                popup_3cfc62b4c7706abf270732af6d40a20e.setContent(html_667ff20d433d2ae2cc8ef612c22f7a89);
+            
+        
+
+        marker_46be56e616e5c68378f0fd4b974c8bb0.bindPopup(popup_3cfc62b4c7706abf270732af6d40a20e)
+        ;
+
+        
+    
+    
+            var marker_9f8eba1fb33da5e988aba00fa3fc642e = L.marker(
+                [39.7150853, -104.9931475],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_1c3b960835effe67c39f2824bcb15651 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72c7659348069e5708facbd9f8b303ee = $(`<div id="html_72c7659348069e5708facbd9f8b303ee" style="width: 100.0%; height: 100.0%;">     <strong>BAYAUD ENTERPRISES</strong><br>     313 W Bayaud Ave<br>     Denver, CO 80223<br>     Phone: (303) 830-6885<br>     Website: http://bayaudenterprises.org<br>     Services: Provides food to low-income individuals and families in need or when they are experiencing an emergency situation. Food distribution is based on household size...     </div>`)[0];
+                popup_1c3b960835effe67c39f2824bcb15651.setContent(html_72c7659348069e5708facbd9f8b303ee);
+            
+        
+
+        marker_9f8eba1fb33da5e988aba00fa3fc642e.bindPopup(popup_1c3b960835effe67c39f2824bcb15651)
+        ;
+
+        
+    
+    
+            var marker_9af7eab188bbfdc8e387b8c1363fcf85 = L.marker(
+                [39.7184431, -105.0515586],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_e8de4d9e15dc91cf4ae7dd2ebbeb67ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c442fbc0e920217f44b3878f69922580 = $(`<div id="html_c442fbc0e920217f44b3878f69922580" style="width: 100.0%; height: 100.0%;">     <strong>SOUTHWEST IMPROVEMENT COUNCIL</strong><br>     5045 W 1st Ave<br>     Denver, CO 80219<br>     Phone: (303) 934-2181<br>     Website: http://swic-denver.org<br>     Services: Offers a food bank for anyone in need.Available food includes:Fresh fruits and vegetables Canned goods Dry goods Pastas Breads Variety of meatsEgg...     </div>`)[0];
+                popup_e8de4d9e15dc91cf4ae7dd2ebbeb67ed.setContent(html_c442fbc0e920217f44b3878f69922580);
+            
+        
+
+        marker_9af7eab188bbfdc8e387b8c1363fcf85.bindPopup(popup_e8de4d9e15dc91cf4ae7dd2ebbeb67ed)
+        ;
+
+        
+    
+    
+            var marker_401b1ab0d85d32696f33572c8c875e6b = L.marker(
+                [39.7274685, -105.0317192],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_fe814473d9998288aa2ff8ea58b97332 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5e61f40ddb5f10487dff25fb2dccf04 = $(`<div id="html_e5e61f40ddb5f10487dff25fb2dccf04" style="width: 100.0%; height: 100.0%;">     <strong>WE DON'T WASTE</strong><br>     695 Julian St<br>     Denver, CO 80204<br>     Phone: (720) 943-2699<br>     Website: http://wedontwaste.org/mobile-food-markets<br>     Services: Provides a mobile food pantry to those in need.     </div>`)[0];
+                popup_fe814473d9998288aa2ff8ea58b97332.setContent(html_e5e61f40ddb5f10487dff25fb2dccf04);
+            
+        
+
+        marker_401b1ab0d85d32696f33572c8c875e6b.bindPopup(popup_fe814473d9998288aa2ff8ea58b97332)
+        ;
+
+        
+    
+    
+            var marker_bb1083dea8d3b68998d7209b61fd49ff = L.marker(
+                [39.7820807, -104.8504283],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_7398a416ecd3d2542727ee85551d7277 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_427a587a3d54823e6897cbefa37834cc = $(`<div id="html_427a587a3d54823e6897cbefa37834cc" style="width: 100.0%; height: 100.0%;">     <strong>STRUGGLE OF LOVE FOUNDATION</strong><br>     12000 E 47th Ave Suite 403<br>     Denver, CO 80239<br>     Phone: (720) 923-6122<br>     Website: http://struggleofovefoundation.org/<br>     Services: Offers a drive-thru food pantry, where clients receive a pre-made box of: Fresh produce Meats Dairy Other food items     </div>`)[0];
+                popup_7398a416ecd3d2542727ee85551d7277.setContent(html_427a587a3d54823e6897cbefa37834cc);
+            
+        
+
+        marker_bb1083dea8d3b68998d7209b61fd49ff.bindPopup(popup_7398a416ecd3d2542727ee85551d7277)
+        ;
+
+        
+    
+    
+            var marker_85b6243871ee1acaaf804415f9047367 = L.marker(
+                [39.7079062, -104.9263138],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_f89ecee5cdcbb5695cd8f3f474be8d11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b18ace159fb08bbe7c1d8e41e1cb0c69 = $(`<div id="html_b18ace159fb08bbe7c1d8e41e1cb0c69" style="width: 100.0%; height: 100.0%;">     <strong>VIVENT HEALTH</strong><br>     5250 Leetsdale Dr Suite 300<br>     Denver, CO 80246<br>     Phone: (303) 393-8050<br>     Website: http://viventhealth.org<br>     Services: Offers a monthly food pantry to individuals living with HIV.     </div>`)[0];
+                popup_f89ecee5cdcbb5695cd8f3f474be8d11.setContent(html_b18ace159fb08bbe7c1d8e41e1cb0c69);
+            
+        
+
+        marker_85b6243871ee1acaaf804415f9047367.bindPopup(popup_f89ecee5cdcbb5695cd8f3f474be8d11)
+        ;
+
+        
+    
+    
+            var marker_c5258b2f203b3654135ce63aa82c4318 = L.marker(
+                [39.7899826, -104.8062321],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_51ca7d97464cbe835102dceff0acbce6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec92842802095af1d8b6b8730d1d2633 = $(`<div id="html_ec92842802095af1d8b6b8730d1d2633" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     15555 E 53rd Ave<br>     Denver, CO 80239<br>     Phone: (303) 375-5853<br>     Website: http://foodbankrockies.org<br>     Services: Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_51ca7d97464cbe835102dceff0acbce6.setContent(html_ec92842802095af1d8b6b8730d1d2633);
+            
+        
+
+        marker_c5258b2f203b3654135ce63aa82c4318.bindPopup(popup_51ca7d97464cbe835102dceff0acbce6)
+        ;
+
+        
+    
+    
+            var marker_c76542673837ccfaea0404f5bebf0c33 = L.marker(
+                [39.7645786, -104.9651911],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_cd930997b44261436c905900ab2bd544 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb934fae27f31f09848d90832d12f52b = $(`<div id="html_eb934fae27f31f09848d90832d12f52b" style="width: 100.0%; height: 100.0%;">     <strong>EPWORTH FOUNDATION</strong><br>     1865 Bruce Randolph Ave<br>     Denver, CO 80205<br>     Phone: (303) 296-6287<br>     Website: http://epworthfoundation.org<br>     Services: Offers a food pantry.     </div>`)[0];
+                popup_cd930997b44261436c905900ab2bd544.setContent(html_eb934fae27f31f09848d90832d12f52b);
+            
+        
+
+        marker_c76542673837ccfaea0404f5bebf0c33.bindPopup(popup_cd930997b44261436c905900ab2bd544)
+        ;
+
+        
+    
+    
+            var marker_fb1c2d755f1379291a42646e9593f71b = L.marker(
+                [39.6957721, -105.027704],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_022b1bccbc1740fb80ed6fec0ebacabb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef37b1fada15a17d362b218a80796025 = $(`<div id="html_ef37b1fada15a17d362b218a80796025" style="width: 100.0%; height: 100.0%;">     <strong>WE DON'T WASTE</strong><br>     3201 W Arizona Ave<br>     Denver, CO 80219<br>     Phone: (720) 943-2699<br>     Website: http://wedontwaste.org/mobile-food-markets<br>     Services: Offers a mobile food pantry.     </div>`)[0];
+                popup_022b1bccbc1740fb80ed6fec0ebacabb.setContent(html_ef37b1fada15a17d362b218a80796025);
+            
+        
+
+        marker_fb1c2d755f1379291a42646e9593f71b.bindPopup(popup_022b1bccbc1740fb80ed6fec0ebacabb)
+        ;
+
+        
+    
+    
+            var marker_06d3c9782bf0473394704dc480fbc31f = L.marker(
+                [39.7700882, -104.9596329],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_23d9a3e26dd61de0b03eb1989a960484 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f003ecb227d8b729bc019a72e38da82e = $(`<div id="html_f003ecb227d8b729bc019a72e38da82e" style="width: 100.0%; height: 100.0%;">     <strong>GROWHAUS</strong><br>     3840 York Street Ste. 210<br>     Denver, CO 80205<br>     Phone: (720) 515-4751 Ext 724<br>     Website: http://foodboxes.thegrowhaus.org/<br>     Services: Provides a subscription service that delivers fresh, organic produce.     </div>`)[0];
+                popup_23d9a3e26dd61de0b03eb1989a960484.setContent(html_f003ecb227d8b729bc019a72e38da82e);
+            
+        
+
+        marker_06d3c9782bf0473394704dc480fbc31f.bindPopup(popup_23d9a3e26dd61de0b03eb1989a960484)
+        ;
+
+        
+    
+    
+            var marker_4172ea0de497fdf286a92afa6ef0186b = L.marker(
+                [39.650594, -105.0525805],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_2406050b00bf41f93ed4d88b6a36ac10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ef39d9bdf62c130c56703c56a6c42f3 = $(`<div id="html_3ef39d9bdf62c130c56703c56a6c42f3" style="width: 100.0%; height: 100.0%;">     <strong>YMCA OF METROPOLITAN DENVER</strong><br>     5181 W Kenyon Ave<br>     Denver, CO 80236<br>     Phone: (720) 460-6383<br>     Website: http://denverymca.org/food-distribution<br>     Services: Offers Weekly bags filled with: Fresh produce Protein Grains Dairy     </div>`)[0];
+                popup_2406050b00bf41f93ed4d88b6a36ac10.setContent(html_3ef39d9bdf62c130c56703c56a6c42f3);
+            
+        
+
+        marker_4172ea0de497fdf286a92afa6ef0186b.bindPopup(popup_2406050b00bf41f93ed4d88b6a36ac10)
+        ;
+
+        
+    
+    
+            var marker_38c3fe1fa294a0c3e7727ce8085d1fe6 = L.marker(
+                [39.7356182, -105.0024306],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_9eba367da17ea37278c02e1329303c60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbec269ff6b4654704d902e1e621815e = $(`<div id="html_fbec269ff6b4654704d902e1e621815e" style="width: 100.0%; height: 100.0%;">     <strong>DENVER INNER CITY PARISH</strong><br>     1212 Mariposa St<br>     Denver, CO 80204<br>     Phone: (303) 629-0636 Ext 6<br>     Website: http://dicp.org/hunger<br>     Services: Offers a client-choice food pantry to the community.     </div>`)[0];
+                popup_9eba367da17ea37278c02e1329303c60.setContent(html_fbec269ff6b4654704d902e1e621815e);
+            
+        
+
+        marker_38c3fe1fa294a0c3e7727ce8085d1fe6.bindPopup(popup_9eba367da17ea37278c02e1329303c60)
+        ;
+
+        
+    
+    
+            var marker_1abd0d718df9f70f84a0315453e979de = L.marker(
+                [39.740758, -104.9650989],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_a3bff7e49d4296563bbb5198c2e3bcbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edf02d7b22326c5ed7909e7924463daf = $(`<div id="html_edf02d7b22326c5ed7909e7924463daf" style="width: 100.0%; height: 100.0%;">     <strong>GATHERING PLACE</strong><br>     1535 High St<br>     Denver, CO 80218<br>     Phone: (303) 321-4198<br>     Website: http://tgpdenver.org<br>     Services: Offers the following short-term services through a resource center: Shower Laundry facilities Assistance with Colorado IDs Food pantry Clothing Onsite computers 3 meals a day     </div>`)[0];
+                popup_a3bff7e49d4296563bbb5198c2e3bcbc.setContent(html_edf02d7b22326c5ed7909e7924463daf);
+            
+        
+
+        marker_1abd0d718df9f70f84a0315453e979de.bindPopup(popup_a3bff7e49d4296563bbb5198c2e3bcbc)
+        ;
+
+        
+    
+    
+            var marker_81ec3708381f72cdea26923a732329d4 = L.marker(
+                [39.7400644, -104.9100043],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_0535e944fd8a22af49e8c68e87444159 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0133c347ad2e706fd25b3cd0f752f434 = $(`<div id="html_0133c347ad2e706fd25b3cd0f752f434" style="width: 100.0%; height: 100.0%;">     <strong>FAX PARTNERSHIP</strong><br>     6740 E Colfax Ave<br>     Denver, CO 80220<br>     Phone: (303) 284-4292<br>     Website: http://thefaxdenver.com/our-work/residential-services-oice/<br>     Services: Offers a food pantry for those is need. Food is available once a month per client.     </div>`)[0];
+                popup_0535e944fd8a22af49e8c68e87444159.setContent(html_0133c347ad2e706fd25b3cd0f752f434);
+            
+        
+
+        marker_81ec3708381f72cdea26923a732329d4.bindPopup(popup_0535e944fd8a22af49e8c68e87444159)
+        ;
+
+        
+    
+    
+            var marker_099e4cec693b2eb3ccc1a466f85d010e = L.marker(
+                [39.7623504, -105.0064418],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_c1c2f4484ee913c92ebeb9b182a7f152 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18d1b04d1c4ed63c27f8a0cf343183c3 = $(`<div id="html_18d1b04d1c4ed63c27f8a0cf343183c3" style="width: 100.0%; height: 100.0%;">     <strong>WE DON'T WASTE</strong><br>     4735 N Pecos St<br>     Denver, CO 80211<br>     Phone: (720) 943-2699<br>     Website: http://wedontwaste.org/mobile-food-markets<br>     Services: Provides a mobile food pantry to those in need.     </div>`)[0];
+                popup_c1c2f4484ee913c92ebeb9b182a7f152.setContent(html_18d1b04d1c4ed63c27f8a0cf343183c3);
+            
+        
+
+        marker_099e4cec693b2eb3ccc1a466f85d010e.bindPopup(popup_c1c2f4484ee913c92ebeb9b182a7f152)
+        ;
+
+        
+    
+    
+            var marker_7df22d0e8b76ca6c9aa599694f10eca0 = L.marker(
+                [39.7720087, -104.951353],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_252109b3f5b190f6398327b2529fcd67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9eae2c97ce73bc298144cd6c9dbef803 = $(`<div id="html_9eae2c97ce73bc298144cd6c9dbef803" style="width: 100.0%; height: 100.0%;">     <strong>WE DON'T WASTE</strong><br>     3955 Steele St<br>     Denver, CO 80205<br>     Phone: (720) 943-2699<br>     Website: http://wedontwaste.org/mobile-food-markets<br>     Services: Provides a mobile food pantry to those in need.     </div>`)[0];
+                popup_252109b3f5b190f6398327b2529fcd67.setContent(html_9eae2c97ce73bc298144cd6c9dbef803);
+            
+        
+
+        marker_7df22d0e8b76ca6c9aa599694f10eca0.bindPopup(popup_252109b3f5b190f6398327b2529fcd67)
+        ;
+
+        
+    
+    
+            var marker_0dca4cabaeda59b90d21f891d51fa482 = L.marker(
+                [39.7585593, -105.0254446],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_81142825943011a6bf363aa889a6163e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_630c5ed3858b5dc6d504cd7b4f3d7e04 = $(`<div id="html_630c5ed3858b5dc6d504cd7b4f3d7e04" style="width: 100.0%; height: 100.0%;">     <strong>SAINT MARGARET OF CASTELLO FAMILY CENTER</strong><br>     3005 W 29th Ave<br>     Denver, CO 80211<br>     Phone: (303) 455-3613<br>     Website: http://stdominicdenver.org<br>     Services: Offers food and supplies, including: Children's clothing Baby clothes Diapers     </div>`)[0];
+                popup_81142825943011a6bf363aa889a6163e.setContent(html_630c5ed3858b5dc6d504cd7b4f3d7e04);
+            
+        
+
+        marker_0dca4cabaeda59b90d21f891d51fa482.bindPopup(popup_81142825943011a6bf363aa889a6163e)
+        ;
+
+        
+    
+    
+            var marker_95d45c89147d02967527e498db5b7ae5 = L.marker(
+                [39.7356182, -105.0024306],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_3eebda1c25cb26cfa1880d5b42fd15b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04ec95dc368afe77557e70fa5771694f = $(`<div id="html_04ec95dc368afe77557e70fa5771694f" style="width: 100.0%; height: 100.0%;">     <strong>DENVER INNER CITY PARISH</strong><br>     1212 Mariposa St<br>     Denver, CO 80204<br>     Phone: (303) 629-0636<br>     Website: http://dicp.org/hunger<br>     Services: Offers a mobile food pantry for those in need.     </div>`)[0];
+                popup_3eebda1c25cb26cfa1880d5b42fd15b2.setContent(html_04ec95dc368afe77557e70fa5771694f);
+            
+        
+
+        marker_95d45c89147d02967527e498db5b7ae5.bindPopup(popup_3eebda1c25cb26cfa1880d5b42fd15b2)
+        ;
+
+        
+    
+    
+            var marker_7756c7917cbbb08c5628e13c2761d243 = L.marker(
+                [39.7406915, -104.9820667],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_08678b609ee072a1e59b0728859151b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbf78802920e124e1596c7210a193d73 = $(`<div id="html_fbf78802920e124e1596c7210a193d73" style="width: 100.0%; height: 100.0%;">     <strong>CATHEDRAL BASILICA OF THE IMMACULATE CONCEPTION</strong><br>     1530 Logan St<br>     Denver, CO 80203<br>     Phone: (303) 831-7010<br>     Website: No Website Listed<br>     Services: Serves sandwiches and coffee.     </div>`)[0];
+                popup_08678b609ee072a1e59b0728859151b5.setContent(html_fbf78802920e124e1596c7210a193d73);
+            
+        
+
+        marker_7756c7917cbbb08c5628e13c2761d243.bindPopup(popup_08678b609ee072a1e59b0728859151b5)
+        ;
+
+        
+    
+    
+            var marker_df862f94813d29d6a06f09369c74cc6f = L.marker(
+                [39.7274809, -105.0020582],
+                {}
+            ).addTo(map_5b4ecd222ea5ad9744e695fb5cffbb26);
+        
+    
+        var popup_9f9030ab31c6add9be3a1132ed4c28bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a97a113051900e85a225e99c5e7603b1 = $(`<div id="html_a97a113051900e85a225e99c5e7603b1" style="width: 100.0%; height: 100.0%;">     <strong>HAVEN OF HOPE</strong><br>     1101 W 7th Ave<br>     Denver, CO 80204<br>     Phone: Monday - Friday, 7 a.m. - 9:30 a.m., 10:30 a.m. -...<br>     Website: (303) 607-0855<br>     Services: Provides breakfast, four-course hot lunch, and sack lunches for those in need. Hygiene products, clothing,     </div>`)[0];
+                popup_9f9030ab31c6add9be3a1132ed4c28bd.setContent(html_a97a113051900e85a225e99c5e7603b1);
+            
+        
+
+        marker_df862f94813d29d6a06f09369c74cc6f.bindPopup(popup_9f9030ab31c6add9be3a1132ed4c28bd)
+        ;
+
+        
+    
+</script>
+</html>

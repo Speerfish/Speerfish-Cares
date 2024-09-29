@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_25487033ec5c1344fe7a295df5621a3f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_25487033ec5c1344fe7a295df5621a3f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_25487033ec5c1344fe7a295df5621a3f = L.map(
+                "map_25487033ec5c1344fe7a295df5621a3f",
+                {
+                    center: [38.2765, -104.6046],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c51b1057c4d914bf1dc23d9e18291d32 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c51b1057c4d914bf1dc23d9e18291d32.addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+            var marker_7cbfe367641c1557c9b75d0c59b871cc = L.marker(
+                [38.274091, -104.6197],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_f381de886c4d67225ceae334582f1d14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ee2fb5d177f3e4c0b10660b34bd114f = $(`<div id="html_7ee2fb5d177f3e4c0b10660b34bd114f" style="width: 100.0%; height: 100.0%;">     <strong>CENTER TOWARD SELF-RELIANCE</strong><br>     901 W 8th St<br>     Pueblo, CO 81003<br>     Phone: (719) 546-1271<br>     Website: https://cfdpueblo.org<br>     Services: Food Pantry provides food assistance to low-income individuals who are in need     </div>`)[0];
+                popup_f381de886c4d67225ceae334582f1d14.setContent(html_7ee2fb5d177f3e4c0b10660b34bd114f);
+            
+        
+
+        marker_7cbfe367641c1557c9b75d0c59b871cc.bindPopup(popup_f381de886c4d67225ceae334582f1d14)
+        ;
+
+        
+    
+    
+            var marker_f4ddf2d1dca78257e8e2392bb9d8c6b1 = L.marker(
+                [38.2631861, -104.6371719],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_09d7edbdfa0cf9dd0889b9d90f9457c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_337323965d30c58506431af5bb1c5148 = $(`<div id="html_337323965d30c58506431af5bb1c5148" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     900 W Orman Ave<br>     Pueblo, CO 81004<br>     Phone: (719) 296-6995<br>     Website: https://careandshare.org<br>     Services: Food Pantry providing food to those in need.     </div>`)[0];
+                popup_09d7edbdfa0cf9dd0889b9d90f9457c5.setContent(html_337323965d30c58506431af5bb1c5148);
+            
+        
+
+        marker_f4ddf2d1dca78257e8e2392bb9d8c6b1.bindPopup(popup_09d7edbdfa0cf9dd0889b9d90f9457c5)
+        ;
+
+        
+    
+    
+            var marker_63d60361dabf10fdcf5d83bfba2b1ee5 = L.marker(
+                [38.327273, -104.77256],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_a962682ff173b37b9a778b01d4ee87eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eecd02ea360e8c760716bc3c8fd69b4e = $(`<div id="html_eecd02ea360e8c760716bc3c8fd69b4e" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     434 S Conquistador Ave<br>     Pueblo West, CO 81007<br>     Phone: (719) 547-3088<br>     Website: No Website Listed<br>     Services: Food Pantry providing food to those in need.     </div>`)[0];
+                popup_a962682ff173b37b9a778b01d4ee87eb.setContent(html_eecd02ea360e8c760716bc3c8fd69b4e);
+            
+        
+
+        marker_63d60361dabf10fdcf5d83bfba2b1ee5.bindPopup(popup_a962682ff173b37b9a778b01d4ee87eb)
+        ;
+
+        
+    
+    
+            var marker_8441285254f6cb2dbbeb95a21589321f = L.marker(
+                [38.2239923, -104.6567669],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_1999b7d85f4fee6faa86881496e6c73c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67607e746da27988c84bfe2847dfd85d = $(`<div id="html_67607e746da27988c84bfe2847dfd85d" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     3804 W Pueblo Blvd<br>     Pueblo, CO 81005<br>     Phone: (719) 564-4434<br>     Website: No Website Listed<br>     Services: Food Pantry providing food to those in need.     </div>`)[0];
+                popup_1999b7d85f4fee6faa86881496e6c73c.setContent(html_67607e746da27988c84bfe2847dfd85d);
+            
+        
+
+        marker_8441285254f6cb2dbbeb95a21589321f.bindPopup(popup_1999b7d85f4fee6faa86881496e6c73c)
+        ;
+
+        
+    
+    
+            var marker_01e5a36d7f779ad08b1de81ed997c1b0 = L.marker(
+                [38.285559, -104.573368],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_7e25b975f1e9c98fb0f92c1314c67ec5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_666e43e5aa3d707f6386d8ff7c33a7d2 = $(`<div id="html_666e43e5aa3d707f6386d8ff7c33a7d2" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     2000 Troy Ave<br>     Pueblo, CO 81001<br>     Phone: (719) 544-9486<br>     Website: https://careandshare.org<br>     Services: Food Pantry providing food to those in need.     </div>`)[0];
+                popup_7e25b975f1e9c98fb0f92c1314c67ec5.setContent(html_666e43e5aa3d707f6386d8ff7c33a7d2);
+            
+        
+
+        marker_01e5a36d7f779ad08b1de81ed997c1b0.bindPopup(popup_7e25b975f1e9c98fb0f92c1314c67ec5)
+        ;
+
+        
+    
+    
+            var marker_eb510425e6dc5e613af4aa013c3d4e4f = L.marker(
+                [38.2742368, -104.6106224],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_65a9d5c88580e413626668fe32af580f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_111433370446616eb5d72bb52f59ddb0 = $(`<div id="html_111433370446616eb5d72bb52f59ddb0" style="width: 100.0%; height: 100.0%;">     <strong>PUEBLO COOPERATIVE CARE CENTER</strong><br>     326 W 8th St<br>     Pueblo, CO 81003<br>     Phone: (719) 543-7484<br>     Website: https://www.cooperativecare.org<br>     Services: Provides a food pantry to residents of Pueblo County. Individuals can pick up food one time per month.     </div>`)[0];
+                popup_65a9d5c88580e413626668fe32af580f.setContent(html_111433370446616eb5d72bb52f59ddb0);
+            
+        
+
+        marker_eb510425e6dc5e613af4aa013c3d4e4f.bindPopup(popup_65a9d5c88580e413626668fe32af580f)
+        ;
+
+        
+    
+    
+            var marker_fd75104a6cf5bf6d9507ffeb9c63e93c = L.marker(
+                [38.260216, -104.644065],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_faf3e553284e58d429d0d3789dfb68e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0622d4db6dc715e4f1bc460ce55f2e5 = $(`<div id="html_d0622d4db6dc715e4f1bc460ce55f2e5" style="width: 100.0%; height: 100.0%;">     <strong>SALVATION ARMY - PUEBLO COUNTY</strong><br>     401 S Prairie Ave<br>     Pueblo, CO 81005<br>     Phone: (719) 543-3656<br>     Website: https://pueblo.salvationarmy.org<br>     Services: Food Pantry distribution on site to Pueblo residents. Service is a drive-through.     </div>`)[0];
+                popup_faf3e553284e58d429d0d3789dfb68e2.setContent(html_d0622d4db6dc715e4f1bc460ce55f2e5);
+            
+        
+
+        marker_fd75104a6cf5bf6d9507ffeb9c63e93c.bindPopup(popup_faf3e553284e58d429d0d3789dfb68e2)
+        ;
+
+        
+    
+    
+            var marker_888d9a0ba54d299b55a2d49fe043ede9 = L.marker(
+                [38.247727, -104.617225],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_d801cd65157e6e1a7d35318858f105d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75fa73f1f24e04f4e84baf0fdd85f5de = $(`<div id="html_75fa73f1f24e04f4e84baf0fdd85f5de" style="width: 100.0%; height: 100.0%;">     <strong>LUV IN ACTION</strong><br>     1100 Spruce St<br>     Pueblo, CO 81004<br>     Phone: (719) 542-0549<br>     Website: No Website Listed<br>     Services: Provides food to those in need by appointment only     </div>`)[0];
+                popup_d801cd65157e6e1a7d35318858f105d6.setContent(html_75fa73f1f24e04f4e84baf0fdd85f5de);
+            
+        
+
+        marker_888d9a0ba54d299b55a2d49fe043ede9.bindPopup(popup_d801cd65157e6e1a7d35318858f105d6)
+        ;
+
+        
+    
+    
+            var marker_0f1b98f19b64e134a24e9248aefb05aa = L.marker(
+                [38.247706, -104.619755],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_e60ca21e8c9f655b889858049adcdf7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f9dadac9f453c59993f2c72d961897f = $(`<div id="html_8f9dadac9f453c59993f2c72d961897f" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     1101 Cedar St<br>     Pueblo, CO 81004<br>     Phone: (719) 304-6592<br>     Website: https://careandshare.org<br>     Services: Food Pantry providing food to those in need.     </div>`)[0];
+                popup_e60ca21e8c9f655b889858049adcdf7d.setContent(html_8f9dadac9f453c59993f2c72d961897f);
+            
+        
+
+        marker_0f1b98f19b64e134a24e9248aefb05aa.bindPopup(popup_e60ca21e8c9f655b889858049adcdf7d)
+        ;
+
+        
+    
+    
+            var marker_86b467224e4672f87f15ccc8485ee050 = L.marker(
+                [38.2378686, -104.6124281],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_c3b7ee2c485c77506d619af5f5bb57ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f50641f919d89a5c41b8cb3916f5f6f5 = $(`<div id="html_f50641f919d89a5c41b8cb3916f5f6f5" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     215 Canal St<br>     Pueblo, CO 81004<br>     Phone: (719) 296-6995<br>     Website: No Website Listed<br>     Services: Food Pantry providing food to those in need.     </div>`)[0];
+                popup_c3b7ee2c485c77506d619af5f5bb57ae.setContent(html_f50641f919d89a5c41b8cb3916f5f6f5);
+            
+        
+
+        marker_86b467224e4672f87f15ccc8485ee050.bindPopup(popup_c3b7ee2c485c77506d619af5f5bb57ae)
+        ;
+
+        
+    
+    
+            var marker_0efba6a5bdec8e5acaa4cc84be4f02c2 = L.marker(
+                [38.2584224, -104.6470546],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_44803caf6cfbcc4c13ad07a36854a0e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e77c8b556f64502aa1e1bc5c7cb45d7e = $(`<div id="html_e77c8b556f64502aa1e1bc5c7cb45d7e" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     3030 Thatcher Ave<br>     Pueblo, CO 81005<br>     Phone: (719) 296-6995<br>     Website: https://careandshare.org<br>     Services: Food Pantry for those in need.     </div>`)[0];
+                popup_44803caf6cfbcc4c13ad07a36854a0e7.setContent(html_e77c8b556f64502aa1e1bc5c7cb45d7e);
+            
+        
+
+        marker_0efba6a5bdec8e5acaa4cc84be4f02c2.bindPopup(popup_44803caf6cfbcc4c13ad07a36854a0e7)
+        ;
+
+        
+    
+    
+            var marker_339e294cd10391cbe277c3966ee654d5 = L.marker(
+                [38.2746857, -104.5902657],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_4d83c2e75c894f771cbd474306f19b87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eeab989fe07f57e32e1bbd47c4dbec9a = $(`<div id="html_eeab989fe07f57e32e1bbd47c4dbec9a" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     1230 E 8th St<br>     Pueblo, CO 81001<br>     Phone: (719) 621-6380<br>     Website: http://sunnysidemarket.org<br>     Services: Food Pantry providing food to those in need.     </div>`)[0];
+                popup_4d83c2e75c894f771cbd474306f19b87.setContent(html_eeab989fe07f57e32e1bbd47c4dbec9a);
+            
+        
+
+        marker_339e294cd10391cbe277c3966ee654d5.bindPopup(popup_4d83c2e75c894f771cbd474306f19b87)
+        ;
+
+        
+    
+    
+            var marker_1d06d97d7ac1e2f25dcc41c6e3835f6e = L.marker(
+                [38.2742368, -104.6106224],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_66a8b18a5e3b1e1ad14b503a114c5f91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abde4012c24657f2264df9796e4a138d = $(`<div id="html_abde4012c24657f2264df9796e4a138d" style="width: 100.0%; height: 100.0%;">     <strong>PUEBLO COOPERATIVE CARE CENTER</strong><br>     326 W 8th St<br>     Pueblo, CO 81003<br>     Phone: Monday - Thursday, 9 a.m. - 1 p.m.<br>     Website: (719) 543-7484<br>     Services: Nutrition On Wheels (NOW) offers a monthly home-bound food delivery service for registered individuals who are 60+ and considered home bound...     </div>`)[0];
+                popup_66a8b18a5e3b1e1ad14b503a114c5f91.setContent(html_abde4012c24657f2264df9796e4a138d);
+            
+        
+
+        marker_1d06d97d7ac1e2f25dcc41c6e3835f6e.bindPopup(popup_66a8b18a5e3b1e1ad14b503a114c5f91)
+        ;
+
+        
+    
+    
+            var marker_4f86822ce8f5e804b30582b00c47fc01 = L.marker(
+                [38.2651622, -104.6106228],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_1a49d255499650466e02577b50f8efa8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f11a092ad762eba008ac8584c8c2fa91 = $(`<div id="html_f11a092ad762eba008ac8584c8c2fa91" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     165 Central Main St<br>     Pueblo, CO 81003<br>     Phone: (719) 546-2780<br>     Website: https://careandshare.org<br>     Services: Mobile food market, bring you own bags     </div>`)[0];
+                popup_1a49d255499650466e02577b50f8efa8.setContent(html_f11a092ad762eba008ac8584c8c2fa91);
+            
+        
+
+        marker_4f86822ce8f5e804b30582b00c47fc01.bindPopup(popup_1a49d255499650466e02577b50f8efa8)
+        ;
+
+        
+    
+    
+            var marker_496ec5d8c567bf4214689ad445f70e5d = L.marker(
+                [38.285426, -104.57064],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_336b83665cbd3829894531ef6fc63f73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a956d108ae0fd4d92f570a928e2d80f = $(`<div id="html_4a956d108ae0fd4d92f570a928e2d80f" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     2300 Oakshire Ln<br>     Pueblo, CO 81001<br>     Phone: No Website Listed<br>     Website: nan<br>     Services: Food Pantry providing food to those in need.     </div>`)[0];
+                popup_336b83665cbd3829894531ef6fc63f73.setContent(html_4a956d108ae0fd4d92f570a928e2d80f);
+            
+        
+
+        marker_496ec5d8c567bf4214689ad445f70e5d.bindPopup(popup_336b83665cbd3829894531ef6fc63f73)
+        ;
+
+        
+    
+    
+            var marker_eb42b1e73aa6d41f49683297a62d5648 = L.marker(
+                [38.240536, -104.638127],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_9c657f761c616b0c95a9e330776577a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdd40953b92090d88887fe6cd090e798 = $(`<div id="html_fdd40953b92090d88887fe6cd090e798" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     2315 Sprague Ave<br>     Pueblo, CO 81004<br>     Phone: (719) 696-8586<br>     Website: No Website Listed<br>     Services: Food Pantry providing food to those in need.     </div>`)[0];
+                popup_9c657f761c616b0c95a9e330776577a7.setContent(html_fdd40953b92090d88887fe6cd090e798);
+            
+        
+
+        marker_eb42b1e73aa6d41f49683297a62d5648.bindPopup(popup_9c657f761c616b0c95a9e330776577a7)
+        ;
+
+        
+    
+    
+            var marker_25a4e11cbdc263aca2fd8024c06561e5 = L.marker(
+                [38.2795615, -104.5625866],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_e5754a61a6d0c2ae4c572d4fcac3d925 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32538811492c87e68c7d64eb793e1907 = $(`<div id="html_32538811492c87e68c7d64eb793e1907" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     2701 E 12th St<br>     Pueblo, CO 81001<br>     Phone: (719) 296-6995<br>     Website: No Website Listed<br>     Services: Food Pantry providing food to those in need.     </div>`)[0];
+                popup_e5754a61a6d0c2ae4c572d4fcac3d925.setContent(html_32538811492c87e68c7d64eb793e1907);
+            
+        
+
+        marker_25a4e11cbdc263aca2fd8024c06561e5.bindPopup(popup_e5754a61a6d0c2ae4c572d4fcac3d925)
+        ;
+
+        
+    
+    
+            var marker_a99236f80934626fade60d077ad78659 = L.marker(
+                [38.2544273, -104.6203815],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_d2cbcd6fa4088cd818892a06db04b08a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcb18d6b03b6b3592a3c92a5d0f5a5d4 = $(`<div id="html_dcb18d6b03b6b3592a3c92a5d0f5a5d4" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     330 Lake Ave<br>     Pueblo, CO 81004<br>     Phone: (719) 296-6995<br>     Website: https://careandshare.org<br>     Services: Food Pantry providing food to those in need.     </div>`)[0];
+                popup_d2cbcd6fa4088cd818892a06db04b08a.setContent(html_dcb18d6b03b6b3592a3c92a5d0f5a5d4);
+            
+        
+
+        marker_a99236f80934626fade60d077ad78659.bindPopup(popup_d2cbcd6fa4088cd818892a06db04b08a)
+        ;
+
+        
+    
+    
+            var marker_74c4b6e6ac8505baf6b43582b92921f0 = L.marker(
+                [38.2708095, -104.5977886],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_80747e50a3c1c83a428ecbfc04729d11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58412c8c00c92dbb17a1875e12e6adc6 = $(`<div id="html_58412c8c00c92dbb17a1875e12e6adc6" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     724 E 4th St<br>     Pueblo, CO 81001<br>     Phone: (719) 296-6995<br>     Website: https://careandshare.org<br>     Services: Food Pantry providing food to those in need.     </div>`)[0];
+                popup_80747e50a3c1c83a428ecbfc04729d11.setContent(html_58412c8c00c92dbb17a1875e12e6adc6);
+            
+        
+
+        marker_74c4b6e6ac8505baf6b43582b92921f0.bindPopup(popup_80747e50a3c1c83a428ecbfc04729d11)
+        ;
+
+        
+    
+    
+            var marker_11b8496005d2152b263ec65dd3648832 = L.marker(
+                [38.2343426, -104.6229552],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_097ff8e372a100a24792fe2231ebe8d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5f60446ac66e6c0e99964cab53bd42f = $(`<div id="html_a5f60446ac66e6c0e99964cab53bd42f" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE - PUEBLO DISTRIBUTION CENTER</strong><br>     1008 Minnequa Ave<br>     Pueblo, CO 81004<br>     Phone: (719) 296-6995<br>     Website: https://careandshare.org<br>     Services: MOBILE PANTRY - food pantry providing food to those in need.     </div>`)[0];
+                popup_097ff8e372a100a24792fe2231ebe8d5.setContent(html_a5f60446ac66e6c0e99964cab53bd42f);
+            
+        
+
+        marker_11b8496005d2152b263ec65dd3648832.bindPopup(popup_097ff8e372a100a24792fe2231ebe8d5)
+        ;
+
+        
+    
+    
+            var marker_1e6fd730e7b98b1ce59881c7d2868d2f = L.marker(
+                [38.2732962, -104.6120585],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_1d7a9bb08257be1f423c2e2209747c3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5344406f9de51a9a1b2e9db5eb0308f = $(`<div id="html_b5344406f9de51a9a1b2e9db5eb0308f" style="width: 100.0%; height: 100.0%;">     <strong>PUEBLO COMMUNITY SOUP KITCHEN</strong><br>     422 W 7th St<br>     Pueblo, CO 81003<br>     Phone: (719) 545-6540<br>     Website: https://www.coloradogives.org/organization/PuebloCommunitySoupKitchen<br>     Services: Provides a light breakfast (pastries and coffee) and a noon meal for individuals in need. Meals are served outdoors.     </div>`)[0];
+                popup_1d7a9bb08257be1f423c2e2209747c3c.setContent(html_b5344406f9de51a9a1b2e9db5eb0308f);
+            
+        
+
+        marker_1e6fd730e7b98b1ce59881c7d2868d2f.bindPopup(popup_1d7a9bb08257be1f423c2e2209747c3c)
+        ;
+
+        
+    
+    
+            var marker_f49d4cb9b3fc42ee16433a1107afdae5 = L.marker(
+                [38.2732962, -104.6120585],
+                {}
+            ).addTo(map_25487033ec5c1344fe7a295df5621a3f);
+        
+    
+        var popup_841a37cd71836d61c56db90a59403d4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63688a0f7d9f029455ad264c0ad23e60 = $(`<div id="html_63688a0f7d9f029455ad264c0ad23e60" style="width: 100.0%; height: 100.0%;">     <strong>PUEBLO COMMUNITY SOUP KITCHEN</strong><br>     422 W 7th St<br>     Pueblo, CO 81003<br>     Phone: (719) 545-6540<br>     Website: https://www.coloradogives.org/organization/PuebloCommunitySoupKitchen<br>     Services: Homeless Assessment tool for Coordinated Entry for unhoused individuals can be assessed for appropriate referrals     </div>`)[0];
+                popup_841a37cd71836d61c56db90a59403d4d.setContent(html_63688a0f7d9f029455ad264c0ad23e60);
+            
+        
+
+        marker_f49d4cb9b3fc42ee16433a1107afdae5.bindPopup(popup_841a37cd71836d61c56db90a59403d4d)
+        ;
+
+        
+    
+</script>
+</html>

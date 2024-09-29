@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_df558a651187321c828cef74c45a45de {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_df558a651187321c828cef74c45a45de" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_df558a651187321c828cef74c45a45de = L.map(
+                "map_df558a651187321c828cef74c45a45de",
+                {
+                    center: [39.8028, -105.0875],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d45de892373a6d5e39c2ed7185900364 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d45de892373a6d5e39c2ed7185900364.addTo(map_df558a651187321c828cef74c45a45de);
+        
+    
+            var marker_d7bd5851d7fdd633a8b36af9c0229f50 = L.marker(
+                [39.800294, -105.0928581],
+                {}
+            ).addTo(map_df558a651187321c828cef74c45a45de);
+        
+    
+        var popup_4eb6ffc75b6bd04c7a52f45a6f71a211 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35c42e922cc3db2f279cbc4a7866facc = $(`<div id="html_35c42e922cc3db2f279cbc4a7866facc" style="width: 100.0%; height: 100.0%;">     <strong>COMMUNITY TABLE</strong><br>     8555 W 57th Ave<br>     Arvada, CO 80002<br>     Phone: (303) 424-6685<br>     Website: http://cotable.org<br>     Services: Provides emergency food to individuals and families. Each client selects a supply of food based on household size. Families and individuals may use this program when needed...     </div>`)[0];
+                popup_4eb6ffc75b6bd04c7a52f45a6f71a211.setContent(html_35c42e922cc3db2f279cbc4a7866facc);
+            
+        
+
+        marker_d7bd5851d7fdd633a8b36af9c0229f50.bindPopup(popup_4eb6ffc75b6bd04c7a52f45a6f71a211)
+        ;
+
+        
+    
+    
+            var marker_0ab183183ca081fc927a0f8940d848e9 = L.marker(
+                [39.8054671, -105.0622284],
+                {}
+            ).addTo(map_df558a651187321c828cef74c45a45de);
+        
+    
+        var popup_e4eeffa0f24cffd0c4bec17e30f3f11d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f94c2d181475265abe0aa2ac32078866 = $(`<div id="html_f94c2d181475265abe0aa2ac32078866" style="width: 100.0%; height: 100.0%;">     <strong>AGAPE LIFE CHURCH</strong><br>     5970 W 60th Ave<br>     Arvada, CO 80003<br>     Phone: (303) 431-6481<br>     Website: http://agapelife.org/food-outreach/<br>     Services: Provides a food pantry and hosts a monthly TEFAP (The Emergency Food Assistance Program) food distribution site.     </div>`)[0];
+                popup_e4eeffa0f24cffd0c4bec17e30f3f11d.setContent(html_f94c2d181475265abe0aa2ac32078866);
+            
+        
+
+        marker_0ab183183ca081fc927a0f8940d848e9.bindPopup(popup_e4eeffa0f24cffd0c4bec17e30f3f11d)
+        ;
+
+        
+    
+</script>
+</html>

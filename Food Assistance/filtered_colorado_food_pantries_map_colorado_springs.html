@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_da0d26665a1ffed164a1d07aa5c4ecad {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_da0d26665a1ffed164a1d07aa5c4ecad" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_da0d26665a1ffed164a1d07aa5c4ecad = L.map(
+                "map_da0d26665a1ffed164a1d07aa5c4ecad",
+                {
+                    center: [38.8591, -104.8135],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_851b1a0d15feb431a53ad73b6bf9469b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_851b1a0d15feb431a53ad73b6bf9469b.addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+            var marker_dbc29bd25f9c1ee36e8d4b87a1286b68 = L.marker(
+                [38.745604, -104.738987],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_cbba21625679de4a7d801cd4ec1c39a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a40f30ce390202f3ef020dcf7cb1f3fd = $(`<div id="html_a40f30ce390202f3ef020dcf7cb1f3fd" style="width: 100.0%; height: 100.0%;">     <strong>CONNECTIONS 4 LIFE</strong><br>     6436 S U.S. Hwy 85/87 Unit U<br>     Colorado Springs, CO 80911<br>     Phone: (719) 387-9919<br>     Website: http://connections4lifecenter.org<br>     Services: Provides a food pantry to residents in need.     </div>`)[0];
+                popup_cbba21625679de4a7d801cd4ec1c39a7.setContent(html_a40f30ce390202f3ef020dcf7cb1f3fd);
+            
+        
+
+        marker_dbc29bd25f9c1ee36e8d4b87a1286b68.bindPopup(popup_cbba21625679de4a7d801cd4ec1c39a7)
+        ;
+
+        
+    
+    
+            var marker_bab96e675214fce473baa23fec5a3eba = L.marker(
+                [38.7360794, -104.7271127],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_362b30f830d9d15a347c0036cf25e09c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32a3d3f361ddc7e43902d2b63dc8d002 = $(`<div id="html_32a3d3f361ddc7e43902d2b63dc8d002" style="width: 100.0%; height: 100.0%;">     <strong>GOD'S PANTRY MINISTRY</strong><br>     30 Widefield Blvd<br>     Colorado Springs, CO 80911<br>     Phone: (719) 382-0643<br>     Website: http://godspantryco.org<br>     Services: Provides a food pantry.     </div>`)[0];
+                popup_362b30f830d9d15a347c0036cf25e09c.setContent(html_32a3d3f361ddc7e43902d2b63dc8d002);
+            
+        
+
+        marker_bab96e675214fce473baa23fec5a3eba.bindPopup(popup_362b30f830d9d15a347c0036cf25e09c)
+        ;
+
+        
+    
+    
+            var marker_e9eaa62a9a9cada26d8b37eab966a166 = L.marker(
+                [38.7845737, -104.7478808],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_819897944eb15ce58725600982619acd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af2c544cd58375dd33b5da149062c053 = $(`<div id="html_af2c544cd58375dd33b5da149062c053" style="width: 100.0%; height: 100.0%;">     <strong>CITY OF COLORADO SPRINGS</strong><br>     4290 Deerfield Hills Rd<br>     Colorado Springs, CO 80916<br>     Phone: (719) 385-5996<br>     Website: http://coloradosprings.gov/deeraeld-hills-community-center<br>     Services: Provides a drive-thru style food pantry to those in need.     </div>`)[0];
+                popup_819897944eb15ce58725600982619acd.setContent(html_af2c544cd58375dd33b5da149062c053);
+            
+        
+
+        marker_e9eaa62a9a9cada26d8b37eab966a166.bindPopup(popup_819897944eb15ce58725600982619acd)
+        ;
+
+        
+    
+    
+            var marker_ae6790f133930f7230171232f2350a19 = L.marker(
+                [38.8649785, -104.815912],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_745f7e09ec5bb6f98ac5af62fe50235f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8783e7460048f239b633399dba89e6a7 = $(`<div id="html_8783e7460048f239b633399dba89e6a7" style="width: 100.0%; height: 100.0%;">     <strong>FISHES AND LOAVES</strong><br>     2221 N Wahsatch Ave<br>     Colorado Springs, CO 80907<br>     Phone: (720) 373-9760<br>     Website: No Website Listed<br>     Services: Provides a food pantry to those in need living in Colorado Springs.     </div>`)[0];
+                popup_745f7e09ec5bb6f98ac5af62fe50235f.setContent(html_8783e7460048f239b633399dba89e6a7);
+            
+        
+
+        marker_ae6790f133930f7230171232f2350a19.bindPopup(popup_745f7e09ec5bb6f98ac5af62fe50235f)
+        ;
+
+        
+    
+    
+            var marker_ed7b3def3de296e69152b111880e9206 = L.marker(
+                [38.9047925, -104.7710042],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_6f170924597f10ac3bf93590a3b70502 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0d4038012b9a5842a3098e66666019c = $(`<div id="html_a0d4038012b9a5842a3098e66666019c" style="width: 100.0%; height: 100.0%;">     <strong>TRINITY CHURCH OF THE NAZARENE</strong><br>     5055 El Camino Dr<br>     Colorado Springs, CO 80918<br>     Phone: (719) 599-7990<br>     Website: http://trinitynazarene.net/ministries/trinity-cares/<br>     Services: Provides a food pantry to those in need. Clothing may also be offered depending on availability.     </div>`)[0];
+                popup_6f170924597f10ac3bf93590a3b70502.setContent(html_a0d4038012b9a5842a3098e66666019c);
+            
+        
+
+        marker_ed7b3def3de296e69152b111880e9206.bindPopup(popup_6f170924597f10ac3bf93590a3b70502)
+        ;
+
+        
+    
+    
+            var marker_01593c8df75ce002fc0848e111ff7dbf = L.marker(
+                [38.9271667, -104.7169895],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_ff48ae989764e3746359f4315f34cdde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40c24c47d5abc404f088a413f8f0ebd5 = $(`<div id="html_40c24c47d5abc404f088a413f8f0ebd5" style="width: 100.0%; height: 100.0%;">     <strong>OPEN ARMS FOOD BANK COLORADO SPRINGS</strong><br>     6540 Templeton Gap Rd<br>     Colorado Springs, CO 80923<br>     Phone: (719) 591-1800<br>     Website: http://churchforallnations.com/openarms<br>     Services: Provides a food pantry to those in need on a once-a-month basis.     </div>`)[0];
+                popup_ff48ae989764e3746359f4315f34cdde.setContent(html_40c24c47d5abc404f088a413f8f0ebd5);
+            
+        
+
+        marker_01593c8df75ce002fc0848e111ff7dbf.bindPopup(popup_ff48ae989764e3746359f4315f34cdde)
+        ;
+
+        
+    
+    
+            var marker_c71b98b0555c82273d9f7b49488e66c2 = L.marker(
+                [38.7622479, -104.6732616],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_14d1c6fd88f1b259d893aa21914749b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c9405b196f1b5ee0376ce1bb5e8e84c = $(`<div id="html_8c9405b196f1b5ee0376ce1bb5e8e84c" style="width: 100.0%; height: 100.0%;">     <strong>PIKES PEAK CHRISTIAN CHURCH</strong><br>     4955 Bradley Rd<br>     Colorado Springs, CO 80911<br>     Phone: (719) 392-8855<br>     Website: http://pikespeakchristianchurch.com/help/<br>     Services: Provides a food pantry to those in need.     </div>`)[0];
+                popup_14d1c6fd88f1b259d893aa21914749b4.setContent(html_8c9405b196f1b5ee0376ce1bb5e8e84c);
+            
+        
+
+        marker_c71b98b0555c82273d9f7b49488e66c2.bindPopup(popup_14d1c6fd88f1b259d893aa21914749b4)
+        ;
+
+        
+    
+    
+            var marker_c033414c84eb0e7e34b01b32f5a3747a = L.marker(
+                [38.7622479, -104.6732616],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_2cccffdf9d291995bbaa7533efab8ba8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d639d51cb70e162edc8d91f9221c24a6 = $(`<div id="html_d639d51cb70e162edc8d91f9221c24a6" style="width: 100.0%; height: 100.0%;">     <strong>CHRISTIAN HOUSE OF PRAYER</strong><br>     4360 Bradley Rd<br>     Colorado Springs, CO 80911<br>     Phone: (719) 596-7469<br>     Website: http://chopcos.org/food-pantry<br>     Services: Provides a food pantry to those in need.     </div>`)[0];
+                popup_2cccffdf9d291995bbaa7533efab8ba8.setContent(html_d639d51cb70e162edc8d91f9221c24a6);
+            
+        
+
+        marker_c033414c84eb0e7e34b01b32f5a3747a.bindPopup(popup_2cccffdf9d291995bbaa7533efab8ba8)
+        ;
+
+        
+    
+    
+            var marker_d1cdc656855d178e260ac5ba9f7c373d = L.marker(
+                [38.8822421, -104.7561668],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_790fd3004fc68ccf493bbbbec1b1563e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_083491196fcf174619a477693cd7a4e3 = $(`<div id="html_083491196fcf174619a477693cd7a4e3" style="width: 100.0%; height: 100.0%;">     <strong>REDEEMED CHRISTIAN CHURCH OF GOD</strong><br>     3525 N Carefree Cir<br>     Colorado Springs, CO 80917<br>     Phone: (719) 313-9053<br>     Website: No Website Listed<br>     Services: Provides a food pantry to those in need.     </div>`)[0];
+                popup_790fd3004fc68ccf493bbbbec1b1563e.setContent(html_083491196fcf174619a477693cd7a4e3);
+            
+        
+
+        marker_d1cdc656855d178e260ac5ba9f7c373d.bindPopup(popup_790fd3004fc68ccf493bbbbec1b1563e)
+        ;
+
+        
+    
+    
+            var marker_20fce4af5aad6ac99bb6090753b24f74 = L.marker(
+                [38.766318, -104.738811],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_2d759ebf4340df102197a417deb47911 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_058aa0bea652f62e90cc6eabcea65dcd = $(`<div id="html_058aa0bea652f62e90cc6eabcea65dcd" style="width: 100.0%; height: 100.0%;">     <strong>GOOD SHEPHERD UNITED METHODIST CHURCH</strong><br>     1201 Leta Dr<br>     Colorado Springs, CO 80911<br>     Phone: (719) 392-5782<br>     Website: http://gsumc-cs.org/<br>     Services: Provides a food pantry to those in need.     </div>`)[0];
+                popup_2d759ebf4340df102197a417deb47911.setContent(html_058aa0bea652f62e90cc6eabcea65dcd);
+            
+        
+
+        marker_20fce4af5aad6ac99bb6090753b24f74.bindPopup(popup_2d759ebf4340df102197a417deb47911)
+        ;
+
+        
+    
+    
+            var marker_4a32a7d6f9591f45eea682c8a13c306f = L.marker(
+                [38.8934882, -104.7471265],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_4c0702c3650d607ce9794a29fee78f0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1104360a96cedbc8373844105b369bfe = $(`<div id="html_1104360a96cedbc8373844105b369bfe" style="width: 100.0%; height: 100.0%;">     <strong>LIGHTHOUSE BAPTIST CHURCH</strong><br>     4280 Hopeful Dr<br>     Colorado Springs, CO 80917<br>     Phone: (719) 444-8502<br>     Website: http://lbcsprings.org<br>     Services: Provides a food pantry to those in need.     </div>`)[0];
+                popup_4c0702c3650d607ce9794a29fee78f0d.setContent(html_1104360a96cedbc8373844105b369bfe);
+            
+        
+
+        marker_4a32a7d6f9591f45eea682c8a13c306f.bindPopup(popup_4c0702c3650d607ce9794a29fee78f0d)
+        ;
+
+        
+    
+    
+            var marker_316998b13c51f08f9f579338dfcb3855 = L.marker(
+                [38.765272, -104.741755],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_6d430fc2de7460d0d8b26b8ef4f63458 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd3004315c7e3ed6f62d45f572df0c6b = $(`<div id="html_fd3004315c7e3ed6f62d45f572df0c6b" style="width: 100.0%; height: 100.0%;">     <strong>ST. RAPHAEL EPISCOPAL CHURCH</strong><br>     802 Leta Dr<br>     Colorado Springs, CO 80911<br>     Phone: (719) 392-3563<br>     Website: http://straphaelepiscopal.org/<br>     Services: Provides a food pantry for those in need.     </div>`)[0];
+                popup_6d430fc2de7460d0d8b26b8ef4f63458.setContent(html_fd3004315c7e3ed6f62d45f572df0c6b);
+            
+        
+
+        marker_316998b13c51f08f9f579338dfcb3855.bindPopup(popup_6d430fc2de7460d0d8b26b8ef4f63458)
+        ;
+
+        
+    
+    
+            var marker_14ed8cc64ea590a217994cba1bc4fb57 = L.marker(
+                [40.4671803, -106.7920972],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_9b008de187bd1af110c20e66ec6b2489 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1aa1f55a21e0ac390f90fcd4d1f214b = $(`<div id="html_b1aa1f55a21e0ac390f90fcd4d1f214b" style="width: 100.0%; height: 100.0%;">     <strong>SPRINGS TABERNACLE CHURCH</strong><br>     6160 Burgess Rd<br>     Colorado Springs, CO 80908<br>     Phone: (719) 495-3192<br>     Website: http://springstabernacle.com/<br>     Services: Provides a food pantry for those in need.     </div>`)[0];
+                popup_9b008de187bd1af110c20e66ec6b2489.setContent(html_b1aa1f55a21e0ac390f90fcd4d1f214b);
+            
+        
+
+        marker_14ed8cc64ea590a217994cba1bc4fb57.bindPopup(popup_9b008de187bd1af110c20e66ec6b2489)
+        ;
+
+        
+    
+    
+            var marker_a26b5b35949fc43970a45535d168d186 = L.marker(
+                [38.8205985, -104.7936946],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_ed385e3fbb3b9735475488a57cc0c1e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ad85d194e5e0b09e644e710b8492b7a = $(`<div id="html_8ad85d194e5e0b09e644e710b8492b7a" style="width: 100.0%; height: 100.0%;">     <strong>OPEN BIBLE BAPTIST CHURCH</strong><br>     824 S Union Blvd<br>     Colorado Springs, CO 80910<br>     Phone: (719) 475-2001<br>     Website: http://openbiblecares.org/schedule-overview<br>     Services: Provides a food pantry to those in need.     </div>`)[0];
+                popup_ed385e3fbb3b9735475488a57cc0c1e7.setContent(html_8ad85d194e5e0b09e644e710b8492b7a);
+            
+        
+
+        marker_a26b5b35949fc43970a45535d168d186.bindPopup(popup_ed385e3fbb3b9735475488a57cc0c1e7)
+        ;
+
+        
+    
+    
+            var marker_74e931bf6ef54b40cfd4f7b6e263acc7 = L.marker(
+                [38.8952189, -104.7561174],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_0f7b8c8289c3a477277ee7e3e6e67f29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b117991d11589989afa80be10e4579b3 = $(`<div id="html_b117991d11589989afa80be10e4579b3" style="width: 100.0%; height: 100.0%;">     <strong>MERCY'S GATE</strong><br>     4360 Montebello Dr Suite 300<br>     Colorado Springs, CO 80918<br>     Phone: (719) 277-7470<br>     Website: http://mercysgatecs.org/accessing-services/food-pantry-2<br>     Services: Offers a 3-day supply of emergency food to families and individuals in need.     </div>`)[0];
+                popup_0f7b8c8289c3a477277ee7e3e6e67f29.setContent(html_b117991d11589989afa80be10e4579b3);
+            
+        
+
+        marker_74e931bf6ef54b40cfd4f7b6e263acc7.bindPopup(popup_0f7b8c8289c3a477277ee7e3e6e67f29)
+        ;
+
+        
+    
+    
+            var marker_10fd5f5a7339e46ccd24b66cdcf708f9 = L.marker(
+                [38.8461585, -104.7984524],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_0265b91edd95d12fa811d41a1b58ea65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_699c9d33816f279862123621c0fb8ee9 = $(`<div id="html_699c9d33816f279862123621c0fb8ee9" style="width: 100.0%; height: 100.0%;">     <strong>DIVINE REDEEMER CATHOLIC CHURCH</strong><br>     927 N Logan Ave<br>     Colorado Springs, CO 80909<br>     Phone: (719) 633-5559<br>     Website: http://divineredeemer.net<br>     Services: Provides a food pantry to those in need. This service is not zip code restricted.     </div>`)[0];
+                popup_0265b91edd95d12fa811d41a1b58ea65.setContent(html_699c9d33816f279862123621c0fb8ee9);
+            
+        
+
+        marker_10fd5f5a7339e46ccd24b66cdcf708f9.bindPopup(popup_0265b91edd95d12fa811d41a1b58ea65)
+        ;
+
+        
+    
+    
+            var marker_60521607702a5be960038b05df1fea5f = L.marker(
+                [38.845428, -104.7786897],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_5e1d7fe25277035977d6ab2d5f77d698 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b66d2254443321bd055e676f6841154 = $(`<div id="html_8b66d2254443321bd055e676f6841154" style="width: 100.0%; height: 100.0%;">     <strong>SALVATION ARMY COLORADO SPRINGS CORPS</strong><br>     908 Yuma St<br>     Colorado Springs, CO 80909<br>     Phone: (719) 636-3891<br>     Website: http://coloradosprings.salvationarmy.org<br>     Services: Provides a food pantry to those in need.     </div>`)[0];
+                popup_5e1d7fe25277035977d6ab2d5f77d698.setContent(html_8b66d2254443321bd055e676f6841154);
+            
+        
+
+        marker_60521607702a5be960038b05df1fea5f.bindPopup(popup_5e1d7fe25277035977d6ab2d5f77d698)
+        ;
+
+        
+    
+    
+            var marker_78760731023d83a0bb25d89bac4a3fb0 = L.marker(
+                [38.8163033, -104.7323427],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_217eab32fd10a37962ce993eac08683e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b98a8dd170e9159fbc34bcaf5107431b = $(`<div id="html_b98a8dd170e9159fbc34bcaf5107431b" style="width: 100.0%; height: 100.0%;">     <strong>PALACE OF PEACE CHURCH</strong><br>     1150 Aeroplaza Dr<br>     Colorado Springs, CO 80916<br>     Phone: (719) 591-2094<br>     Website: http://placeofpeacechurch.com/<br>     Services: Provides a food pantry to those in need.     </div>`)[0];
+                popup_217eab32fd10a37962ce993eac08683e.setContent(html_b98a8dd170e9159fbc34bcaf5107431b);
+            
+        
+
+        marker_78760731023d83a0bb25d89bac4a3fb0.bindPopup(popup_217eab32fd10a37962ce993eac08683e)
+        ;
+
+        
+    
+    
+            var marker_b4000198be56164d53f6bb21d7a4374a = L.marker(
+                [38.7997178, -104.7338407],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_0de60a6103d8d0b28e15559b0e029f4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5ffdf7a30683b2e94d975d26c304ee4 = $(`<div id="html_c5ffdf7a30683b2e94d975d26c304ee4" style="width: 100.0%; height: 100.0%;">     <strong>TRUE SPIRIT BAPTIST CHURCH</strong><br>     5120 Astrozon Blvd<br>     Colorado Springs, CO 80916<br>     Phone: (719) 575-9287<br>     Website: http://truespiritbaptistchurch.com<br>     Services: Provides a food pantry to those in need. This service is not zip code restricted.     </div>`)[0];
+                popup_0de60a6103d8d0b28e15559b0e029f4f.setContent(html_c5ffdf7a30683b2e94d975d26c304ee4);
+            
+        
+
+        marker_b4000198be56164d53f6bb21d7a4374a.bindPopup(popup_0de60a6103d8d0b28e15559b0e029f4f)
+        ;
+
+        
+    
+    
+            var marker_552ef5ab2d25b7fd10e10c2070845036 = L.marker(
+                [38.8513738, -104.7762245],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_079fc3abff5e8c9c90f92e8cc883bd77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_572d03917ae0ded46be86167760139ee = $(`<div id="html_572d03917ae0ded46be86167760139ee" style="width: 100.0%; height: 100.0%;">     <strong>MT. CALVARY LUTHERAN CHURCH</strong><br>     1318 N Circle Dr<br>     Colorado Springs, CO 80909<br>     Phone: (719) 634-1053<br>     Website: No Website Listed<br>     Services: Provides a food pantry to those in need.     </div>`)[0];
+                popup_079fc3abff5e8c9c90f92e8cc883bd77.setContent(html_572d03917ae0ded46be86167760139ee);
+            
+        
+
+        marker_552ef5ab2d25b7fd10e10c2070845036.bindPopup(popup_079fc3abff5e8c9c90f92e8cc883bd77)
+        ;
+
+        
+    
+    
+            var marker_5cbe216b8abee3bb857a2ba189c1790d = L.marker(
+                [38.8252214, -104.7471192],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_41978de18711d2f8b59a3270f7622405 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d74a036af9a4158b86644476d953539 = $(`<div id="html_7d74a036af9a4158b86644476d953539" style="width: 100.0%; height: 100.0%;">     <strong>SOUTHEAST BAPTIST CHURCH</strong><br>     4393 Airport Rd<br>     Colorado Springs, CO 80916<br>     Phone: (719) 380-7060<br>     Website: http://southeastbaptistchurchcs.com<br>     Services: Provides a food pantry to those in need.     </div>`)[0];
+                popup_41978de18711d2f8b59a3270f7622405.setContent(html_7d74a036af9a4158b86644476d953539);
+            
+        
+
+        marker_5cbe216b8abee3bb857a2ba189c1790d.bindPopup(popup_41978de18711d2f8b59a3270f7622405)
+        ;
+
+        
+    
+    
+            var marker_41d4931728043384e1b441c73b11a85e = L.marker(
+                [38.8099777, -104.7490379],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_9986cd96d898213920d9bde8487e392b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e18db712d0771e2c60123914cf9a352 = $(`<div id="html_1e18db712d0771e2c60123914cf9a352" style="width: 100.0%; height: 100.0%;">     <strong>SILVER KEY SENIOR SERVICES</strong><br>     1605 S Murray Blvd<br>     Colorado Springs, CO 80916<br>     Phone: (719) 884-2300<br>     Website: http://silverkey.org/services/senior-assistance/food-pantry/<br>     Services: Provides food to seniors in need.     </div>`)[0];
+                popup_9986cd96d898213920d9bde8487e392b.setContent(html_1e18db712d0771e2c60123914cf9a352);
+            
+        
+
+        marker_41d4931728043384e1b441c73b11a85e.bindPopup(popup_9986cd96d898213920d9bde8487e392b)
+        ;
+
+        
+    
+    
+            var marker_1dae378bfd279e1dfb8860496d4b1e25 = L.marker(
+                [38.8609108, -104.7488155],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_38ada215837fbdeea271a97fd9c4138d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01081f7e091e3946de49006e92714a29 = $(`<div id="html_01081f7e091e3946de49006e92714a29" style="width: 100.0%; height: 100.0%;">     <strong>HOLY CROSS LUTHERAN CHURCH</strong><br>     4125 Constitution Ave<br>     Colorado Springs, CO 80909<br>     Phone: (719) 596-0661<br>     Website: http://holycrosscs.org<br>     Services: Offers a food pantry for those in need.     </div>`)[0];
+                popup_38ada215837fbdeea271a97fd9c4138d.setContent(html_01081f7e091e3946de49006e92714a29);
+            
+        
+
+        marker_1dae378bfd279e1dfb8860496d4b1e25.bindPopup(popup_38ada215837fbdeea271a97fd9c4138d)
+        ;
+
+        
+    
+    
+            var marker_526b43cb7eb8fc5d157727a3debdf778 = L.marker(
+                [38.764623, -104.74479],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_842f27ebc57f70847ef368295e9f27f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66bd43c6bdd821a62b189a1c3a681c9b = $(`<div id="html_66bd43c6bdd821a62b189a1c3a681c9b" style="width: 100.0%; height: 100.0%;">     <strong>SALVATION ARMY FOUNTAIN VALLEY CORPS</strong><br>     208 Cunningham Dr<br>     Colorado Springs, CO 80911<br>     Phone: (719) 382-1182<br>     Website: http://fountainvalley.salvationarmy.org<br>     Services: Provides a food pantry for individuals in need.     </div>`)[0];
+                popup_842f27ebc57f70847ef368295e9f27f0.setContent(html_66bd43c6bdd821a62b189a1c3a681c9b);
+            
+        
+
+        marker_526b43cb7eb8fc5d157727a3debdf778.bindPopup(popup_842f27ebc57f70847ef368295e9f27f0)
+        ;
+
+        
+    
+    
+            var marker_48a303fc9251f0c932f6a9e1c6113902 = L.marker(
+                [38.9408625, -104.6921985],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_7b6210ad69883e42e6b256f9713b66bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bc7f2ec96498554d38efb59caf006ba = $(`<div id="html_8bc7f2ec96498554d38efb59caf006ba" style="width: 100.0%; height: 100.0%;">     <strong>FRESH START CENTER</strong><br>     7375 Adventure Way<br>     Colorado Springs, CO 80923<br>     Phone: Tuesday, Thursday, 10 a.m. - 4 p.m.; 1st Wednesda...<br>     Website: (719) 495-3123<br>     Services: Provides a food pantry to those in need.     </div>`)[0];
+                popup_7b6210ad69883e42e6b256f9713b66bd.setContent(html_8bc7f2ec96498554d38efb59caf006ba);
+            
+        
+
+        marker_48a303fc9251f0c932f6a9e1c6113902.bindPopup(popup_7b6210ad69883e42e6b256f9713b66bd)
+        ;
+
+        
+    
+    
+            var marker_7b8995af24607223ea210cd15ad78500 = L.marker(
+                [38.8503956, -104.8672724],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_39687114eb5f374e946310bc9ff527e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01f645bda6f40c74cc89c422c30ca43c = $(`<div id="html_01f645bda6f40c74cc89c422c30ca43c" style="width: 100.0%; height: 100.0%;">     <strong>WESTSIDE CARES</strong><br>     2808 W Colorado Ave<br>     Colorado Springs, CO 80904<br>     Phone: Monday - Thursday, 9:30 a.m. - 12:30 p.m.<br>     Website: (719) 389-0759<br>     Services: Provides a four-day bag of food for families and individuals in need.     </div>`)[0];
+                popup_39687114eb5f374e946310bc9ff527e5.setContent(html_01f645bda6f40c74cc89c422c30ca43c);
+            
+        
+
+        marker_7b8995af24607223ea210cd15ad78500.bindPopup(popup_39687114eb5f374e946310bc9ff527e5)
+        ;
+
+        
+    
+    
+            var marker_48f7f9f1b287747d923a8f85918cf451 = L.marker(
+                [38.8099777, -104.7490379],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_7f5a9441ed884b6851ffc08f3ff40773 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63601f9219306e16651ab1ab9b3a0999 = $(`<div id="html_63601f9219306e16651ab1ab9b3a0999" style="width: 100.0%; height: 100.0%;">     <strong>SILVER KEY SENIOR SERVICES</strong><br>     1605 S Murray Blvd<br>     Colorado Springs, CO 80916<br>     Phone: (719) 884-2300<br>     Website: http://silverkey.org<br>     Services: Provides a pet food pantry for seniors.     </div>`)[0];
+                popup_7f5a9441ed884b6851ffc08f3ff40773.setContent(html_63601f9219306e16651ab1ab9b3a0999);
+            
+        
+
+        marker_48f7f9f1b287747d923a8f85918cf451.bindPopup(popup_7f5a9441ed884b6851ffc08f3ff40773)
+        ;
+
+        
+    
+    
+            var marker_af92c5c1aa3f4aecdb54e560c6c9955f = L.marker(
+                [38.8507348, -104.7937951],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_3966443d15c5b5fb7d9a1dd0e0eb68ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_618396c1c43500d6e655cdbd1fe696db = $(`<div id="html_618396c1c43500d6e655cdbd1fe696db" style="width: 100.0%; height: 100.0%;">     <strong>CENTRAL SEVENTH-DAY ADVENTIST CHURCH</strong><br>     1305 N Union Blvd<br>     Colorado Springs, CO 80909<br>     Phone: (719) 578-5616<br>     Website: http://centralsda.org<br>     Services: Provides a food pantry to those in need.     </div>`)[0];
+                popup_3966443d15c5b5fb7d9a1dd0e0eb68ed.setContent(html_618396c1c43500d6e655cdbd1fe696db);
+            
+        
+
+        marker_af92c5c1aa3f4aecdb54e560c6c9955f.bindPopup(popup_3966443d15c5b5fb7d9a1dd0e0eb68ed)
+        ;
+
+        
+    
+    
+            var marker_5483c2a13710c00fc4a14214563fb294 = L.marker(
+                [38.849797, -104.717043],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_4ce8bd0a8029bfb59f20cd3ff7376f20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48f5c1397e23f8e8761b5ce2f200032f = $(`<div id="html_48f5c1397e23f8e8761b5ce2f200032f" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE FOOD BANK</strong><br>     2605 Preamble Point<br>     Colorado Springs, CO 80915<br>     Phone: 211<br>     Website: http://careandshare.org/andfood<br>     Services: Provides an online tool to assist community members in finding local food pantries and commodities.     </div>`)[0];
+                popup_4ce8bd0a8029bfb59f20cd3ff7376f20.setContent(html_48f5c1397e23f8e8761b5ce2f200032f);
+            
+        
+
+        marker_5483c2a13710c00fc4a14214563fb294.bindPopup(popup_4ce8bd0a8029bfb59f20cd3ff7376f20)
+        ;
+
+        
+    
+    
+            var marker_91c2c9ae3351df9490be6c5986752ffa = L.marker(
+                [38.8429159, -104.8542564],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_ff737fbe65fdee77a80bee876b5f4c39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f2c54e6c72b1e213243c92ab89e4104 = $(`<div id="html_0f2c54e6c72b1e213243c92ab89e4104" style="width: 100.0%; height: 100.0%;">     <strong>SANCTUARY CHURCH</strong><br>     1930 W Colorado Ave<br>     Colorado Springs, CO 80904<br>     Phone: (719) 634-7232<br>     Website: http://thesanctuarywestside.org<br>     Services: Provides faith-based and non faith-based counseling for individuals and families.     </div>`)[0];
+                popup_ff737fbe65fdee77a80bee876b5f4c39.setContent(html_0f2c54e6c72b1e213243c92ab89e4104);
+            
+        
+
+        marker_91c2c9ae3351df9490be6c5986752ffa.bindPopup(popup_ff737fbe65fdee77a80bee876b5f4c39)
+        ;
+
+        
+    
+    
+            var marker_7e778fbf24c04c511479527aecf0c2b1 = L.marker(
+                [38.810615, -104.7506033],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_4e32733e52c4f3e36196120d5b30170c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f92a8828334c6265fd77c6192c32d4ef = $(`<div id="html_f92a8828334c6265fd77c6192c32d4ef" style="width: 100.0%; height: 100.0%;">     <strong>ATLAS PREPARATORY SCHOOL</strong><br>     1602 S Murray Blvd<br>     Colorado Springs, CO 80916<br>     Phone: (719) 358-7196<br>     Website: http://atlasprep.org<br>     Services: Offers a food bank.     </div>`)[0];
+                popup_4e32733e52c4f3e36196120d5b30170c.setContent(html_f92a8828334c6265fd77c6192c32d4ef);
+            
+        
+
+        marker_7e778fbf24c04c511479527aecf0c2b1.bindPopup(popup_4e32733e52c4f3e36196120d5b30170c)
+        ;
+
+        
+    
+    
+            var marker_53d0c11b2bba7e48f92fe3ffad07d4a3 = L.marker(
+                [38.8893289, -104.755118],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_a39ceaffa91125361a09be298ab8e9e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5e1e3aa37267bc87eeb05c90b38d3a6 = $(`<div id="html_b5e1e3aa37267bc87eeb05c90b38d3a6" style="width: 100.0%; height: 100.0%;">     <strong>CROSSFIRE MINISTRIES</strong><br>     3975 N Academy Blvd<br>     Colorado Springs, CO 80917<br>     Phone: (719) 447-1806<br>     Website: http://crossareministries.org<br>     Services: Provides a food pantry to those in need.     </div>`)[0];
+                popup_a39ceaffa91125361a09be298ab8e9e4.setContent(html_b5e1e3aa37267bc87eeb05c90b38d3a6);
+            
+        
+
+        marker_53d0c11b2bba7e48f92fe3ffad07d4a3.bindPopup(popup_a39ceaffa91125361a09be298ab8e9e4)
+        ;
+
+        
+    
+    
+            var marker_e8c3873027bd3f214972b699dcd7b2fd = L.marker(
+                [38.8003083, -104.7599491],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_fdb22674929d4036fc762e0aec09b457 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_506c8b940ad4ef4d3e8e99d819f26817 = $(`<div id="html_506c8b940ad4ef4d3e8e99d819f26817" style="width: 100.0%; height: 100.0%;">     <strong>PIKES PEAK PARK BAPTIST CHURCH</strong><br>     3725 El Morro Rd<br>     Colorado Springs, CO 80910<br>     Phone: (719) 597-9004<br>     Website: http://pikespeakparkbaptistchurch.org/support<br>     Services: Offers food baskets to those in need.     </div>`)[0];
+                popup_fdb22674929d4036fc762e0aec09b457.setContent(html_506c8b940ad4ef4d3e8e99d819f26817);
+            
+        
+
+        marker_e8c3873027bd3f214972b699dcd7b2fd.bindPopup(popup_fdb22674929d4036fc762e0aec09b457)
+        ;
+
+        
+    
+    
+            var marker_d6fe280606ac113b463a5a46a06c3fe2 = L.marker(
+                [38.8106719, -104.7705282],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_d8ebf1899b4b3f89b04f15b234f77eae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_176b9d8c6ce54a5a5178b638ac01b0fd = $(`<div id="html_176b9d8c6ce54a5a5178b638ac01b0fd" style="width: 100.0%; height: 100.0%;">     <strong>CARE AND SHARE FOOD BANK</strong><br>     1520 Verde Dr<br>     Colorado Springs, CO 80910<br>     Phone: (719) 888-6851<br>     Website: http://sunnysidemarket.org<br>     Services: Offers a food pantry where clients can browse and choose food in a grocery-style setting.     </div>`)[0];
+                popup_d8ebf1899b4b3f89b04f15b234f77eae.setContent(html_176b9d8c6ce54a5a5178b638ac01b0fd);
+            
+        
+
+        marker_d6fe280606ac113b463a5a46a06c3fe2.bindPopup(popup_d8ebf1899b4b3f89b04f15b234f77eae)
+        ;
+
+        
+    
+    
+            var marker_328070ea48be43338f0a194c314799d8 = L.marker(
+                [38.8429159, -104.8542564],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_821a613c94bb6a45ff38ddddfb2c82fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af66ffa642dc36eff21fba1f51e46067 = $(`<div id="html_af66ffa642dc36eff21fba1f51e46067" style="width: 100.0%; height: 100.0%;">     <strong>SANCTUARY CHURCH</strong><br>     1930 W Colorado Ave<br>     Colorado Springs, CO 80904<br>     Phone: (719) 634-7232<br>     Website: http://thesanctuarywestside.org<br>     Services: Offers a temporary warming shelter when the temperature drops below 20 degrees. Food is provided and pets are allowed.     </div>`)[0];
+                popup_821a613c94bb6a45ff38ddddfb2c82fe.setContent(html_af66ffa642dc36eff21fba1f51e46067);
+            
+        
+
+        marker_328070ea48be43338f0a194c314799d8.bindPopup(popup_821a613c94bb6a45ff38ddddfb2c82fe)
+        ;
+
+        
+    
+    
+            var marker_74f4a69620702cd4191588576a1070ad = L.marker(
+                [38.8328295, -104.8347161],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_ecba27e9b0696f6587f18a865e358909 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_733a5fed0951fae9e7a2c1d824a93514 = $(`<div id="html_733a5fed0951fae9e7a2c1d824a93514" style="width: 100.0%; height: 100.0%;">     <strong>INSIDE/OUT YOUTH SERVICES</strong><br>     516 W Colorado Ave<br>     Colorado Springs, CO 80905<br>     Phone: (719) 328-1056<br>     Website: http://insideoutys.org<br>     Services: Provides support and activities for LGBTQIA+ youth who are questioning their sexuality. Offers a supervised drop-in recreation center, including: Support and discussion groups Food and clothing pantry Clothing Counseling referrals Suicide prevention education Sexual health education Leadership development opportunities Career and financial skills buildin...     </div>`)[0];
+                popup_ecba27e9b0696f6587f18a865e358909.setContent(html_733a5fed0951fae9e7a2c1d824a93514);
+            
+        
+
+        marker_74f4a69620702cd4191588576a1070ad.bindPopup(popup_ecba27e9b0696f6587f18a865e358909)
+        ;
+
+        
+    
+    
+            var marker_c931c553cc5423633cc5e529b4cb7cb7 = L.marker(
+                [38.8099777, -104.7490379],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_3ca127cd677ffe0ca4d07c075a4fa697 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ca526d7983d922c37a62c800185838a = $(`<div id="html_3ca526d7983d922c37a62c800185838a" style="width: 100.0%; height: 100.0%;">     <strong>SILVER KEY SENIOR SERVICES</strong><br>     1605 S Murray Blvd<br>     Colorado Springs, CO 80916<br>     Phone: (719) 884-2300<br>     Website: https://silverkey.org/services/senior-assistance/food-pantry/<br>     Services: Provides emergency food assistance to low-income households through The Emergency Food Assistance Program (TEFAP).     </div>`)[0];
+                popup_3ca127cd677ffe0ca4d07c075a4fa697.setContent(html_3ca526d7983d922c37a62c800185838a);
+            
+        
+
+        marker_c931c553cc5423633cc5e529b4cb7cb7.bindPopup(popup_3ca127cd677ffe0ca4d07c075a4fa697)
+        ;
+
+        
+    
+    
+            var marker_2922b75da605eacc3a23436f708f5bf6 = L.marker(
+                [38.8495804, -104.7510448],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_d2b44a118630c13f2058aacbd62e923c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3c223afef0aa021b93109fa851f51d4 = $(`<div id="html_a3c223afef0aa021b93109fa851f51d4" style="width: 100.0%; height: 100.0%;">     <strong>PIKES PEAK UNITED WAY</strong><br>     1205 Potter Dr<br>     Colorado Springs, CO 80909<br>     Phone: (719) 955-0742<br>     Website: No Website Listed<br>     Services: Provides food boxes to anyone in need, using a drive-thru system.     </div>`)[0];
+                popup_d2b44a118630c13f2058aacbd62e923c.setContent(html_a3c223afef0aa021b93109fa851f51d4);
+            
+        
+
+        marker_2922b75da605eacc3a23436f708f5bf6.bindPopup(popup_d2b44a118630c13f2058aacbd62e923c)
+        ;
+
+        
+    
+    
+            var marker_17a4cf3d93756b4d72e565880b23066f = L.marker(
+                [38.8147865, -104.7511668],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_506d0c97989e8e37aa0c6579e2d371dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f85f506c6cbd80364a7a6262b63057ab = $(`<div id="html_f85f506c6cbd80364a7a6262b63057ab" style="width: 100.0%; height: 100.0%;">     <strong>SANCTUARY CHURCH</strong><br>     4120 E Fountain Blvd<br>     Colorado Springs, CO 80916<br>     Phone: (719) 634-7232<br>     Website: http://thesanctuarywestside.org<br>     Services: Offers a food pantry for community members in need.     </div>`)[0];
+                popup_506d0c97989e8e37aa0c6579e2d371dd.setContent(html_f85f506c6cbd80364a7a6262b63057ab);
+            
+        
+
+        marker_17a4cf3d93756b4d72e565880b23066f.bindPopup(popup_506d0c97989e8e37aa0c6579e2d371dd)
+        ;
+
+        
+    
+    
+            var marker_a441054b7d39cb492cefb605a06adce8 = L.marker(
+                [38.8429159, -104.8542564],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_55f25c85242cfe3d29f04ce40f6b50f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2841f316deb1a3455a5a1369ae2eb495 = $(`<div id="html_2841f316deb1a3455a5a1369ae2eb495" style="width: 100.0%; height: 100.0%;">     <strong>SANCTUARY CHURCH</strong><br>     1930 W Colorado Ave<br>     Colorado Springs, CO 80904<br>     Phone: (719) 634-7232<br>     Website: http://thesanctuarywestside.org<br>     Services: Provides a showering facility for community members in need.     </div>`)[0];
+                popup_55f25c85242cfe3d29f04ce40f6b50f3.setContent(html_2841f316deb1a3455a5a1369ae2eb495);
+            
+        
+
+        marker_a441054b7d39cb492cefb605a06adce8.bindPopup(popup_55f25c85242cfe3d29f04ce40f6b50f3)
+        ;
+
+        
+    
+    
+            var marker_3e21b22c026d10bbbaf044ff342b6e23 = L.marker(
+                [38.8367183, -104.8256465],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_edbc1949b474fede325d0a053a0af784 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00f57e5b2fda456e43cb1ba5be5d03df = $(`<div id="html_00f57e5b2fda456e43cb1ba5be5d03df" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF CENTRAL COLORADO</strong><br>     14 W Bijou St<br>     Colorado Springs, CO 80903<br>     Phone: (719) 866-6288<br>     Website: No Website Listed<br>     Services: Works to alleviate a temporary gap in food security for individuals and families. Offers: Food and nutrition programs Kitchen food boxes Food pantr...     </div>`)[0];
+                popup_edbc1949b474fede325d0a053a0af784.setContent(html_00f57e5b2fda456e43cb1ba5be5d03df);
+            
+        
+
+        marker_3e21b22c026d10bbbaf044ff342b6e23.bindPopup(popup_edbc1949b474fede325d0a053a0af784)
+        ;
+
+        
+    
+    
+            var marker_702bd0f9b6e80864dd8536444d4f53ba = L.marker(
+                [38.8367183, -104.8256465],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_860f43c82eb872d320c0c8fcee1b0e67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f90811fc642cca3cddb236702171bfe = $(`<div id="html_8f90811fc642cca3cddb236702171bfe" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF CENTRAL COLORADO</strong><br>     14 W Bijou St<br>     Colorado Springs, CO 80903<br>     Phone: (719) 475-7314<br>     Website: http://ccharitiescc.org/emergency-essential-services/<br>     Services: Offers meals to the public. To-go meals are distributed on an as-requested basis.     </div>`)[0];
+                popup_860f43c82eb872d320c0c8fcee1b0e67.setContent(html_8f90811fc642cca3cddb236702171bfe);
+            
+        
+
+        marker_702bd0f9b6e80864dd8536444d4f53ba.bindPopup(popup_860f43c82eb872d320c0c8fcee1b0e67)
+        ;
+
+        
+    
+    
+            var marker_870c04cfc7b5fb7274ca6fe3fbd58b36 = L.marker(
+                [38.8184191, -104.8263849],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_b112842617c2e89abf23b15c1c5d811c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0f667e2b4f8ccec6db566f35bbf44c0 = $(`<div id="html_c0f667e2b4f8ccec6db566f35bbf44c0" style="width: 100.0%; height: 100.0%;">     <strong>SPRINGS RESCUE MISSION</strong><br>     5 W Las Vegas St<br>     Colorado Springs, CO 80903<br>     Phone: (719) 632-1822<br>     Website: http://springsrescuemission.org<br>     Services: Provides hot meals and sack lunches for those is need.     </div>`)[0];
+                popup_b112842617c2e89abf23b15c1c5d811c.setContent(html_c0f667e2b4f8ccec6db566f35bbf44c0);
+            
+        
+
+        marker_870c04cfc7b5fb7274ca6fe3fbd58b36.bindPopup(popup_b112842617c2e89abf23b15c1c5d811c)
+        ;
+
+        
+    
+    
+            var marker_ef214a1f78f68b8b24e7615549d4cd13 = L.marker(
+                [38.8003083, -104.7599491],
+                {}
+            ).addTo(map_da0d26665a1ffed164a1d07aa5c4ecad);
+        
+    
+        var popup_d376d71db5d1621a6b5fca8a83c6922f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d75b241242ae2742a7ec56845c4a76d1 = $(`<div id="html_d75b241242ae2742a7ec56845c4a76d1" style="width: 100.0%; height: 100.0%;">     <strong>PIKES PEAK PARK BAPTIST CHURCH</strong><br>     3725 El Morro Rd<br>     Colorado Springs, CO 80910<br>     Phone: (719) 597-9004<br>     Website: http://pppbc.org<br>     Services: Offers a hot meal to individuals in need.     </div>`)[0];
+                popup_d376d71db5d1621a6b5fca8a83c6922f.setContent(html_d75b241242ae2742a7ec56845c4a76d1);
+            
+        
+
+        marker_ef214a1f78f68b8b24e7615549d4cd13.bindPopup(popup_d376d71db5d1621a6b5fca8a83c6922f)
+        ;
+
+        
+    
+</script>
+</html>

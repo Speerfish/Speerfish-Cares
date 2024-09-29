@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_173aeae540b4e879ad6726c3053076df {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_173aeae540b4e879ad6726c3053076df" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_173aeae540b4e879ad6726c3053076df = L.map(
+                "map_173aeae540b4e879ad6726c3053076df",
+                {
+                    center: [39.0714, -108.5497],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_566dd30b3a67bcdd19f31b31b837437a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_566dd30b3a67bcdd19f31b31b837437a.addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+            var marker_163ce6ffb2dab80c15da52ef14de89d0 = L.marker(
+                [39.0655869, -108.5712505],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_6b4ca5b9477571e01b3fdb6339f449a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f5929b7f900a5dc53481a272e8ec5b8 = $(`<div id="html_6f5929b7f900a5dc53481a272e8ec5b8" style="width: 100.0%; height: 100.0%;">     <strong>GRAND VALLEY CATHOLIC OUTREACH</strong><br>     245 S 1st St<br>     Grand Junction, CO 81501<br>     Phone: (970) 241-3658<br>     Website: http://catholicoutreach.org<br>     Services: Provides food box for Mesa County residents in need on a once-a-month basis. Food type is available depending on donated items available...     </div>`)[0];
+                popup_6b4ca5b9477571e01b3fdb6339f449a7.setContent(html_6f5929b7f900a5dc53481a272e8ec5b8);
+            
+        
+
+        marker_163ce6ffb2dab80c15da52ef14de89d0.bindPopup(popup_6b4ca5b9477571e01b3fdb6339f449a7)
+        ;
+
+        
+    
+    
+            var marker_17a79b434628523b3b60a207ad05143c = L.marker(
+                [39.0415079, -108.5435434],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_bafcee2657c90f7746bd387952914e7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08a6134ba0ce90b6a78ab03b4e3afb77 = $(`<div id="html_08a6134ba0ce90b6a78ab03b4e3afb77" style="width: 100.0%; height: 100.0%;">     <strong>ORCHARD MESA BAPTIST CHURCH</strong><br>     2748 B 1/2 Rd<br>     Grand Junction, CO 81503<br>     Phone: (970) 242-2355<br>     Website: http://ombcgj.com/<br>     Services: Provides a food box to those in need once a month and up to 3 times per calendar year. Additional assistance can be granted on case by case basis by the food pantry director...     </div>`)[0];
+                popup_bafcee2657c90f7746bd387952914e7d.setContent(html_08a6134ba0ce90b6a78ab03b4e3afb77);
+            
+        
+
+        marker_17a79b434628523b3b60a207ad05143c.bindPopup(popup_bafcee2657c90f7746bd387952914e7d)
+        ;
+
+        
+    
+    
+            var marker_aacf892cb762c6605e48611f65c013e5 = L.marker(
+                [39.0842939, -108.5210788],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_b1ce60adb4a6e28f6ac1c0aa15d79111 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1f051ebf399db0ede80cc46f9ba54fa = $(`<div id="html_b1f051ebf399db0ede80cc46f9ba54fa" style="width: 100.0%; height: 100.0%;">     <strong>JUNCTION COMMUNITY CHURCH</strong><br>     2867 Orchard Ave<br>     Grand Junction, CO 81501<br>     Phone: (970) 243-0757<br>     Website: http://jctcc.net/saras-pantry<br>     Services: Provides a food box to individuals, seniors and families in need in the community. Families are limited to one box a month.     </div>`)[0];
+                popup_b1ce60adb4a6e28f6ac1c0aa15d79111.setContent(html_b1f051ebf399db0ede80cc46f9ba54fa);
+            
+        
+
+        marker_aacf892cb762c6605e48611f65c013e5.bindPopup(popup_b1ce60adb4a6e28f6ac1c0aa15d79111)
+        ;
+
+        
+    
+    
+            var marker_52b80b936f9f964fa419f50a9c816306 = L.marker(
+                [39.073337, -108.5719646],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_9651eb2faee415cd55ebc2b8c3cccd98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3de984acbfcc8d4243434c041dd84511 = $(`<div id="html_3de984acbfcc8d4243434c041dd84511" style="width: 100.0%; height: 100.0%;">     <strong>CONNECTION CHURCH - MESA COUNTY</strong><br>     655 N 1st St<br>     Grand Junction, CO 81501<br>     Phone: (970) 523-1857<br>     Website: http://www.connectionchurchlive.com<br>     Services: Offers a food pantry for residents of Mesa County. Food delivery is distributed on the 3rd Thursday of each month. Limited number of boxes...     </div>`)[0];
+                popup_9651eb2faee415cd55ebc2b8c3cccd98.setContent(html_3de984acbfcc8d4243434c041dd84511);
+            
+        
+
+        marker_52b80b936f9f964fa419f50a9c816306.bindPopup(popup_9651eb2faee415cd55ebc2b8c3cccd98)
+        ;
+
+        
+    
+    
+            var marker_73f51339ebd6366d8de809475c6b0188 = L.marker(
+                [39.0575697, -108.5333242],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_f426909c92ac392404b41b7f0f0f4a63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38dd1dd6398cf6f348f5607f13cd2755 = $(`<div id="html_38dd1dd6398cf6f348f5607f13cd2755" style="width: 100.0%; height: 100.0%;">     <strong>ROICE-HURST HUMANE SOCIETY</strong><br>     362 28 Rd<br>     Grand Junction, CO 81501<br>     Phone: (970) 434-7337<br>     Website: http://rhhumanesociety.org<br>     Services: Provides pet food for pet owners who have fallen on hard times. Also has a variety of other pet-related items such as toys and leashes...     </div>`)[0];
+                popup_f426909c92ac392404b41b7f0f0f4a63.setContent(html_38dd1dd6398cf6f348f5607f13cd2755);
+            
+        
+
+        marker_73f51339ebd6366d8de809475c6b0188.bindPopup(popup_f426909c92ac392404b41b7f0f0f4a63)
+        ;
+
+        
+    
+    
+            var marker_d1c30487bb5affca85490556a9ababba = L.marker(
+                [39.0922633, -108.579287],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_08ed277cfae360a6d109ab1ed8eb797e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7019a67f7e282a548bf2af0e7fd5d6f2 = $(`<div id="html_7019a67f7e282a548bf2af0e7fd5d6f2" style="width: 100.0%; height: 100.0%;">     <strong>GRAND VALLEY ADVENTIST COMMUNITY SERVICE CENTER</strong><br>     2554 Patterson Rd<br>     Grand Junction, CO 81505<br>     Phone: (970) 242-2277<br>     Website: http://grandvalleyacs.org<br>     Services: Provides emergency food boxes, clothing assistance, and household goods.     </div>`)[0];
+                popup_08ed277cfae360a6d109ab1ed8eb797e.setContent(html_7019a67f7e282a548bf2af0e7fd5d6f2);
+            
+        
+
+        marker_d1c30487bb5affca85490556a9ababba.bindPopup(popup_08ed277cfae360a6d109ab1ed8eb797e)
+        ;
+
+        
+    
+    
+            var marker_38d7af6a3d8dc52b016ba6ac5fa93589 = L.marker(
+                [39.0819697, -108.5090148],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_ff0f238e6f2d36e0d31db9bf379c61e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_316d3d1612059c86c374315fe016f052 = $(`<div id="html_316d3d1612059c86c374315fe016f052" style="width: 100.0%; height: 100.0%;">     <strong>WESTERN SLOPE FOOD BANK OF THE ROCKIES</strong><br>     540 29 1/4 Rd<br>     Grand Junction, CO 81504<br>     Phone: (970) 254-6220<br>     Website: https://www.foodbankrockies.org/and-food<br>     Services: Mobile Food Pantry that is set up at Bookcliff Middle School. Individuals must bring their own bags or boxes to bring home food.     </div>`)[0];
+                popup_ff0f238e6f2d36e0d31db9bf379c61e9.setContent(html_316d3d1612059c86c374315fe016f052);
+            
+        
+
+        marker_38d7af6a3d8dc52b016ba6ac5fa93589.bindPopup(popup_ff0f238e6f2d36e0d31db9bf379c61e9)
+        ;
+
+        
+    
+    
+            var marker_3964c5842415e005a3b20058a1c18653 = L.marker(
+                [39.0836033, -108.473188],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_12ac111c536444d290612581e9631527 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32be5b61303a99a24c6bc770d2c1b8c0 = $(`<div id="html_32be5b61303a99a24c6bc770d2c1b8c0" style="width: 100.0%; height: 100.0%;">     <strong>WESTERN SLOPE FOOD BANK OF THE ROCKIES</strong><br>     6401 Warrior Way<br>     Grand Junction, CO 81504<br>     Phone: (970) 254-6200<br>     Website: https://www.foodbankrockies.org/and-food<br>     Services: Mobile Food Pantry set up at Central High School. Individuals must bring their own bags or boxes to take food home.     </div>`)[0];
+                popup_12ac111c536444d290612581e9631527.setContent(html_32be5b61303a99a24c6bc770d2c1b8c0);
+            
+        
+
+        marker_3964c5842415e005a3b20058a1c18653.bindPopup(popup_12ac111c536444d290612581e9631527)
+        ;
+
+        
+    
+    
+            var marker_e59a194dff62f3405bcd1ccf22692f52 = L.marker(
+                [39.0706374, -108.5658952],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_1727f36d674a0154766f2d4aba43f1b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b49a288806b730094ef64305ebe66bf = $(`<div id="html_7b49a288806b730094ef64305ebe66bf" style="width: 100.0%; height: 100.0%;">     <strong>WESTERN SLOPE FOOD BANK OF THE ROCKIES</strong><br>     402 Grand Ave<br>     Grand Junction, CO 81501<br>     Phone: (970) 464-1138<br>     Website: https://www.foodbankrockies.org/and-food<br>     Services: Mobile Food Pantry for residents in need. Clients must bring their own bags or boxes to take the food home. Set up is located at the Downtown Vineyard Church...     </div>`)[0];
+                popup_1727f36d674a0154766f2d4aba43f1b3.setContent(html_7b49a288806b730094ef64305ebe66bf);
+            
+        
+
+        marker_e59a194dff62f3405bcd1ccf22692f52.bindPopup(popup_1727f36d674a0154766f2d4aba43f1b3)
+        ;
+
+        
+    
+    
+            var marker_e81eedb23bd49c0cf057203f6d096524 = L.marker(
+                [39.080023, -108.564352],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_f784e4f2d76f3b2d1ea943f51f30bd6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52dece85c9b7a37f29b53ab23f9beac2 = $(`<div id="html_52dece85c9b7a37f29b53ab23f9beac2" style="width: 100.0%; height: 100.0%;">     <strong>WESTERN SLOPE FOOD BANK OF THE ROCKIES</strong><br>     1400 N 5th St<br>     Grand Junction, CO 81501<br>     Phone: (970) 464-1138<br>     Website: https://www.foodbankrockies.org/and-food<br>     Services: Mobile Food Pantry set up at Grand Junction High School. Individuals must bring their own bags or boxes to take home food.     </div>`)[0];
+                popup_f784e4f2d76f3b2d1ea943f51f30bd6c.setContent(html_52dece85c9b7a37f29b53ab23f9beac2);
+            
+        
+
+        marker_e81eedb23bd49c0cf057203f6d096524.bindPopup(popup_f784e4f2d76f3b2d1ea943f51f30bd6c)
+        ;
+
+        
+    
+    
+            var marker_0d4e837468f79be6853de8f501f421ca = L.marker(
+                [39.1126189, -108.5971541],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_258a0ed7e0fbfdb665098e10ca5fd102 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78a30397681888ca44ba07dd61b97ebd = $(`<div id="html_78a30397681888ca44ba07dd61b97ebd" style="width: 100.0%; height: 100.0%;">     <strong>CANYON VIEW VINEYARD CHURCH</strong><br>     736 24 1/2 Rd<br>     Grand Junction, CO 81505<br>     Phone: (970) 242-7970<br>     Website: http://canyonviewchurch.com<br>     Services: Offers food assistance and groceries to families and individuals facing food insecurity.     </div>`)[0];
+                popup_258a0ed7e0fbfdb665098e10ca5fd102.setContent(html_78a30397681888ca44ba07dd61b97ebd);
+            
+        
+
+        marker_0d4e837468f79be6853de8f501f421ca.bindPopup(popup_258a0ed7e0fbfdb665098e10ca5fd102)
+        ;
+
+        
+    
+    
+            var marker_536ae59ef1c6b7518f6ae9e7c34b1ef2 = L.marker(
+                [39.0838418, -108.5071473],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_1c9825f04688ad3e27e613a18f185b62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97410d9d0ae80a16027738847553739f = $(`<div id="html_97410d9d0ae80a16027738847553739f" style="width: 100.0%; height: 100.0%;">     <strong>BETHEL ASSEMBLY OF GOD</strong><br>     2945 Orchard Ave<br>     Grand Junction, CO 81504<br>     Phone: (970) 243-8247<br>     Website: http://bethelaggj.org<br>     Services: Offers a food pantry for community members in need.     </div>`)[0];
+                popup_1c9825f04688ad3e27e613a18f185b62.setContent(html_97410d9d0ae80a16027738847553739f);
+            
+        
+
+        marker_536ae59ef1c6b7518f6ae9e7c34b1ef2.bindPopup(popup_1c9825f04688ad3e27e613a18f185b62)
+        ;
+
+        
+    
+    
+            var marker_19170a9a5808fe3305b6f506065fa175 = L.marker(
+                [39.0652727, -108.5685323],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_d913117f8d13096433e4dd4fa7eee4b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e8f5e1720ecb810d856e596be0f19f3 = $(`<div id="html_3e8f5e1720ecb810d856e596be0f19f3" style="width: 100.0%; height: 100.0%;">     <strong>MUTUAL AID PARTNERS</strong><br>     261 Ute Ave<br>     Grand Junction, CO 81501<br>     Phone: (970) 316-2019<br>     Website: http://mutualaidpartners.org<br>     Services: Offers: Fresh produce and non-perishable food items Free haircuts Free dog vaccinations and referrals to other community resource Help with voter registration Help with Medicare information Mutual Aid may also be able to help provide gas cards/gas vouchers...     </div>`)[0];
+                popup_d913117f8d13096433e4dd4fa7eee4b0.setContent(html_3e8f5e1720ecb810d856e596be0f19f3);
+            
+        
+
+        marker_19170a9a5808fe3305b6f506065fa175.bindPopup(popup_d913117f8d13096433e4dd4fa7eee4b0)
+        ;
+
+        
+    
+    
+            var marker_d38ed24beb449e0097382c4948fe32d9 = L.marker(
+                [39.0857558, -108.647796],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_704a20908852593970c6f300245c0c46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e7786d8672f2c7f00d390fe4ae34e94 = $(`<div id="html_3e7786d8672f2c7f00d390fe4ae34e94" style="width: 100.0%; height: 100.0%;">     <strong>THE ROCK CHURCH</strong><br>     2170 Broadway<br>     Grand Junction, CO 81507<br>     Phone: (970) 242-7625<br>     Website: http://therockgj.com<br>     Services: Provides a food box to community members in need. Each household is limited to one food box every twoweeks.     </div>`)[0];
+                popup_704a20908852593970c6f300245c0c46.setContent(html_3e7786d8672f2c7f00d390fe4ae34e94);
+            
+        
+
+        marker_d38ed24beb449e0097382c4948fe32d9.bindPopup(popup_704a20908852593970c6f300245c0c46)
+        ;
+
+        
+    
+    
+            var marker_7e70292c04f12ca5e5792560c7a5590f = L.marker(
+                [39.0737314, -108.560061],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_466877463296468397cc57a69e5bd384 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41b3f5f2a578ac93a122f4bb2ac6c6e6 = $(`<div id="html_41b3f5f2a578ac93a122f4bb2ac6c6e6" style="width: 100.0%; height: 100.0%;">     <strong>GRAND VALLEY PEACE AND JUSTICE</strong><br>     740 Gunnison Ave<br>     Grand Junction, CO 81501<br>     Phone: (970) 985-4253<br>     Website: http://gvpeacejustice.org<br>     Services: Provides light-weight, easy-to-carry food bags for people who are unhoused or live in a vehicle. Also provides assistance obtaining the following: Marriage and divorce decrees Certified school transcripts Court documents Baptismal certificate...     </div>`)[0];
+                popup_466877463296468397cc57a69e5bd384.setContent(html_41b3f5f2a578ac93a122f4bb2ac6c6e6);
+            
+        
+
+        marker_7e70292c04f12ca5e5792560c7a5590f.bindPopup(popup_466877463296468397cc57a69e5bd384)
+        ;
+
+        
+    
+    
+            var marker_3e77758f753deebb924258b097d33578 = L.marker(
+                [39.074185, -108.5239542],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_dac10ba14457ad90e4d777b764905704 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d2071671c1ffd7ce0f09eaad910d1cd = $(`<div id="html_2d2071671c1ffd7ce0f09eaad910d1cd" style="width: 100.0%; height: 100.0%;">     <strong>COMMUNITY FOOD BANK</strong><br>     476 28 1/2 Rd<br>     Grand Junction, CO 81501<br>     Phone: (970) 640-0336<br>     Website: http://foodbankgj.org<br>     Services: Offers food to community members in need up to 24 times per year. Offerings include pantry staples, such as: Canned and dried food Bread Tortillas Fresh fruits and veggies Dairy Eggs Meat Quantities are based on household size...     </div>`)[0];
+                popup_dac10ba14457ad90e4d777b764905704.setContent(html_2d2071671c1ffd7ce0f09eaad910d1cd);
+            
+        
+
+        marker_3e77758f753deebb924258b097d33578.bindPopup(popup_dac10ba14457ad90e4d777b764905704)
+        ;
+
+        
+    
+    
+            var marker_259c86aa1dd19a9ae6b67c91f8539dca = L.marker(
+                [39.078099, -108.5635834],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_af798d21f81bfc8c63904ff652a93278 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_526cb1af6ba2f84a1b5595d07befdf2d = $(`<div id="html_526cb1af6ba2f84a1b5595d07befdf2d" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     550 North Ave<br>     Grand Junction, CO 81501<br>     Phone: (303) 375-5853<br>     Website: http://foodbankrockies.org<br>     Services: Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_af798d21f81bfc8c63904ff652a93278.setContent(html_526cb1af6ba2f84a1b5595d07befdf2d);
+            
+        
+
+        marker_259c86aa1dd19a9ae6b67c91f8539dca.bindPopup(popup_af798d21f81bfc8c63904ff652a93278)
+        ;
+
+        
+    
+    
+            var marker_12ac8882acd75c220f1354cf401cfdb7 = L.marker(
+                [39.0423565, -108.5507822],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_919ce427fd54d6a5ea2d472a11af5bd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cd8b813e6b54c55e4177b7cb22ee43b = $(`<div id="html_8cd8b813e6b54c55e4177b7cb22ee43b" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     2785 US-50<br>     Grand Junction, CO 81503<br>     Phone: (303) 375-5853<br>     Website: http://foodbankrockies.org<br>     Services: Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_919ce427fd54d6a5ea2d472a11af5bd2.setContent(html_8cd8b813e6b54c55e4177b7cb22ee43b);
+            
+        
+
+        marker_12ac8882acd75c220f1354cf401cfdb7.bindPopup(popup_919ce427fd54d6a5ea2d472a11af5bd2)
+        ;
+
+        
+    
+    
+            var marker_c3ec5b6b46ec9c87ac80a225285f9e06 = L.marker(
+                [39.0755957, -108.5338936],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_2a84407690478675102cbd3fb4ffedf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18b45001f57035e4fb778b9f2e44e136 = $(`<div id="html_18b45001f57035e4fb778b9f2e44e136" style="width: 100.0%; height: 100.0%;">     <strong>CANYON VIEW VINEYARD CHURCH</strong><br>     2790 Belford Ave<br>     Grand Junction, CO 81501<br>     Phone: (970) 242-7970<br>     Website: http://canyonviewchurch.com<br>     Services: Offers food assistance and groceries to families and individuals facing food insecurity.     </div>`)[0];
+                popup_2a84407690478675102cbd3fb4ffedf0.setContent(html_18b45001f57035e4fb778b9f2e44e136);
+            
+        
+
+        marker_c3ec5b6b46ec9c87ac80a225285f9e06.bindPopup(popup_2a84407690478675102cbd3fb4ffedf0)
+        ;
+
+        
+    
+    
+            var marker_281b62a4f1ecfaac6941f61408629f8c = L.marker(
+                [39.0787296, -108.566771],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_f2b34cd271ae74223a0a5e36bb1eea28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcbbe3da8d2d7437ad5c28b9ef1fe0c0 = $(`<div id="html_bcbbe3da8d2d7437ad5c28b9ef1fe0c0" style="width: 100.0%; height: 100.0%;">     <strong>MESA COUNTY SALVATION ARMY</strong><br>     1235 N 4th St<br>     Grand Junction, CO 81501<br>     Phone: (970) 242-7513<br>     Website: http://grandjunction.salvationarmy.org<br>     Services: Provides a food box to individuals, seniors and families in the community. Also offers weekend bags for individuals with no place to store or cook food...     </div>`)[0];
+                popup_f2b34cd271ae74223a0a5e36bb1eea28.setContent(html_bcbbe3da8d2d7437ad5c28b9ef1fe0c0);
+            
+        
+
+        marker_281b62a4f1ecfaac6941f61408629f8c.bindPopup(popup_f2b34cd271ae74223a0a5e36bb1eea28)
+        ;
+
+        
+    
+    
+            var marker_9aefe64bd0c4d30fab28d3d403150cc1 = L.marker(
+                [39.0655869, -108.5712505],
+                {}
+            ).addTo(map_173aeae540b4e879ad6726c3053076df);
+        
+    
+        var popup_9737a345cbbe3f4e10865a041b22bb15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_614c9922711530ae4b9f4c5818fe5463 = $(`<div id="html_614c9922711530ae4b9f4c5818fe5463" style="width: 100.0%; height: 100.0%;">     <strong>GRAND VALLEY CATHOLIC OUTREACH</strong><br>     245 S 1st St<br>     Grand Junction, CO 81501<br>     Phone: Want to update this listing? Claim your Agency<br>     Website: (970) 243-0091<br>     Services: Provides a balanced, nutritional, and hot meals.     </div>`)[0];
+                popup_9737a345cbbe3f4e10865a041b22bb15.setContent(html_614c9922711530ae4b9f4c5818fe5463);
+            
+        
+
+        marker_9aefe64bd0c4d30fab28d3d403150cc1.bindPopup(popup_9737a345cbbe3f4e10865a041b22bb15)
+        ;
+
+        
+    
+</script>
+</html>
