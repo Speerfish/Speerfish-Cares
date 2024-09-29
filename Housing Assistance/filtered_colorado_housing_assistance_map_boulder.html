@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_94bfe314ad85503f1ac2f0e6f69ca757 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_94bfe314ad85503f1ac2f0e6f69ca757" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_94bfe314ad85503f1ac2f0e6f69ca757 = L.map(
+                "map_94bfe314ad85503f1ac2f0e6f69ca757",
+                {
+                    center: [40.015, -105.2705],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9f787a801d4941caccefcc97b4c05b41 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9f787a801d4941caccefcc97b4c05b41.addTo(map_94bfe314ad85503f1ac2f0e6f69ca757);
+        
+    
+            var marker_4f93ebe42e1aa14e781fb1e113bd4ec7 = L.marker(
+                [40.0625882, -105.282615],
+                {}
+            ).addTo(map_94bfe314ad85503f1ac2f0e6f69ca757);
+        
+    
+        var popup_11c1894d812eb0811ec75538fcc5658a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecfd07a1bebeef54cde33f53bd5930c9 = $(`<div id="html_ecfd07a1bebeef54cde33f53bd5930c9" style="width: 100.0%; height: 100.0%;">     <strong>ALL ROADS SHELTER</strong><br>     4869 Broadway<br>     Boulder, CO 80304<br>     Phone: (303) 579-4404 (Boulder)<br>     Website: <a href="http://allroadsboco.org/housing-focused-shelter/">ALL ROADS SHELTER</a><br>     Services: Offers a overnight shelter and services for adults experiencing homelessness. Also provides long-term shelter to homeless adults with moderate and high needs in Boulder County to give them a predictable place to stay while they work toward exiting homelessness...     </div>`)[0];
+                popup_11c1894d812eb0811ec75538fcc5658a.setContent(html_ecfd07a1bebeef54cde33f53bd5930c9);
+            
+        
+
+        marker_4f93ebe42e1aa14e781fb1e113bd4ec7.bindPopup(popup_11c1894d812eb0811ec75538fcc5658a)
+        ;
+
+        
+    
+    
+            var marker_546e21f70b6126983a1818ec20a8555e = L.marker(
+                [40.0306466, -105.2817333],
+                {}
+            ).addTo(map_94bfe314ad85503f1ac2f0e6f69ca757);
+        
+    
+        var popup_9bd07269f8d3dbfb81a9d876e4d572ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68ac91b67654c113a24f6ea199cafd39 = $(`<div id="html_68ac91b67654c113a24f6ea199cafd39" style="width: 100.0%; height: 100.0%;">     <strong>TGTHR</strong><br>     3080 Broadway<br>     Boulder, CO 80304<br>     Phone: (303) 447-1207<br>     Website: <a href="http://tgthr.org/">TGTHR</a><br>     Services: Provides street outreach and an overnight emergency shelter services for teens. The overnight shelter services include: Food Clothing Showers A place to be overnight For the overnight shelter, youth must participate in case management...     </div>`)[0];
+                popup_9bd07269f8d3dbfb81a9d876e4d572ba.setContent(html_68ac91b67654c113a24f6ea199cafd39);
+            
+        
+
+        marker_546e21f70b6126983a1818ec20a8555e.bindPopup(popup_9bd07269f8d3dbfb81a9d876e4d572ba)
+        ;
+
+        
+    
+    
+            var marker_3f840cae7a711d640d5766e4566b5dd2 = L.marker(
+                [40.058333, -105.2778705],
+                {}
+            ).addTo(map_94bfe314ad85503f1ac2f0e6f69ca757);
+        
+    
+        var popup_7e23dea93c4054822402c8b708325f0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d27efe7d3e4fb4f5b0ce5e2fb3177771 = $(`<div id="html_d27efe7d3e4fb4f5b0ce5e2fb3177771" style="width: 100.0%; height: 100.0%;">     <strong>EMERGENCY FAMILY ASSISTANCE ASSOCIATION</strong><br>     1575 Yarmouth Ave<br>     Boulder, CO 80304<br>     Phone: (303) 442-3042<br>     Website: <a href="http://efaa.org/">EMERGENCY FAMILY ASSISTANCE ASSOCIATION</a><br>     Services: Provides direct financial assistance to qualifying households in the City of Boulder and Boulder County mountain communities in the form of direct payment to vendors...     </div>`)[0];
+                popup_7e23dea93c4054822402c8b708325f0e.setContent(html_d27efe7d3e4fb4f5b0ce5e2fb3177771);
+            
+        
+
+        marker_3f840cae7a711d640d5766e4566b5dd2.bindPopup(popup_7e23dea93c4054822402c8b708325f0e)
+        ;
+
+        
+    
+    
+            var marker_0cfdf5b6922727b5c0b28eeda3f4b3b6 = L.marker(
+                [40.058333, -105.2778705],
+                {}
+            ).addTo(map_94bfe314ad85503f1ac2f0e6f69ca757);
+        
+    
+        var popup_f712cfa9e433f355f4bbe1297b132feb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eeb9a97bc9b9aa8635a0ca83582c7b2 = $(`<div id="html_3eeb9a97bc9b9aa8635a0ca83582c7b2" style="width: 100.0%; height: 100.0%;">     <strong>EMERGENCY FAMILY ASSISTANCE ASSOCIATION</strong><br>     1575 Yarmouth Ave<br>     Boulder, CO 80304<br>     Phone: (303) 442-3042<br>     Website: <a href="http://efaa.org">EMERGENCY FAMILY ASSISTANCE ASSOCIATION</a><br>     Services: Offers a 2 month transitional housing program for single and two-parent families with children.     </div>`)[0];
+                popup_f712cfa9e433f355f4bbe1297b132feb.setContent(html_3eeb9a97bc9b9aa8635a0ca83582c7b2);
+            
+        
+
+        marker_0cfdf5b6922727b5c0b28eeda3f4b3b6.bindPopup(popup_f712cfa9e433f355f4bbe1297b132feb)
+        ;
+
+        
+    
+    
+            var marker_e2f88e1d19f2162297717a1e1df5ff7a = L.marker(
+                [39.9861746, -105.2372226],
+                {}
+            ).addTo(map_94bfe314ad85503f1ac2f0e6f69ca757);
+        
+    
+        var popup_6b7d06fa485f5d807e5425423bfef01c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27f21f3168f2faf52163732b5e150772 = $(`<div id="html_27f21f3168f2faf52163732b5e150772" style="width: 100.0%; height: 100.0%;">     <strong>BRIDGE HOUSE</strong><br>     4747 Table Mesa Dr<br>     Boulder, CO 80305<br>     Phone: (303) 442-8300<br>     Website: <a href="http://boulderbridgehouse.org">BRIDGE HOUSE</a><br>     Services: Offers employment services that provide:Paid jobs Vocational trainingSupport servicesStable housing for individuals re-entering the workforc...     </div>`)[0];
+                popup_6b7d06fa485f5d807e5425423bfef01c.setContent(html_27f21f3168f2faf52163732b5e150772);
+            
+        
+
+        marker_e2f88e1d19f2162297717a1e1df5ff7a.bindPopup(popup_6b7d06fa485f5d807e5425423bfef01c)
+        ;
+
+        
+    
+    
+            var marker_067a4d1b7e6d562de0084692fe3d7072 = L.marker(
+                [40.0149856, -105.270545],
+                {}
+            ).addTo(map_94bfe314ad85503f1ac2f0e6f69ca757);
+        
+    
+        var popup_1eec92fef95a86ef9d4cc8606e3dc54d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1139ada8cdac4b7cca7edb6a7610023c = $(`<div id="html_1139ada8cdac4b7cca7edb6a7610023c" style="width: 100.0%; height: 100.0%;">     <strong>HAVEN RIDGE</strong><br>     P.O. Box 19589<br>     Boulder, CO 80308<br>     Phone: (303) 447-9602<br>     Website: <a href="http://mother-house.org/lodge">HAVEN RIDGE</a><br>     Services: Offers an overnight emergency shelter in Boulder County women.     </div>`)[0];
+                popup_1eec92fef95a86ef9d4cc8606e3dc54d.setContent(html_1139ada8cdac4b7cca7edb6a7610023c);
+            
+        
+
+        marker_067a4d1b7e6d562de0084692fe3d7072.bindPopup(popup_1eec92fef95a86ef9d4cc8606e3dc54d)
+        ;
+
+        
+    
+    
+            var marker_b0dcc8e608541a8d6c2c653942f94a00 = L.marker(
+                [40.058333, -105.2778705],
+                {}
+            ).addTo(map_94bfe314ad85503f1ac2f0e6f69ca757);
+        
+    
+        var popup_08ed3df2639bef9a8403d896f97fd1d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b151916b78d00852d7cfaf7e1aa1c59 = $(`<div id="html_1b151916b78d00852d7cfaf7e1aa1c59" style="width: 100.0%; height: 100.0%;">     <strong>EMERGENCY FAMILY ASSISTANCE ASSOCIATION</strong><br>     1575 Yarmouth Ave<br>     Boulder, CO 80304<br>     Phone: (303) 442-3042<br>     Website: <a href="http://efaa.org">EMERGENCY FAMILY ASSISTANCE ASSOCIATION</a><br>     Services: Offers short-term housing, for up to 4 months, to single and two-parent families with minor children.     </div>`)[0];
+                popup_08ed3df2639bef9a8403d896f97fd1d3.setContent(html_1b151916b78d00852d7cfaf7e1aa1c59);
+            
+        
+
+        marker_b0dcc8e608541a8d6c2c653942f94a00.bindPopup(popup_08ed3df2639bef9a8403d896f97fd1d3)
+        ;
+
+        
+    
+    
+            var marker_e5edd24767ff4ac1bac8bc14b3b4d8ca = L.marker(
+                [40.0625882, -105.282615],
+                {}
+            ).addTo(map_94bfe314ad85503f1ac2f0e6f69ca757);
+        
+    
+        var popup_24de3278caab9a45145c16437f38102f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1532654754f0e17bb9353d942839bcdb = $(`<div id="html_1532654754f0e17bb9353d942839bcdb" style="width: 100.0%; height: 100.0%;">     <strong>ALL ROADS SHELTER</strong><br>     4869 Broadway<br>     Boulder, CO 80304<br>     Phone: (303) 442-4646 (tel:(303) 442-4646)<br>     Website: <a href="http://allroadsboco.org/day-services/">ALL ROADS SHELTER</a><br>     Services: Provides a day shelter that offers access to the following: Bathrooms Showers Laundry Food Lockers Mail Phone access Case management Vital document access Medical and mental health services Community court Reentry programs Peer support Benefit assistance Employment service...     </div>`)[0];
+                popup_24de3278caab9a45145c16437f38102f.setContent(html_1532654754f0e17bb9353d942839bcdb);
+            
+        
+
+        marker_e5edd24767ff4ac1bac8bc14b3b4d8ca.bindPopup(popup_24de3278caab9a45145c16437f38102f)
+        ;
+
+        
+    
+</script>
+</html>

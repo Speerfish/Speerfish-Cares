@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_464a0fc257c151c0c557f258f15a73d7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_464a0fc257c151c0c557f258f15a73d7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_464a0fc257c151c0c557f258f15a73d7 = L.map(
+                "map_464a0fc257c151c0c557f258f15a73d7",
+                {
+                    center: [39.0714, -108.5497],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d6026e4aa6e3cdbcc1ecce724eec1c1f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d6026e4aa6e3cdbcc1ecce724eec1c1f.addTo(map_464a0fc257c151c0c557f258f15a73d7);
+        
+    
+            var marker_6cf5a45e69d8718683f62f30776cbb01 = L.marker(
+                [39.0655869, -108.5712505],
+                {}
+            ).addTo(map_464a0fc257c151c0c557f258f15a73d7);
+        
+    
+        var popup_b1597915be9ab44a60cdd437c918e1d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec822f65377e2ae067d42b1b16f565d5 = $(`<div id="html_ec822f65377e2ae067d42b1b16f565d5" style="width: 100.0%; height: 100.0%;">     <strong>GRAND VALLEY CATHOLIC OUTREACH</strong><br>     245 S 1st St<br>     Grand Junction, CO 81501<br>     Phone: (970) 241-3658<br>     Website: <a href="http://catholicoutreach.org">GRAND VALLEY CATHOLIC OUTREACH</a><br>     Services: Provides individuals with the opportunity to end homelessness through cooperative living, case management, and training.     </div>`)[0];
+                popup_b1597915be9ab44a60cdd437c918e1d9.setContent(html_ec822f65377e2ae067d42b1b16f565d5);
+            
+        
+
+        marker_6cf5a45e69d8718683f62f30776cbb01.bindPopup(popup_b1597915be9ab44a60cdd437c918e1d9)
+        ;
+
+        
+    
+    
+            var marker_08dcf7110dda85ad66512e481e7d4581 = L.marker(
+                [39.0655869, -108.5712505],
+                {}
+            ).addTo(map_464a0fc257c151c0c557f258f15a73d7);
+        
+    
+        var popup_6ceb959b3db8c71c2a12d55f58a63a7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9f72b74ed40e7c0c1f1c6a86a85d00c = $(`<div id="html_b9f72b74ed40e7c0c1f1c6a86a85d00c" style="width: 100.0%; height: 100.0%;">     <strong>GRAND VALLEY CATHOLIC OUTREACH</strong><br>     245 S 1st St<br>     Grand Junction, CO 81501<br>     Phone: (970) 241-3658<br>     Website: <a href="http://catholicoutreach.org">GRAND VALLEY CATHOLIC OUTREACH</a><br>     Services: Provides homes to those with mental or physical impairments who have been chronically homeless and are free from drug abuse.     </div>`)[0];
+                popup_6ceb959b3db8c71c2a12d55f58a63a7f.setContent(html_b9f72b74ed40e7c0c1f1c6a86a85d00c);
+            
+        
+
+        marker_08dcf7110dda85ad66512e481e7d4581.bindPopup(popup_6ceb959b3db8c71c2a12d55f58a63a7f)
+        ;
+
+        
+    
+    
+            var marker_94b169ff34838793b3d824d7956e2b3a = L.marker(
+                [39.0646476, -108.5676123],
+                {}
+            ).addTo(map_464a0fc257c151c0c557f258f15a73d7);
+        
+    
+        var popup_50d591f57db6de949328edbd5a777ccf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5c1fcd98ffe31388b8774b408ff2aae = $(`<div id="html_b5c1fcd98ffe31388b8774b408ff2aae" style="width: 100.0%; height: 100.0%;">     <strong>GRAND VALLEY CATHOLIC OUTREACH</strong><br>     302 Pitkin Ave<br>     Grand Junction, CO 81501<br>     Phone: (970) 263-9445<br>     Website: <a href="http://catholicoutreach.org">GRAND VALLEY CATHOLIC OUTREACH</a><br>     Services: Provides a day center for individuals experiencing homelessness. Addition services and amenities include: Shower and laundry services Telephone services P...     </div>`)[0];
+                popup_50d591f57db6de949328edbd5a777ccf.setContent(html_b5c1fcd98ffe31388b8774b408ff2aae);
+            
+        
+
+        marker_94b169ff34838793b3d824d7956e2b3a.bindPopup(popup_50d591f57db6de949328edbd5a777ccf)
+        ;
+
+        
+    
+    
+            var marker_84657cdc3a01f2e8c61b8fe7a376fc7f = L.marker(
+                [39.0768951, -108.5226613],
+                {}
+            ).addTo(map_464a0fc257c151c0c557f258f15a73d7);
+        
+    
+        var popup_21fc6b5b2128e82ea27be5f13bf5ea95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8adf3e9c570294b71ac14c626ec7f711 = $(`<div id="html_8adf3e9c570294b71ac14c626ec7f711" style="width: 100.0%; height: 100.0%;">     <strong>HOMEWARD BOUND OF THE GRAND VALLEY</strong><br>     2853 North Ave<br>     Grand Junction, CO 81501<br>     Phone: (970) 256-9424<br>     Website: <a href="http://www.homewardboundgv.org">HOMEWARD BOUND OF THE GRAND VALLEY</a><br>     Services: Provides a safe year-round emergency shelter, meals, and respectful, compassionate services to individuals who are homeless in Mesa County...     </div>`)[0];
+                popup_21fc6b5b2128e82ea27be5f13bf5ea95.setContent(html_8adf3e9c570294b71ac14c626ec7f711);
+            
+        
+
+        marker_84657cdc3a01f2e8c61b8fe7a376fc7f.bindPopup(popup_21fc6b5b2128e82ea27be5f13bf5ea95)
+        ;
+
+        
+    
+    
+            var marker_82084dcd679c6fac29801303f1b83f1b = L.marker(
+                [39.0748282, -108.5332234],
+                {}
+            ).addTo(map_464a0fc257c151c0c557f258f15a73d7);
+        
+    
+        var popup_e4dd199de193e459bfd21271ec267a8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89fef4dd9bcfec1f8929fa8c05f83d98 = $(`<div id="html_89fef4dd9bcfec1f8929fa8c05f83d98" style="width: 100.0%; height: 100.0%;">     <strong>VOLUNTEERS OF AMERICA COLORADO</strong><br>     482 28 Rd<br>     Grand Junction, CO 81501<br>     Phone: Monday - Friday, 8 a.m. - 4 p.m.<br>     Website: <a href="(970) 257-3767">VOLUNTEERS OF AMERICA COLORADO</a><br>     Services: Provides veterans and their families with the following resources:Case management Temporary financial assistance for security deposits Rent assistance A case manager works with the veteran and their family to     </div>`)[0];
+                popup_e4dd199de193e459bfd21271ec267a8d.setContent(html_89fef4dd9bcfec1f8929fa8c05f83d98);
+            
+        
+
+        marker_82084dcd679c6fac29801303f1b83f1b.bindPopup(popup_e4dd199de193e459bfd21271ec267a8d)
+        ;
+
+        
+    
+    
+            var marker_2c7149b824e3a2641703cccb7187f567 = L.marker(
+                [39.0672568, -108.56448],
+                {}
+            ).addTo(map_464a0fc257c151c0c557f258f15a73d7);
+        
+    
+        var popup_89360fb264f2412674860e42bdbb5457 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c133b260076662753e56c91b4adf534 = $(`<div id="html_8c133b260076662753e56c91b4adf534" style="width: 100.0%; height: 100.0%;">     <strong>KARIS</strong><br>     PO Box 2837<br>     Grand Junction, CO 81502<br>     Phone: (970) 234-7004<br>     Website: <a href="http://thehousegj.org">KARIS</a><br>     Services: Provides a two-year transitional housing program for adults 18. Housing includes single rooms with shared bathrooms and kitchen as well as connections to resources and support in the community...     </div>`)[0];
+                popup_89360fb264f2412674860e42bdbb5457.setContent(html_8c133b260076662753e56c91b4adf534);
+            
+        
+
+        marker_2c7149b824e3a2641703cccb7187f567.bindPopup(popup_89360fb264f2412674860e42bdbb5457)
+        ;
+
+        
+    
+    
+            var marker_22f7009a6ebaa6c6721ddeda4f568975 = L.marker(
+                [39.0865925, -108.5145129],
+                {}
+            ).addTo(map_464a0fc257c151c0c557f258f15a73d7);
+        
+    
+        var popup_fbccf0a2fdad614421d6f1efa419bc0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d170a235746006e8600a12c780e44459 = $(`<div id="html_d170a235746006e8600a12c780e44459" style="width: 100.0%; height: 100.0%;">     <strong>HOMEWARD BOUND OF THE GRAND VALLEY</strong><br>     562 29 Rd<br>     Grand Junction, CO 81504<br>     Phone: (970) 256-9424<br>     Website: <a href="http://homewardboundgv.org">HOMEWARD BOUND OF THE GRAND VALLEY</a><br>     Services: Provides food and shelter for needy families experiencing homelessness. Other services include: Onsite healthcare professionals Children's library and play area Recovery living program for those seeking treatment for substance abuse Comprehensive case management, which includes: Trainings and coaching Navigation of resources such as employment applications and public assistance Legal services Program that works to ready guests for entry-level jobs in the communit...     </div>`)[0];
+                popup_fbccf0a2fdad614421d6f1efa419bc0d.setContent(html_d170a235746006e8600a12c780e44459);
+            
+        
+
+        marker_22f7009a6ebaa6c6721ddeda4f568975.bindPopup(popup_fbccf0a2fdad614421d6f1efa419bc0d)
+        ;
+
+        
+    
+    
+            var marker_a3b282c13df98cdee194373794dba537 = L.marker(
+                [39.0676234, -108.566324],
+                {}
+            ).addTo(map_464a0fc257c151c0c557f258f15a73d7);
+        
+    
+        var popup_a9b28f4ba8e3b818a4707aea7637b3cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dd434f629aee679318d07d4f318a369 = $(`<div id="html_9dd434f629aee679318d07d4f318a369" style="width: 100.0%; height: 100.0%;">     <strong>KARIS</strong><br>     362 Main St<br>     Grand Junction, CO 81501<br>     Phone: (970) 234-7004<br>     Website: <a href="http://thehousegj.org">KARIS</a><br>     Services: Offers a youth shelter that provides:10 bedsAssistance with transitioning towards stable and safe housing Case management services Support from advocates, volunteers and mentor...     </div>`)[0];
+                popup_a9b28f4ba8e3b818a4707aea7637b3cc.setContent(html_9dd434f629aee679318d07d4f318a369);
+            
+        
+
+        marker_a3b282c13df98cdee194373794dba537.bindPopup(popup_a9b28f4ba8e3b818a4707aea7637b3cc)
+        ;
+
+        
+    
+    
+            var marker_3538d9798d9fb73bd972a5f70dbb3d6b = L.marker(
+                [39.0676234, -108.566324],
+                {}
+            ).addTo(map_464a0fc257c151c0c557f258f15a73d7);
+        
+    
+        var popup_494bdb4b659c53029a6a9954cefa7515 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2a3c83f456718b25cd0b5705de2c9d6 = $(`<div id="html_e2a3c83f456718b25cd0b5705de2c9d6" style="width: 100.0%; height: 100.0%;">     <strong>KARIS</strong><br>     362 Main St<br>     Grand Junction, CO 81501<br>     Phone: (970) 234-7004<br>     Website: <a href="http://karisinc.org/">KARIS</a><br>     Services: Provides two years of transitional housing across three different facilities for youth who do not have resources or are not ready to rent their own place...     </div>`)[0];
+                popup_494bdb4b659c53029a6a9954cefa7515.setContent(html_e2a3c83f456718b25cd0b5705de2c9d6);
+            
+        
+
+        marker_3538d9798d9fb73bd972a5f70dbb3d6b.bindPopup(popup_494bdb4b659c53029a6a9954cefa7515)
+        ;
+
+        
+    
+    
+            var marker_0c9cd26ceb7be585919819dfa5f2f854 = L.marker(
+                [39.0752859, -108.5361005],
+                {}
+            ).addTo(map_464a0fc257c151c0c557f258f15a73d7);
+        
+    
+        var popup_91b58aa92eb400f61a691b8a02c6e4d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfb46e291009eb3fb1912be623488363 = $(`<div id="html_cfb46e291009eb3fb1912be623488363" style="width: 100.0%; height: 100.0%;">     <strong>THE JOSEPH CENTER</strong><br>     2511 Belford Ave<br>     Grand Junction, CO 81501<br>     Phone: (970) 314-9424<br>     Website: <a href="http://www.josephcentergj.com">THE JOSEPH CENTER</a><br>     Services: The Golden Girls project through The Joseph Center provides transitional housing for middle aged the elderly women 50+. While waiting for SSI/SSDI benefits, survivors benefits, securing employment, and securing permanent housing, Golden Girls can be housed...     </div>`)[0];
+                popup_91b58aa92eb400f61a691b8a02c6e4d7.setContent(html_cfb46e291009eb3fb1912be623488363);
+            
+        
+
+        marker_0c9cd26ceb7be585919819dfa5f2f854.bindPopup(popup_91b58aa92eb400f61a691b8a02c6e4d7)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e73448bfdf137cbb963a40487b277a26 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e73448bfdf137cbb963a40487b277a26" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e73448bfdf137cbb963a40487b277a26 = L.map(
+                "map_e73448bfdf137cbb963a40487b277a26",
+                {
+                    center: [40.4233, -104.7112],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a99b17401daaa107e5e3e41d71572371 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a99b17401daaa107e5e3e41d71572371.addTo(map_e73448bfdf137cbb963a40487b277a26);
+        
+    
+            var marker_bb1065346d406edc4493ee1bec014439 = L.marker(
+                [40.4225069, -104.6982977],
+                {}
+            ).addTo(map_e73448bfdf137cbb963a40487b277a26);
+        
+    
+        var popup_13ba9b9498e483539674af3c53e7e28a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a8b1a2f491edc3c92bbf4c1a2382f6c = $(`<div id="html_7a8b1a2f491edc3c92bbf4c1a2382f6c" style="width: 100.0%; height: 100.0%;">     <strong>GREELEY FAMILY HOUSE</strong><br>     1206 10th St<br>     Greeley, CO 80631<br>     Phone: (970) 352-3215<br>     Website: <a href="http://greeleyfamilyhouse.org">GREELEY FAMILY HOUSE</a><br>     Services: Provides an emergency shelter program (up to 60 days) for families. While living at the shelter, families are required to look for employment and housing, and meet with a case manager on a weekly basis to develop a self-suhciency plan...     </div>`)[0];
+                popup_13ba9b9498e483539674af3c53e7e28a.setContent(html_7a8b1a2f491edc3c92bbf4c1a2382f6c);
+            
+        
+
+        marker_bb1065346d406edc4493ee1bec014439.bindPopup(popup_13ba9b9498e483539674af3c53e7e28a)
+        ;
+
+        
+    
+    
+            var marker_d66e012047c0eb07fe67efa11dc0eeea = L.marker(
+                [40.4501919, -104.6965757],
+                {}
+            ).addTo(map_e73448bfdf137cbb963a40487b277a26);
+        
+    
+        var popup_cbc7e8dab75c54f8754934054c2bb785 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_553b1f00806cc319e0d70c9a815e427c = $(`<div id="html_553b1f00806cc319e0d70c9a815e427c" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES WELD COUNTY</strong><br>     1442 N 11th Ave<br>     Greeley, CO 80631<br>     Phone: (970) 353-6433<br>     Website: <a href="http://ccdenver.org">CATHOLIC CHARITIES WELD COUNTY</a><br>     Services: Offers services for older adults to help keep them safe and independent in their own homes. Services include: Case management Advocacy Benefit forms assistance Home visits Information and referrals Group and educational materials Translation/interpretation services Commodities and emergency food boxes Health and safety assessment...     </div>`)[0];
+                popup_cbc7e8dab75c54f8754934054c2bb785.setContent(html_553b1f00806cc319e0d70c9a815e427c);
+            
+        
+
+        marker_d66e012047c0eb07fe67efa11dc0eeea.bindPopup(popup_cbc7e8dab75c54f8754934054c2bb785)
+        ;
+
+        
+    
+    
+            var marker_baa63d166e3e76efb3746f4ac38ce818 = L.marker(
+                [40.4501919, -104.6965757],
+                {}
+            ).addTo(map_e73448bfdf137cbb963a40487b277a26);
+        
+    
+        var popup_56eb7b446bc38d998d3e00a15afa586b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89bfa2122aa12f10d1e8670fdb4ad280 = $(`<div id="html_89bfa2122aa12f10d1e8670fdb4ad280" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES WELD COUNTY</strong><br>     1442 N 11th Ave<br>     Greeley, CO 80631<br>     Phone: (970) 353-6433<br>     Website: <a href="http://ccdenver.org">CATHOLIC CHARITIES WELD COUNTY</a><br>     Services: Provides a 150 day transitional shelter and program for adults and families, with the goal of obtaining stable income and housing. Residents are provided with: Specialized case managementAssistance with obtaining government issued benefits for seniors Housing assistance Additional resource...     </div>`)[0];
+                popup_56eb7b446bc38d998d3e00a15afa586b.setContent(html_89bfa2122aa12f10d1e8670fdb4ad280);
+            
+        
+
+        marker_baa63d166e3e76efb3746f4ac38ce818.bindPopup(popup_56eb7b446bc38d998d3e00a15afa586b)
+        ;
+
+        
+    
+    
+            var marker_d3431cdb58af993040b1ce062b6e6dc4 = L.marker(
+                [40.4501919, -104.6965757],
+                {}
+            ).addTo(map_e73448bfdf137cbb963a40487b277a26);
+        
+    
+        var popup_8fde8d9869a15291e4e70569848675a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ce476bc01c73ef46846e811c60d0cee = $(`<div id="html_0ce476bc01c73ef46846e811c60d0cee" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES WELD COUNTY</strong><br>     1442 N 11th Ave<br>     Greeley, CO 80631<br>     Phone: (970) 616-8615 (Assistance Hotline)<br>     Website: <a href="http://ccdenver.org/weld-county-services">CATHOLIC CHARITIES WELD COUNTY</a><br>     Services: Provides emergency electric bill payment assistance to low-income households when funding is available. This assistance is available once in a 12-month period (October - September)...     </div>`)[0];
+                popup_8fde8d9869a15291e4e70569848675a4.setContent(html_0ce476bc01c73ef46846e811c60d0cee);
+            
+        
+
+        marker_d3431cdb58af993040b1ce062b6e6dc4.bindPopup(popup_8fde8d9869a15291e4e70569848675a4)
+        ;
+
+        
+    
+    
+            var marker_befb496e858e2d4f8adaa7f5ff2fd6c9 = L.marker(
+                [40.4501919, -104.6965757],
+                {}
+            ).addTo(map_e73448bfdf137cbb963a40487b277a26);
+        
+    
+        var popup_8ae957c801e78a463237838fa85d8236 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52d7ac94012d9f3c9a00a2762cc572fa = $(`<div id="html_52d7ac94012d9f3c9a00a2762cc572fa" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES WELD COUNTY</strong><br>     1442 N 11th Ave<br>     Greeley, CO 80631<br>     Phone: (970) 616-8615 (Assistance Hotline)<br>     Website: <a href="http://ccdenver.org/weld-county-services">CATHOLIC CHARITIES WELD COUNTY</a><br>     Services: Provides emergency rent payment assistance to low-income families and individuals in crisis when funding is available.     </div>`)[0];
+                popup_8ae957c801e78a463237838fa85d8236.setContent(html_52d7ac94012d9f3c9a00a2762cc572fa);
+            
+        
+
+        marker_befb496e858e2d4f8adaa7f5ff2fd6c9.bindPopup(popup_8ae957c801e78a463237838fa85d8236)
+        ;
+
+        
+    
+    
+            var marker_770f3cecb173681b2fa82bc0b065444a = L.marker(
+                [40.4501919, -104.6965757],
+                {}
+            ).addTo(map_e73448bfdf137cbb963a40487b277a26);
+        
+    
+        var popup_c467500138e005150fa6e5cea8b393a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80b3809199488580b5e53bc173da7580 = $(`<div id="html_80b3809199488580b5e53bc173da7580" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES WELD COUNTY</strong><br>     1442 N 11th Ave<br>     Greeley, CO 80631<br>     Phone: (970) 353-3720<br>     Website: <a href="No Website Listed">CATHOLIC CHARITIES WELD COUNTY</a><br>     Services: Provides a cold weather shelter for unhoused individuals.     </div>`)[0];
+                popup_c467500138e005150fa6e5cea8b393a0.setContent(html_80b3809199488580b5e53bc173da7580);
+            
+        
+
+        marker_770f3cecb173681b2fa82bc0b065444a.bindPopup(popup_c467500138e005150fa6e5cea8b393a0)
+        ;
+
+        
+    
+    
+            var marker_ed350851259626cb39b447cf5751ca8c = L.marker(
+                [40.449882, -104.700307],
+                {}
+            ).addTo(map_e73448bfdf137cbb963a40487b277a26);
+        
+    
+        var popup_d675f340ef127359642f9053aca14214 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec73c8debc87ae0fdc185ddaa184232f = $(`<div id="html_ec73c8debc87ae0fdc185ddaa184232f" style="width: 100.0%; height: 100.0%;">     <strong>NORTH RANGE BEHAVIORAL HEALTH</strong><br>     1300 N 17th Ave<br>     Greeley, CO 80631<br>     Phone: (970) 347-2120 Ext 3<br>     Website: <a href="No Website Listed">NORTH RANGE BEHAVIORAL HEALTH</a><br>     Services: Offers a continuum of clinical and residential options that serve a variety of needs arising from compounding mental health issues...     </div>`)[0];
+                popup_d675f340ef127359642f9053aca14214.setContent(html_ec73c8debc87ae0fdc185ddaa184232f);
+            
+        
+
+        marker_ed350851259626cb39b447cf5751ca8c.bindPopup(popup_d675f340ef127359642f9053aca14214)
+        ;
+
+        
+    
+</script>
+</html>
