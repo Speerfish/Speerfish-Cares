@@ -2,4 +2,4 @@
 
 A series of Jupyter Notebooks listing available resources and assistance for Coloradans in need. 
 
-![Speerfish Cares](https://github.com/user-attachments/assets/c431f768-4d1f-430e-8ccc-580e0b49906e)
+![SC 001](https://github.com/user-attachments/assets/9826ccb6-3825-4a78-9225-54c30380342c)
