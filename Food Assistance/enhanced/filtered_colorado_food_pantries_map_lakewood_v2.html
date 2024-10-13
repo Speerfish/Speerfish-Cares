@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a859a30fc6af834a29a4476ea19dda5f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a859a30fc6af834a29a4476ea19dda5f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a859a30fc6af834a29a4476ea19dda5f = L.map(
+                "map_a859a30fc6af834a29a4476ea19dda5f",
+                {
+                    center: [39.7109, -105.0815],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_571cf7a8a89eb8a8e01e2a424fedd3a2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_571cf7a8a89eb8a8e01e2a424fedd3a2.addTo(map_a859a30fc6af834a29a4476ea19dda5f);
+        
+    
+            var marker_e5bd14628f4402b621affaff25f44cd2 = L.marker(
+                [39.6907746, -105.0714054],
+                {}
+            ).addTo(map_a859a30fc6af834a29a4476ea19dda5f);
+        
+    
+        var popup_847f6fabdc78e1d7aad7925a1ba3f95a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cac25139ec061269308266d30df5216 = $(`<div id="html_5cac25139ec061269308266d30df5216" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     1450 S Pierce St<br>     Lakewood, CO 80232<br>     <b>Phone:</b><br><a href="tel:(303) 375-5853">(303) 375-5853</a><br>     <b>Website:</b><br> <a href="http://foodbankrockies.org">FOOD BANK OF THE ROCKIES</a><br>     <b>Services:</b><br> Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.      </div>`)[0];
+                popup_847f6fabdc78e1d7aad7925a1ba3f95a.setContent(html_5cac25139ec061269308266d30df5216);
+            
+        
+
+        marker_e5bd14628f4402b621affaff25f44cd2.bindPopup(popup_847f6fabdc78e1d7aad7925a1ba3f95a)
+        ;
+
+        
+    
+    
+            var marker_c9424f5c01f1573902fdd0d6a66999ae = L.marker(
+                [39.7385136, -105.094918],
+                {}
+            ).addTo(map_a859a30fc6af834a29a4476ea19dda5f);
+        
+    
+        var popup_d3bf586225b54335005a3b93f0313711 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b47b200e876e1f50301a5f6709b7546d = $(`<div id="html_b47b200e876e1f50301a5f6709b7546d" style="width: 100.0%; height: 100.0%;">     <strong>ACTION CENTER</strong><br>     8745 W 14th Ave<br>     Lakewood, CO 80215<br>     <b>Phone:</b><br><a href="tel:(303) 237-7704">(303) 237-7704</a><br>     <b>Website:</b><br> <a href="http://theactioncenter.org">ACTION CENTER</a><br>     <b>Services:</b><br> Offers a community food pantry that individuals can utilize once a month. Groceries vary by day, but typically include non-perishable and perishable food items such as: Fresh vegetables Fruits Dairy Proteins Emergency diapers and personal hygiene items may...     </div>`)[0];
+                popup_d3bf586225b54335005a3b93f0313711.setContent(html_b47b200e876e1f50301a5f6709b7546d);
+            
+        
+
+        marker_c9424f5c01f1573902fdd0d6a66999ae.bindPopup(popup_d3bf586225b54335005a3b93f0313711)
+        ;
+
+        
+    
+    
+            var marker_32238cde4e8c365056293e2378540fe4 = L.marker(
+                [39.7271071, -105.0816301],
+                {}
+            ).addTo(map_a859a30fc6af834a29a4476ea19dda5f);
+        
+    
+        var popup_90e7cbd8b05c3c2c98dcbe4cac317eaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aff45a215e6f776254366e099511101e = $(`<div id="html_aff45a215e6f776254366e099511101e" style="width: 100.0%; height: 100.0%;">     <strong>CAT CARE SOCIETY</strong><br>     5787 W 6th Ave<br>     Lakewood, CO 80214<br>     <b>Phone:</b><br><a href="tel:(303) 239-9680">(303) 239-9680</a><br>     <b>Website:</b><br> <a href="http://catcaresociety.org/programs/#nibbles-kibbles">CAT CARE SOCIETY</a><br>     <b>Services:</b><br> Offers cat food and supplies to individuals who are experiencing temporary financial challenges.     </div>`)[0];
+                popup_90e7cbd8b05c3c2c98dcbe4cac317eaf.setContent(html_aff45a215e6f776254366e099511101e);
+            
+        
+
+        marker_32238cde4e8c365056293e2378540fe4.bindPopup(popup_90e7cbd8b05c3c2c98dcbe4cac317eaf)
+        ;
+
+        
+    
+    
+            var marker_419e0a3882b8de86db40638d274209e0 = L.marker(
+                [39.7110864, -105.060541],
+                {}
+            ).addTo(map_a859a30fc6af834a29a4476ea19dda5f);
+        
+    
+        var popup_ff6181b8a297c1f017519ea19f8038a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09c9ea68f29891e6c65be778c6bf0202 = $(`<div id="html_09c9ea68f29891e6c65be778c6bf0202" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     5810 W Alameda Ave<br>     Lakewood, CO 80226<br>     <b>Phone:</b><br><a href="tel:(303) 375-5853">(303) 375-5853</a><br>     <b>Website:</b><br> <a href="http://foodbankrockies.org">FOOD BANK OF THE ROCKIES</a><br>     <b>Services:</b><br> Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_ff6181b8a297c1f017519ea19f8038a7.setContent(html_09c9ea68f29891e6c65be778c6bf0202);
+            
+        
+
+        marker_419e0a3882b8de86db40638d274209e0.bindPopup(popup_ff6181b8a297c1f017519ea19f8038a7)
+        ;
+
+        
+    
+    
+            var marker_63c85a1d3934223dc9fbc61de04f9baa = L.marker(
+                [39.732825, -105.100372],
+                {}
+            ).addTo(map_a859a30fc6af834a29a4476ea19dda5f);
+        
+    
+        var popup_a5409fac59c7a54744bf1f8c5257d416 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f918c6218b9e03a4396be13349e027ee = $(`<div id="html_f918c6218b9e03a4396be13349e027ee" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     9200 W 10th Ave<br>     Lakewood, CO 80215<br>     <b>Phone:</b><br><a href="tel:(303) 375-5853">(303) 375-5853</a><br>     <b>Website:</b><br> <a href="http://foodbankrockies.org">FOOD BANK OF THE ROCKIES</a><br>     <b>Services:</b><br> Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_a5409fac59c7a54744bf1f8c5257d416.setContent(html_f918c6218b9e03a4396be13349e027ee);
+            
+        
+
+        marker_63c85a1d3934223dc9fbc61de04f9baa.bindPopup(popup_a5409fac59c7a54744bf1f8c5257d416)
+        ;
+
+        
+    
+</script>
+</html>

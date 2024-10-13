@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a1059b5e7b6a68b7775fd22b5283ab38 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a1059b5e7b6a68b7775fd22b5283ab38" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a1059b5e7b6a68b7775fd22b5283ab38 = L.map(
+                "map_a1059b5e7b6a68b7775fd22b5283ab38",
+                {
+                    center: [40.4233, -104.7112],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e9bd4e93a933e395b916c453f13ef9ad = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e9bd4e93a933e395b916c453f13ef9ad.addTo(map_a1059b5e7b6a68b7775fd22b5283ab38);
+        
+    
+            var marker_03faaf0e28dbd198dff48d73bbc2fbd9 = L.marker(
+                [40.4437132, -104.6987994],
+                {}
+            ).addTo(map_a1059b5e7b6a68b7775fd22b5283ab38);
+        
+    
+        var popup_8600b107ac9c3452faf0b8d347136ba7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_167ad77f019e2d1f8c04bf96477e3ed0 = $(`<div id="html_167ad77f019e2d1f8c04bf96477e3ed0" style="width: 100.0%; height: 100.0%;">     <strong>WELD FOOD BANK</strong><br>     1108 H St<br>     Greeley, CO 80631<br>     <b>Phone:</b><br><a href="tel:(970) 356-2199">(970) 356-2199</a><br>     <b>Website:</b><br> <a href="http://weldfoodbank.org/emergency-food-program/">WELD FOOD BANK</a><br>     <b>Services:</b><br> Provides a box of basic food staples to qualified families or individuals in crisis. Individuals can receive a food box on an emergency basis, not more than once per week...     </div>`)[0];
+                popup_8600b107ac9c3452faf0b8d347136ba7.setContent(html_167ad77f019e2d1f8c04bf96477e3ed0);
+            
+        
+
+        marker_03faaf0e28dbd198dff48d73bbc2fbd9.bindPopup(popup_8600b107ac9c3452faf0b8d347136ba7)
+        ;
+
+        
+    
+    
+            var marker_c9e5ac45077d6b10c45373cc34296d01 = L.marker(
+                [40.4437132, -104.6987994],
+                {}
+            ).addTo(map_a1059b5e7b6a68b7775fd22b5283ab38);
+        
+    
+        var popup_22abeab9e038c334d1dcf02d23c095a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1da8f1b15873c1df41525fd51860507 = $(`<div id="html_b1da8f1b15873c1df41525fd51860507" style="width: 100.0%; height: 100.0%;">     <strong>WELD FOOD BANK</strong><br>     1108 H St<br>     Greeley, CO 80631<br>     <b>Phone:</b><br><a href="tel:(970) 356-2199">(970) 356-2199</a><br>     <b>Website:</b><br> <a href="http://weldfoodbank.org/and-food-near-you">WELD FOOD BANK</a><br>     <b>Services:</b><br> Offers mobile food pantries at locations throughout Weld County.     </div>`)[0];
+                popup_22abeab9e038c334d1dcf02d23c095a5.setContent(html_b1da8f1b15873c1df41525fd51860507);
+            
+        
+
+        marker_c9e5ac45077d6b10c45373cc34296d01.bindPopup(popup_22abeab9e038c334d1dcf02d23c095a5)
+        ;
+
+        
+    
+    
+            var marker_05151504fb77b59c2acfb711516f0322 = L.marker(
+                [40.4437132, -104.6987994],
+                {}
+            ).addTo(map_a1059b5e7b6a68b7775fd22b5283ab38);
+        
+    
+        var popup_0157159b8d2aeb91a5f96d6def3b9293 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a9e5fb55cbecc7d9f3eebb4040b1fe8 = $(`<div id="html_6a9e5fb55cbecc7d9f3eebb4040b1fe8" style="width: 100.0%; height: 100.0%;">     <strong>WELD FOOD BANK</strong><br>     1108 H Street<br>     Greeley, CO 80631<br>     <b>Phone:</b><br><a href="tel:(970) 356-2199">(970) 356-2199</a><br>     <b>Website:</b><br> <a href="http://weldfoodbank.org/and-food-near-you">WELD FOOD BANK</a><br>     <b>Services:</b><br> Offers mobile food pantries at locations throughout Weld County.     </div>`)[0];
+                popup_0157159b8d2aeb91a5f96d6def3b9293.setContent(html_6a9e5fb55cbecc7d9f3eebb4040b1fe8);
+            
+        
+
+        marker_05151504fb77b59c2acfb711516f0322.bindPopup(popup_0157159b8d2aeb91a5f96d6def3b9293)
+        ;
+
+        
+    
+    
+            var marker_58feba2f6c9a2576a1c900e667a9fed9 = L.marker(
+                [40.4209079, -104.6925472],
+                {}
+            ).addTo(map_a1059b5e7b6a68b7775fd22b5283ab38);
+        
+    
+        var popup_397a1c0121302ecdeb9f7a826f536ca2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08de99054203f852a28f80a707e38211 = $(`<div id="html_08de99054203f852a28f80a707e38211" style="width: 100.0%; height: 100.0%;">     <strong>ST PETER ROMAN CATHOLIC CHURCH</strong><br>     1112 9th Ave<br>     Greeley, CO 80631<br>     <b>Phone:</b><br><a href="tel:(970) 352-1060">(970) 352-1060</a><br>     <b>Website:</b><br> <a href="http://stpetergreeley.org">ST PETER ROMAN CATHOLIC CHURCH</a><br>     <b>Services:</b><br> Provides emergency food to individuals in need. Also offers hygiene items when available.     </div>`)[0];
+                popup_397a1c0121302ecdeb9f7a826f536ca2.setContent(html_08de99054203f852a28f80a707e38211);
+            
+        
+
+        marker_58feba2f6c9a2576a1c900e667a9fed9.bindPopup(popup_397a1c0121302ecdeb9f7a826f536ca2)
+        ;
+
+        
+    
+    
+            var marker_c4b098918141e94f98ac621004eff224 = L.marker(
+                [40.4148086, -104.6890211],
+                {}
+            ).addTo(map_a1059b5e7b6a68b7775fd22b5283ab38);
+        
+    
+        var popup_90c975695c68fa25677a91570a86c3e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7d25e14d4118d3d811c223a43cddeee = $(`<div id="html_c7d25e14d4118d3d811c223a43cddeee" style="width: 100.0%; height: 100.0%;">     <strong>ROCK FOUND</strong><br>     1542 7th Ave<br>     Greeley, CO 80631<br>     <b>Phone:</b><br><a href="tel:(970) 352-9571">(970) 352-9571</a><br>     <b>Website:</b><br> <a href="http://therockfound.org">ROCK FOUND</a><br>     <b>Services:</b><br> Provides food boxes to individuals and families in need.     </div>`)[0];
+                popup_90c975695c68fa25677a91570a86c3e7.setContent(html_c7d25e14d4118d3d811c223a43cddeee);
+            
+        
+
+        marker_c4b098918141e94f98ac621004eff224.bindPopup(popup_90c975695c68fa25677a91570a86c3e7)
+        ;
+
+        
+    
+    
+            var marker_473ff956bf494f3d47df4e6c1fe81a7b = L.marker(
+                [40.4272713, -104.711598],
+                {}
+            ).addTo(map_a1059b5e7b6a68b7775fd22b5283ab38);
+        
+    
+        var popup_1c1a8f8725d0cd7c5d273dc889297f58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba112f4934c6d9c685ae222edd855721 = $(`<div id="html_ba112f4934c6d9c685ae222edd855721" style="width: 100.0%; height: 100.0%;">     <strong>SERVE 6.8 RESOURCE CENTER</strong><br>     601 21st Ave<br>     Greeley, CO 80631<br>     <b>Phone:</b><br><a href="tel:(970) 449-5401">(970) 449-5401</a><br>     <b>Website:</b><br> <a href="http://serve68.org/resource-center/">SERVE 6.8 RESOURCE CENTER</a><br>     <b>Services:</b><br> Provides food for those in need. Select locations also provide: Hygiene items Cleaning supplies Pet food     </div>`)[0];
+                popup_1c1a8f8725d0cd7c5d273dc889297f58.setContent(html_ba112f4934c6d9c685ae222edd855721);
+            
+        
+
+        marker_473ff956bf494f3d47df4e6c1fe81a7b.bindPopup(popup_1c1a8f8725d0cd7c5d273dc889297f58)
+        ;
+
+        
+    
+    
+            var marker_a8dfd7ae64b28f2d2a6d747bd1b86e7e = L.marker(
+                [40.421074, -104.696156],
+                {}
+            ).addTo(map_a1059b5e7b6a68b7775fd22b5283ab38);
+        
+    
+        var popup_0c6c26a165771cbce4407e7f5bfd9eaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9ca30b3d14c1600ac16933a7cadfdb2 = $(`<div id="html_e9ca30b3d14c1600ac16933a7cadfdb2" style="width: 100.0%; height: 100.0%;">     <strong>COMMUNITY OUTREACH CENTER</strong><br>     1100 11th Ave<br>     Greeley, CO 80631<br>     <b>Phone:</b><br><a href="tel:(970) 353-9242">(970) 353-9242</a><br>     <b>Website:</b><br> <a href="http://cocgreeley.com">COMMUNITY OUTREACH CENTER</a><br>     <b>Services:</b><br> Provides assistance to community members in need, including: Food Small housewares Clothing     </div>`)[0];
+                popup_0c6c26a165771cbce4407e7f5bfd9eaf.setContent(html_e9ca30b3d14c1600ac16933a7cadfdb2);
+            
+        
+
+        marker_a8dfd7ae64b28f2d2a6d747bd1b86e7e.bindPopup(popup_0c6c26a165771cbce4407e7f5bfd9eaf)
+        ;
+
+        
+    
+    
+            var marker_4c3ce9ce149920f5822da6f05ad762fe = L.marker(
+                [40.364362, -104.746781],
+                {}
+            ).addTo(map_a1059b5e7b6a68b7775fd22b5283ab38);
+        
+    
+        var popup_547739ebdfd904299bc5fda6c9e9c107 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_381ae74276e81f644dc401bb4169977b = $(`<div id="html_381ae74276e81f644dc401bb4169977b" style="width: 100.0%; height: 100.0%;">     <strong>LIVING GRACE BAPTIST CHURCH</strong><br>     4800 Hill-N-Park Dr<br>     Greeley, CO 80634<br>     <b>Phone:</b><br><a href="tel:(720) 213-8559">(720) 213-8559</a><br>     <b>Website:</b><br> <a href="No Website Listed">LIVING GRACE BAPTIST CHURCH</a><br>     <b>Services:</b><br> Provides a food pantry for those in need in the community.     </div>`)[0];
+                popup_547739ebdfd904299bc5fda6c9e9c107.setContent(html_381ae74276e81f644dc401bb4169977b);
+            
+        
+
+        marker_4c3ce9ce149920f5822da6f05ad762fe.bindPopup(popup_547739ebdfd904299bc5fda6c9e9c107)
+        ;
+
+        
+    
+    
+            var marker_b7646a469c61a7bac06f17db10fdc2bb = L.marker(
+                [40.4138387, -104.7296882],
+                {}
+            ).addTo(map_a1059b5e7b6a68b7775fd22b5283ab38);
+        
+    
+        var popup_2ec380ef1a7fb0024ed12d46d3391566 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fbd7f8d950cd64dfe6c7df7c658bd3c = $(`<div id="html_4fbd7f8d950cd64dfe6c7df7c658bd3c" style="width: 100.0%; height: 100.0%;">     <strong>SERVE 6.8 RESOURCE CENTER</strong><br>     3000 W 16th St<br>     Greeley, CO 80634<br>     <b>Phone:</b><br><a href="tel:(970) 449-5401">(970) 449-5401</a><br>     <b>Website:</b><br> <a href="http://serve68.org/resource-center/">SERVE 6.8 RESOURCE CENTER</a><br>     <b>Services:</b><br> Provides food for those in need. Select locations also provide:Hygiene itemsCleaning suppliesPet food     </div>`)[0];
+                popup_2ec380ef1a7fb0024ed12d46d3391566.setContent(html_4fbd7f8d950cd64dfe6c7df7c658bd3c);
+            
+        
+
+        marker_b7646a469c61a7bac06f17db10fdc2bb.bindPopup(popup_2ec380ef1a7fb0024ed12d46d3391566)
+        ;
+
+        
+    
+    
+            var marker_d13f13da1fbba27ea4077c8c53c64e0b = L.marker(
+                [40.3871217, -104.7728991],
+                {}
+            ).addTo(map_a1059b5e7b6a68b7775fd22b5283ab38);
+        
+    
+        var popup_a387694c6c2b67da1fe3021631faec92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2129fc2d7f2922a91604ccff65b3189 = $(`<div id="html_f2129fc2d7f2922a91604ccff65b3189" style="width: 100.0%; height: 100.0%;">     <strong>SERVE 6.8 RESOURCE CENTER</strong><br>     4754 W 31st St<br>     Greeley, CO 80634<br>     <b>Phone:</b><br><a href="tel:(970) 449-5401">(970) 449-5401</a><br>     <b>Website:</b><br> <a href="http://serve68.org/resource-center/">SERVE 6.8 RESOURCE CENTER</a><br>     <b>Services:</b><br> Provides food for those in need. Select locations also provide: Hygiene items Cleaning supplies Pet food     </div>`)[0];
+                popup_a387694c6c2b67da1fe3021631faec92.setContent(html_f2129fc2d7f2922a91604ccff65b3189);
+            
+        
+
+        marker_d13f13da1fbba27ea4077c8c53c64e0b.bindPopup(popup_a387694c6c2b67da1fe3021631faec92)
+        ;
+
+        
+    
+    
+            var marker_88dcbaebabe0fed041f62c051d909ca0 = L.marker(
+                [40.4222626, -104.6927514],
+                {}
+            ).addTo(map_a1059b5e7b6a68b7775fd22b5283ab38);
+        
+    
+        var popup_22c00970c72148607d69adfabc491ae5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b24d4e982191ebf16c8f4c104ba3801 = $(`<div id="html_5b24d4e982191ebf16c8f4c104ba3801" style="width: 100.0%; height: 100.0%;">     <strong>SERVE 6.8 RESOURCE CENTER</strong><br>     1015 9th Ave<br>     Greeley, CO 80631<br>     <b>Phone:</b><br><a href="tel:(970) 449-5401">(970) 449-5401</a><br>     <b>Website:</b><br> <a href="http://serve68.org/resource-center/">SERVE 6.8 RESOURCE CENTER</a><br>     <b>Services:</b><br> Provides food for those in need. Select locations also provide:Hygiene items Cleaning supplies Pet food     </div>`)[0];
+                popup_22c00970c72148607d69adfabc491ae5.setContent(html_5b24d4e982191ebf16c8f4c104ba3801);
+            
+        
+
+        marker_88dcbaebabe0fed041f62c051d909ca0.bindPopup(popup_22c00970c72148607d69adfabc491ae5)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_06062dbcef54f9311b1a3d683234a1a0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_06062dbcef54f9311b1a3d683234a1a0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_06062dbcef54f9311b1a3d683234a1a0 = L.map(
+                "map_06062dbcef54f9311b1a3d683234a1a0",
+                {
+                    center: [39.7108, -104.8125],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_44f03c0a177480e313c5205443c36f73 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_44f03c0a177480e313c5205443c36f73.addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+            var marker_a9560612df1a1b895e78d2a725891786 = L.marker(
+                [39.6746072, -104.7782004],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_f0cde5583ea83644b2d67f4bb0c2cad6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82d8254714e7d084951dd73aacf6bf36 = $(`<div id="html_82d8254714e7d084951dd73aacf6bf36" style="width: 100.0%; height: 100.0%;">     <strong>NEW LIFE COMMUNITY CHURCH</strong><br>     17690 E Iliff Ave<br>     Aurora, CO 80013<br>     <b>Phone:</b><br><a href="tel:(303) 368-7567">(303) 368-7567</a><br>     <b>Website:</b><br> <a href="http://nlccaurora.org">NEW LIFE COMMUNITY CHURCH</a><br>     <b>Services:</b><br> Provides bags of food to the community. The pantry may be visited on a monthly or bi-monthly basis.     </div>`)[0];
+                popup_f0cde5583ea83644b2d67f4bb0c2cad6.setContent(html_82d8254714e7d084951dd73aacf6bf36);
+            
+        
+
+        marker_a9560612df1a1b895e78d2a725891786.bindPopup(popup_f0cde5583ea83644b2d67f4bb0c2cad6)
+        ;
+
+        
+    
+    
+            var marker_9a54ded5d4833c69334a4d6ddea97212 = L.marker(
+                [39.6961142, -104.8550663],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_c9a2bf4bab9da8c5eb73098c17c665b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_189884001a995fe2329d584e2dc8001c = $(`<div id="html_189884001a995fe2329d584e2dc8001c" style="width: 100.0%; height: 100.0%;">     <strong>AURORA FIRST SEVENTH DAY ADVENTIST CHURCH</strong><br>     11400 E Mississippi Ave<br>     Aurora, CO 80012<br>     <b>Phone:</b><br><a href="tel:(303) 755-1617">(303) 755-1617</a><br>     <b>Website:</b><br> <a href="http://auroraarstco.adventistchurch.org">AURORA FIRST SEVENTH DAY ADVENTIST CHURCH</a><br>     <b>Services:</b><br> Provides a food and clothing bank for the community.     </div>`)[0];
+                popup_c9a2bf4bab9da8c5eb73098c17c665b3.setContent(html_189884001a995fe2329d584e2dc8001c);
+            
+        
+
+        marker_9a54ded5d4833c69334a4d6ddea97212.bindPopup(popup_c9a2bf4bab9da8c5eb73098c17c665b3)
+        ;
+
+        
+    
+    
+            var marker_7f6419777d86b6cbc21ff7871ba0a131 = L.marker(
+                [39.742282, -104.8661782],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_08e571717e41fac23d88f9bed9803589 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c520b46c8081c1729596630858e6bfd = $(`<div id="html_4c520b46c8081c1729596630858e6bfd" style="width: 100.0%; height: 100.0%;">     <strong>VILLAGE EXCHANGE CENTER</strong><br>     1609 Havana St<br>     Aurora, CO 80010<br>     <b>Phone:</b><br><a href="tel:(720) 668-9968">(720) 668-9968</a><br>     <b>Website:</b><br> <a href="http://villageexchangecenter.org/programs/village-pantry/">VILLAGE EXCHANGE CENTER</a><br>     <b>Services:</b><br> Provides individuals and families with culturally relevant food and personal hygiene items, including: Fresh produce Meals Diapers Toiletries     </div>`)[0];
+                popup_08e571717e41fac23d88f9bed9803589.setContent(html_4c520b46c8081c1729596630858e6bfd);
+            
+        
+
+        marker_7f6419777d86b6cbc21ff7871ba0a131.bindPopup(popup_08e571717e41fac23d88f9bed9803589)
+        ;
+
+        
+    
+    
+            var marker_1e7ffd18e3bc78dfc798fe3e294c19c3 = L.marker(
+                [39.6810838, -104.826839],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_f4d9af992233cf37e2c89dc53e5bbd1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5bb7353139ba3c545869515f01722eb = $(`<div id="html_e5bb7353139ba3c545869515f01722eb" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     14000 E Jewell Ave<br>     Aurora, CO 80012<br>     <b>Phone:</b><br><a href="tel:(303) 375-5853">(303) 375-5853</a><br>     <b>Website:</b><br> <a href="http://foodbankrockies.org">FOOD BANK OF THE ROCKIES</a><br>     <b>Services:</b><br> Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_f4d9af992233cf37e2c89dc53e5bbd1f.setContent(html_e5bb7353139ba3c545869515f01722eb);
+            
+        
+
+        marker_1e7ffd18e3bc78dfc798fe3e294c19c3.bindPopup(popup_f4d9af992233cf37e2c89dc53e5bbd1f)
+        ;
+
+        
+    
+    
+            var marker_4ef7ebb807be427dddfaf1d27248c80c = L.marker(
+                [39.7255329, -104.8064915],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_7567c05b8158af772ef14d3c17208614 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9e2bc1ca73880100b752a5378844184 = $(`<div id="html_e9e2bc1ca73880100b752a5378844184" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     15640 E 6th Ave<br>     Aurora, CO 80011<br>     <b>Phone:</b><br><a href="tel:(303) 375-5853">(303) 375-5853</a><br>     <b>Website:</b><br> <a href="http://foodbankrockies.org">FOOD BANK OF THE ROCKIES</a><br>     <b>Services:</b><br> Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_7567c05b8158af772ef14d3c17208614.setContent(html_e9e2bc1ca73880100b752a5378844184);
+            
+        
+
+        marker_4ef7ebb807be427dddfaf1d27248c80c.bindPopup(popup_7567c05b8158af772ef14d3c17208614)
+        ;
+
+        
+    
+    
+            var marker_0f49807080ff22e89f38a8e9c89faddb = L.marker(
+                [39.5881157, -104.6893405],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_b1ba097d34dffb8ba9289c5d5a407f45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ede7f63d6d1957ac518ff8375404b45d = $(`<div id="html_ede7f63d6d1957ac518ff8375404b45d" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     18000 E Arapahoe Rd<br>     Aurora, CO 80016<br>     <b>Phone:</b><br><a href="tel:(303) 375-5853">(303) 375-5853</a><br>     <b>Website:</b><br> <a href="http://foodbankrockies.org">FOOD BANK OF THE ROCKIES</a><br>     <b>Services:</b><br> Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_b1ba097d34dffb8ba9289c5d5a407f45.setContent(html_ede7f63d6d1957ac518ff8375404b45d);
+            
+        
+
+        marker_0f49807080ff22e89f38a8e9c89faddb.bindPopup(popup_b1ba097d34dffb8ba9289c5d5a407f45)
+        ;
+
+        
+    
+    
+            var marker_740ec2125204213b20ae15db7f53699f = L.marker(
+                [39.7412088, -104.8779193],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_02ffe115b10b0ea83fdc42c16abb9753 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76ce752bc59705aa09e23af6732d7a58 = $(`<div id="html_76ce752bc59705aa09e23af6732d7a58" style="width: 100.0%; height: 100.0%;">     <strong>AURORA INTERFAITH COMMUNITY SERVICES</strong><br>     1553 Clinton St<br>     Aurora, CO 80010<br>     <b>Phone:</b><br><a href="tel:(303) 360-0260">(303) 360-0260</a><br>     <b>Website:</b><br> <a href="http://aurorainterfaithcommunityservices.org">AURORA INTERFAITH COMMUNITY SERVICES</a><br>     <b>Services:</b><br> Provides emergency food boxes for individuals and families in Aurora. Full food boxes available to all clients who meet standard requirements once every 30 days...     </div>`)[0];
+                popup_02ffe115b10b0ea83fdc42c16abb9753.setContent(html_76ce752bc59705aa09e23af6732d7a58);
+            
+        
+
+        marker_740ec2125204213b20ae15db7f53699f.bindPopup(popup_02ffe115b10b0ea83fdc42c16abb9753)
+        ;
+
+        
+    
+    
+            var marker_18f3e72517bd3f2b77d9a009e732cdfd = L.marker(
+                [39.7407432, -104.8767468],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_e9f9e6ec8911cefb0875656ff6bbaac2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5313c4c465f4387823493579ba3a98c7 = $(`<div id="html_5313c4c465f4387823493579ba3a98c7" style="width: 100.0%; height: 100.0%;">     <strong>FRIENDS OF SAINT ANDREW</strong><br>     1525 Dallas St<br>     Aurora, CO 80010<br>     <b>Phone:</b><br><a href="tel:(303) 364-2329">(303) 364-2329</a><br>     <b>Website:</b><br> <a href="No Website Listed">FRIENDS OF SAINT ANDREW</a><br>     <b>Services:</b><br> Provides:Food baskets Packed lunches to-go Personal grooming items Information and referrals Mailservices     </div>`)[0];
+                popup_e9f9e6ec8911cefb0875656ff6bbaac2.setContent(html_5313c4c465f4387823493579ba3a98c7);
+            
+        
+
+        marker_18f3e72517bd3f2b77d9a009e732cdfd.bindPopup(popup_e9f9e6ec8911cefb0875656ff6bbaac2)
+        ;
+
+        
+    
+    
+            var marker_2f60af12676922587ab95a4c4b36ce37 = L.marker(
+                [39.7413889, -104.8591667],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_8aba9ff13491bd7907e651e3f4a6a02a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7aa7c5e7f6632d88b072a5ed0771d81d = $(`<div id="html_7aa7c5e7f6632d88b072a5ed0771d81d" style="width: 100.0%; height: 100.0%;">     <strong>COLFAX COMMUNITY NETWORK</strong><br>     1585 Kingston St<br>     Aurora, CO 80010<br>     <b>Phone:</b><br><a href="tel:(303) 318-4242">(303) 318-4242</a><br>     <b>Website:</b><br> <a href="http://milehighbehavioralhealthcare.org">COLFAX COMMUNITY NETWORK</a><br>     <b>Services:</b><br> Provides:Food, diapers and hygiene productsConnections to housingSupportive counselingReferrals to community resourcesFood bankParenting classesCommunity nightsCase managemen...     </div>`)[0];
+                popup_8aba9ff13491bd7907e651e3f4a6a02a.setContent(html_7aa7c5e7f6632d88b072a5ed0771d81d);
+            
+        
+
+        marker_2f60af12676922587ab95a4c4b36ce37.bindPopup(popup_8aba9ff13491bd7907e651e3f4a6a02a)
+        ;
+
+        
+    
+    
+            var marker_5657ee56229362c38e8d8476ecc83ae3 = L.marker(
+                [39.7385147, -104.857927],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_f7c933c3cb8674a7d3b27ddae6e24697 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf4697746d39f558cd65e4e6c0ceff14 = $(`<div id="html_cf4697746d39f558cd65e4e6c0ceff14" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF DENVER</strong><br>     11149 E 14th Ave<br>     Aurora, CO 80010<br>     <b>Phone:</b><br><a href="tel:(303) 360-9686">(303) 360-9686</a><br>     <b>Website:</b><br> <a href="http://ccdenver.org/parish-community-relations/the-little-fower/">CATHOLIC CHARITIES OF DENVER</a><br>     <b>Services:</b><br> Provides the following emergency services: Food Clothing Money management and budgeting skills Job search assistance Referrals to other resource...     </div>`)[0];
+                popup_f7c933c3cb8674a7d3b27ddae6e24697.setContent(html_cf4697746d39f558cd65e4e6c0ceff14);
+            
+        
+
+        marker_5657ee56229362c38e8d8476ecc83ae3.bindPopup(popup_f7c933c3cb8674a7d3b27ddae6e24697)
+        ;
+
+        
+    
+    
+            var marker_201bb8d7c71b2ea716ba0033ca0c9508 = L.marker(
+                [39.7482584, -104.8482312],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_487d74eee88e94de199c1010fc6d6591 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_243adb646255cc0ef135e43a6dec6bcd = $(`<div id="html_243adb646255cc0ef135e43a6dec6bcd" style="width: 100.0%; height: 100.0%;">     <strong>WE DON'T WASTE</strong><br>     12095 E Montview Blvd<br>     Aurora, CO 80010<br>     <b>Phone:</b><br><a href="tel:(720) 943-2699">(720) 943-2699</a><br>     <b>Website:</b><br> <a href="http://wedontwaste.org/mobile-food-markets">WE DON'T WASTE</a><br>     <b>Services:</b><br> Provides a mobile food pantry to those in need.     </div>`)[0];
+                popup_487d74eee88e94de199c1010fc6d6591.setContent(html_243adb646255cc0ef135e43a6dec6bcd);
+            
+        
+
+        marker_201bb8d7c71b2ea716ba0033ca0c9508.bindPopup(popup_487d74eee88e94de199c1010fc6d6591)
+        ;
+
+        
+    
+    
+            var marker_de22822637e5e66ba778ae2e3c382678 = L.marker(
+                [39.7342894, -104.8091181],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_143937423d15dd96b9a187b0647a1797 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74fcab4f6982076130ddd271db912a9d = $(`<div id="html_74fcab4f6982076130ddd271db912a9d" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     1250 Chambers Rd<br>     Aurora, CO 80011<br>     <b>Phone:</b><br><a href="tel:(303) 375-5853">(303) 375-5853</a><br>     <b>Website:</b><br> <a href="http://foodbankrockies.org">FOOD BANK OF THE ROCKIES</a><br>     <b>Services:</b><br> Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_143937423d15dd96b9a187b0647a1797.setContent(html_74fcab4f6982076130ddd271db912a9d);
+            
+        
+
+        marker_de22822637e5e66ba778ae2e3c382678.bindPopup(popup_143937423d15dd96b9a187b0647a1797)
+        ;
+
+        
+    
+    
+            var marker_1c8d29a9f6df27d4b5bdd4e90b56d370 = L.marker(
+                [39.6616056, -104.8617704],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_7175e20be34403442ddb96e2ea0afccf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ac5c4d78a50944080984c826df3d0e2 = $(`<div id="html_6ac5c4d78a50944080984c826df3d0e2" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     3000 S Jamaica Ct<br>     Aurora, CO 80014<br>     <b>Phone:</b><br><a href="tel:(303) 375-5853">(303) 375-5853</a><br>     <b>Website:</b><br> <a href="http://foodbankrockies.org">FOOD BANK OF THE ROCKIES</a><br>     <b>Services:</b><br> Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_7175e20be34403442ddb96e2ea0afccf.setContent(html_6ac5c4d78a50944080984c826df3d0e2);
+            
+        
+
+        marker_1c8d29a9f6df27d4b5bdd4e90b56d370.bindPopup(popup_7175e20be34403442ddb96e2ea0afccf)
+        ;
+
+        
+    
+    
+            var marker_3fb94443fa968cab04b3782505ebfc39 = L.marker(
+                [39.7305636, -104.8835054],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_026f42fb4928edd20866e165da62fc57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9dea606f176bda3f6dabab5c7dc31b5 = $(`<div id="html_f9dea606f176bda3f6dabab5c7dc31b5" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK OF THE ROCKIES</strong><br>     1070 Alton Way<br>     Aurora, CO 80010<br>     <b>Phone:</b><br><a href="tel:(303) 375-5853">(303) 375-5853</a><br>     <b>Website:</b><br> <a href="http://foodbankrockies.org">FOOD BANK OF THE ROCKIES</a><br>     <b>Services:</b><br> Provides food to communities by sending semi-trucks to set locations and distributing food for 1-2 hours.     </div>`)[0];
+                popup_026f42fb4928edd20866e165da62fc57.setContent(html_f9dea606f176bda3f6dabab5c7dc31b5);
+            
+        
+
+        marker_3fb94443fa968cab04b3782505ebfc39.bindPopup(popup_026f42fb4928edd20866e165da62fc57)
+        ;
+
+        
+    
+    
+            var marker_074805407784b2bd7963779c5966abc2 = L.marker(
+                [39.6525576, -104.767041],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_c931c60b261373b453bc3e8d612b4f5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_636157e09064c96bf480a6c26d7c59d7 = $(`<div id="html_636157e09064c96bf480a6c26d7c59d7" style="width: 100.0%; height: 100.0%;">     <strong>CALVARY CHURCH AURORA</strong><br>     18900 E Hampden Ave<br>     Aurora, CO 80013<br>     <b>Phone:</b><br><a href="tel:(303) 628-7200">(303) 628-7200</a><br>     <b>Website:</b><br> <a href="http://calvaryco.church">CALVARY CHURCH AURORA</a><br>     <b>Services:</b><br> Provides food boxes once a month.     </div>`)[0];
+                popup_c931c60b261373b453bc3e8d612b4f5b.setContent(html_636157e09064c96bf480a6c26d7c59d7);
+            
+        
+
+        marker_074805407784b2bd7963779c5966abc2.bindPopup(popup_c931c60b261373b453bc3e8d612b4f5b)
+        ;
+
+        
+    
+    
+            var marker_3079e500e3a2b4983ad147f9ec149e48 = L.marker(
+                [39.7434429, -104.8724845],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_abba8a97cc1e1e60cf9c98c3e806f505 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb525cb1521c81bf6571218401ab42e1 = $(`<div id="html_fb525cb1521c81bf6571218401ab42e1" style="width: 100.0%; height: 100.0%;">     <strong>PROJECT WORTHMORE</strong><br>     1666 Elmira St<br>     Aurora, CO 80010<br>     <b>Phone:</b><br><a href="tel:(720) 460-1393">(720) 460-1393</a><br>     <b>Website:</b><br> <a href="http://projectworthmore.org/programs/yu-meh-food-share/">PROJECT WORTHMORE</a><br>     <b>Services:</b><br> Provides a food pantry that offers fresh produce and a other non-perishable goods for asylum seekers at no cost.     </div>`)[0];
+                popup_abba8a97cc1e1e60cf9c98c3e806f505.setContent(html_fb525cb1521c81bf6571218401ab42e1);
+            
+        
+
+        marker_3079e500e3a2b4983ad147f9ec149e48.bindPopup(popup_abba8a97cc1e1e60cf9c98c3e806f505)
+        ;
+
+        
+    
+    
+            var marker_34cb209f4596a1dc555932f61ace0436 = L.marker(
+                [39.7407432, -104.8767468],
+                {}
+            ).addTo(map_06062dbcef54f9311b1a3d683234a1a0);
+        
+    
+        var popup_f8fdedfcacd6b5f3d27225ace7bffcc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9aee427b54c8ed2b42cc7af95c2a8441 = $(`<div id="html_9aee427b54c8ed2b42cc7af95c2a8441" style="width: 100.0%; height: 100.0%;">     <strong>FRIENDS OF SAINT ANDREW</strong><br>     1525 Dallas St<br>     Aurora, CO 80010<br>     <b>Phone:</b><br><a href="tel:(303) 364-2329">(303) 364-2329</a><br>     <b>Website:</b><br> <a href="No Website Listed">FRIENDS OF SAINT ANDREW</a><br>     <b>Services:</b><br> Provides:Food basketsPacked lunches to-go Personal grooming items Information and referrals Mail services     </div>`)[0];
+                popup_f8fdedfcacd6b5f3d27225ace7bffcc5.setContent(html_9aee427b54c8ed2b42cc7af95c2a8441);
+            
+        
+
+        marker_34cb209f4596a1dc555932f61ace0436.bindPopup(popup_f8fdedfcacd6b5f3d27225ace7bffcc5)
+        ;
+
+        
+    
+</script>
+</html>

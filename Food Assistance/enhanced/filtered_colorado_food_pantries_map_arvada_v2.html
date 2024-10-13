@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3fe86b4be8de4b2268ce34a86e306455 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3fe86b4be8de4b2268ce34a86e306455" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3fe86b4be8de4b2268ce34a86e306455 = L.map(
+                "map_3fe86b4be8de4b2268ce34a86e306455",
+                {
+                    center: [39.8028, -105.0875],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_00e101e8ca53a21ac49e58b953d97c29 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_00e101e8ca53a21ac49e58b953d97c29.addTo(map_3fe86b4be8de4b2268ce34a86e306455);
+        
+    
+            var marker_75d1be7e1c43009a4d2b737723c45c13 = L.marker(
+                [39.800294, -105.0928581],
+                {}
+            ).addTo(map_3fe86b4be8de4b2268ce34a86e306455);
+        
+    
+        var popup_89ec788db6f0d71d3bd3c88eda0aee6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07197090267a7c3489c4c1db8257c10a = $(`<div id="html_07197090267a7c3489c4c1db8257c10a" style="width: 100.0%; height: 100.0%;">     <strong>COMMUNITY TABLE</strong><br>     8555 W 57th Ave<br>     Arvada, CO 80002<br>     <b>Phone:</b><br><a href="tel:(303) 424-6685">(303) 424-6685</a><br>     <b>Website:</b><br> <a href="http://cotable.org">COMMUNITY TABLE</a><br>     <b>Services:</b><br> Provides emergency food to individuals and families. Each client selects a supply of food based on household size. Families and individuals may use this program when needed...     </div>`)[0];
+                popup_89ec788db6f0d71d3bd3c88eda0aee6d.setContent(html_07197090267a7c3489c4c1db8257c10a);
+            
+        
+
+        marker_75d1be7e1c43009a4d2b737723c45c13.bindPopup(popup_89ec788db6f0d71d3bd3c88eda0aee6d)
+        ;
+
+        
+    
+    
+            var marker_32211e831329ecfd32eb3fb8d83e3e0a = L.marker(
+                [39.8054671, -105.0622284],
+                {}
+            ).addTo(map_3fe86b4be8de4b2268ce34a86e306455);
+        
+    
+        var popup_7e30687504186efdc0a057aa21e662e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f23cb441c939d09b881b31fed0cfe5f = $(`<div id="html_0f23cb441c939d09b881b31fed0cfe5f" style="width: 100.0%; height: 100.0%;">     <strong>AGAPE LIFE CHURCH</strong><br>     5970 W 60th Ave<br>     Arvada, CO 80003<br>     <b>Phone:</b><br><a href="tel:(303) 431-6481">(303) 431-6481</a><br>     <b>Website:</b><br> <a href="http://agapelife.org/food-outreach/">AGAPE LIFE CHURCH</a><br>     <b>Services:</b><br> Provides a food pantry and hosts a monthly TEFAP (The Emergency Food Assistance Program) food distribution site.     </div>`)[0];
+                popup_7e30687504186efdc0a057aa21e662e7.setContent(html_0f23cb441c939d09b881b31fed0cfe5f);
+            
+        
+
+        marker_32211e831329ecfd32eb3fb8d83e3e0a.bindPopup(popup_7e30687504186efdc0a057aa21e662e7)
+        ;
+
+        
+    
+</script>
+</html>

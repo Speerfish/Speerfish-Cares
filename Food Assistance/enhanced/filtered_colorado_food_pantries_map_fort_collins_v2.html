@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8fc865a6124774d42eccb69960dacf53 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8fc865a6124774d42eccb69960dacf53" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8fc865a6124774d42eccb69960dacf53 = L.map(
+                "map_8fc865a6124774d42eccb69960dacf53",
+                {
+                    center: [40.5853, -105.0844],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_553fbb87a246997872c1153705e6a237 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_553fbb87a246997872c1153705e6a237.addTo(map_8fc865a6124774d42eccb69960dacf53);
+        
+    
+            var marker_e7b8258847db433c392ab4c5a974aca5 = L.marker(
+                [40.5872724, -105.1219739],
+                {}
+            ).addTo(map_8fc865a6124774d42eccb69960dacf53);
+        
+    
+        var popup_1e4792ddfb5c5110dd7030a05f4b005e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ecb18e6776dbf72592a9ab51b379c26 = $(`<div id="html_5ecb18e6776dbf72592a9ab51b379c26" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK FOR LARIMER COUNTY</strong><br>     201 S Impala Dr<br>     Fort Collins, CO 80521<br>     <b>Phone:</b><br><a href="tel:(970) 493-4477">(970) 493-4477</a><br>     <b>Website:</b><br> <a href="http://foodbanklarimer.org/mobiles">FOOD BANK FOR LARIMER COUNTY</a><br>     <b>Services:</b><br> Offers a drive-through mobile food pantry for those in need.     </div>`)[0];
+                popup_1e4792ddfb5c5110dd7030a05f4b005e.setContent(html_5ecb18e6776dbf72592a9ab51b379c26);
+            
+        
+
+        marker_e7b8258847db433c392ab4c5a974aca5.bindPopup(popup_1e4792ddfb5c5110dd7030a05f4b005e)
+        ;
+
+        
+    
+    
+            var marker_364fe7922ccef5b7ed5af5974676fa32 = L.marker(
+                [40.6047193, -105.0725555],
+                {}
+            ).addTo(map_8fc865a6124774d42eccb69960dacf53);
+        
+    
+        var popup_59dd3e34f432445f6d22f7b865a6255b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_300edc9b1e5ad80b00a049b088d2d2d0 = $(`<div id="html_300edc9b1e5ad80b00a049b088d2d2d0" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK FOR LARIMER COUNTY</strong><br>     1301 Blue Spruce Dr<br>     Fort Collins, CO 80524<br>     <b>Phone:</b><br><a href="tel:(970) 493-4477">(970) 493-4477</a><br>     <b>Website:</b><br> <a href="http://foodbanklarimer.org/our-programs">FOOD BANK FOR LARIMER COUNTY</a><br>     <b>Services:</b><br> Provides a client choice food pantry for individuals in need. Also distributes the Commodities Supplemental Food Program (CSFP) to eligible seniors and The Emergency Food Assistance Program (TFAP)...     </div>`)[0];
+                popup_59dd3e34f432445f6d22f7b865a6255b.setContent(html_300edc9b1e5ad80b00a049b088d2d2d0);
+            
+        
+
+        marker_364fe7922ccef5b7ed5af5974676fa32.bindPopup(popup_59dd3e34f432445f6d22f7b865a6255b)
+        ;
+
+        
+    
+    
+            var marker_3a2c700800d7280a7aab3abeae21a3c5 = L.marker(
+                [40.533596, -105.0800634],
+                {}
+            ).addTo(map_8fc865a6124774d42eccb69960dacf53);
+        
+    
+        var popup_78cb055ce2d4a64d04ebc859863e00bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b21e813e1723feeae4f73cbcefa932c = $(`<div id="html_3b21e813e1723feeae4f73cbcefa932c" style="width: 100.0%; height: 100.0%;">     <strong>SALVATION ARMY FORT COLLINS</strong><br>     3901 S Mason St<br>     Fort Collins, CO 80525<br>     <b>Phone:</b><br><a href="tel:(970) 207-4472 Ext 201">(970) 207-4472 Ext 201</a><br>     <b>Website:</b><br> <a href="http://fortcollins.salvationarmy.org/fort_collins_corps/overcome-poverty">SALVATION ARMY FORT COLLINS</a><br>     <b>Services:</b><br> Provides food boxes and clothing for individuals in need. When available, also provides: Hygiene items Diapers and wipes Pet food Period kits     </div>`)[0];
+                popup_78cb055ce2d4a64d04ebc859863e00bb.setContent(html_3b21e813e1723feeae4f73cbcefa932c);
+            
+        
+
+        marker_3a2c700800d7280a7aab3abeae21a3c5.bindPopup(popup_78cb055ce2d4a64d04ebc859863e00bb)
+        ;
+
+        
+    
+    
+            var marker_6548a1cbef4e9f9881b08873bf09a8af = L.marker(
+                [40.5739532, -105.0735276],
+                {}
+            ).addTo(map_8fc865a6124774d42eccb69960dacf53);
+        
+    
+        var popup_40b873c48a9967b8da77bd07ad95b3a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_406c0306f0a9681f833fc131cbf9a852 = $(`<div id="html_406c0306f0a9681f833fc131cbf9a852" style="width: 100.0%; height: 100.0%;">     <strong>SAINT JOHN'S LUTHERAN CHURCH</strong><br>     305 E Elizabeth St<br>     Fort Collins, CO 80524<br>     <b>Phone:</b><br><a href="tel:(970) 482-5316">(970) 482-5316</a><br>     <b>Website:</b><br> <a href="http://stjohnsfc.org">SAINT JOHN'S LUTHERAN CHURCH</a><br>     <b>Services:</b><br> Offers food and clothing assistance, including: Perishable food (as available) Non-perishable food to individuals Cleaning and hygiene products Small household items are occasionally available, depending upon donation...     </div>`)[0];
+                popup_40b873c48a9967b8da77bd07ad95b3a4.setContent(html_406c0306f0a9681f833fc131cbf9a852);
+            
+        
+
+        marker_6548a1cbef4e9f9881b08873bf09a8af.bindPopup(popup_40b873c48a9967b8da77bd07ad95b3a4)
+        ;
+
+        
+    
+    
+            var marker_20c51724e6e16d5cf45c743c70a6d2a0 = L.marker(
+                [40.5522443, -105.1063166],
+                {}
+            ).addTo(map_8fc865a6124774d42eccb69960dacf53);
+        
+    
+        var popup_081565f3cf35399e4a3221c05c035753 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc2378bd7f986bed9c866773f6085043 = $(`<div id="html_dc2378bd7f986bed9c866773f6085043" style="width: 100.0%; height: 100.0%;">     <strong>SERVE 6.8 RESOURCE CENTER</strong><br>     1601 W Drake Rd<br>     Fort Collins, CO 80526<br>     <b>Phone:</b><br><a href="tel:(970) 449-5401">(970) 449-5401</a><br>     <b>Website:</b><br> <a href="http://serve68.org/resource-center/">SERVE 6.8 RESOURCE CENTER</a><br>     <b>Services:</b><br> Provides food for those in need. Select locations also provide: Hygiene items Cleaning supplies Pet food     </div>`)[0];
+                popup_081565f3cf35399e4a3221c05c035753.setContent(html_dc2378bd7f986bed9c866773f6085043);
+            
+        
+
+        marker_20c51724e6e16d5cf45c743c70a6d2a0.bindPopup(popup_081565f3cf35399e4a3221c05c035753)
+        ;
+
+        
+    
+    
+            var marker_d3d278fe93fcb3358cc6ea532f3022be = L.marker(
+                [40.5813184, -105.0555811],
+                {}
+            ).addTo(map_8fc865a6124774d42eccb69960dacf53);
+        
+    
+        var popup_9e59297948f899abeb197769474f7212 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f959de05cd20bb95a6f0429cc7d1aee = $(`<div id="html_9f959de05cd20bb95a6f0429cc7d1aee" style="width: 100.0%; height: 100.0%;">     <strong>ANIMAL FRIENDS ALLIANCE</strong><br>     2321 E Mulberry St Suite 1<br>     Fort Collins, CO 80524<br>     <b>Phone:</b><br><a href="tel:(970) 484-8516 Ext 5133">(970) 484-8516 Ext 5133</a><br>     <b>Website:</b><br> <a href="http://savinganimalstoday.org/community-pet-resources/pet-food-assistance/">ANIMAL FRIENDS ALLIANCE</a><br>     <b>Services:</b><br> Provides cat and dog food to pet owners experiencing financial hardships. Clients may only receive pet food assistance once per month...     </div>`)[0];
+                popup_9e59297948f899abeb197769474f7212.setContent(html_9f959de05cd20bb95a6f0429cc7d1aee);
+            
+        
+
+        marker_d3d278fe93fcb3358cc6ea532f3022be.bindPopup(popup_9e59297948f899abeb197769474f7212)
+        ;
+
+        
+    
+    
+            var marker_1ca4b40331f09cfc402555d0f79cad11 = L.marker(
+                [40.5532824, -105.1102857],
+                {}
+            ).addTo(map_8fc865a6124774d42eccb69960dacf53);
+        
+    
+        var popup_4f05e98169a8fba2944f1bd395caddef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db0d0481003566e2596e07ba7681274f = $(`<div id="html_db0d0481003566e2596e07ba7681274f" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK FOR LARIMER COUNTY</strong><br>     1815 Yorktown Ave<br>     Fort Collins, CO 80526<br>     <b>Phone:</b><br><a href="tel:(970) 493-4477">(970) 493-4477</a><br>     <b>Website:</b><br> <a href="http://foodbanklarimer.org/mobiles">FOOD BANK FOR LARIMER COUNTY</a><br>     <b>Services:</b><br> Offers a drive-through mobile food pantry for those in need.     </div>`)[0];
+                popup_4f05e98169a8fba2944f1bd395caddef.setContent(html_db0d0481003566e2596e07ba7681274f);
+            
+        
+
+        marker_1ca4b40331f09cfc402555d0f79cad11.bindPopup(popup_4f05e98169a8fba2944f1bd395caddef)
+        ;
+
+        
+    
+    
+            var marker_4324e8dc2ffc12065305a5d88cbb73a9 = L.marker(
+                [40.5813868, -105.1080041],
+                {}
+            ).addTo(map_8fc865a6124774d42eccb69960dacf53);
+        
+    
+        var popup_d7cb2b66a29129944ec8be586335d9ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb1179beda9473f56b552207dc3dce23 = $(`<div id="html_cb1179beda9473f56b552207dc3dce23" style="width: 100.0%; height: 100.0%;">     <strong>SERVE 6.8 RESOURCE CENTER</strong><br>     1725 W Mulberry St<br>     Fort Collins, CO 80521<br>     <b>Phone:</b><br><a href="tel:(970) 449-5401">(970) 449-5401</a><br>     <b>Website:</b><br> <a href="http://serve68.org/resource-center/">SERVE 6.8 RESOURCE CENTER</a><br>     <b>Services:</b><br> Provides a food pantry to those in need.     </div>`)[0];
+                popup_d7cb2b66a29129944ec8be586335d9ce.setContent(html_cb1179beda9473f56b552207dc3dce23);
+            
+        
+
+        marker_4324e8dc2ffc12065305a5d88cbb73a9.bindPopup(popup_d7cb2b66a29129944ec8be586335d9ce)
+        ;
+
+        
+    
+    
+            var marker_fb2572a216534cf2bd18117966b88099 = L.marker(
+                [40.5754599, -105.0592363],
+                {}
+            ).addTo(map_8fc865a6124774d42eccb69960dacf53);
+        
+    
+        var popup_6766a58200f02a8d4e03f6742b4a5300 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f205f231ffa2144f2e6ceaebe7a3dc5 = $(`<div id="html_5f205f231ffa2144f2e6ceaebe7a3dc5" style="width: 100.0%; height: 100.0%;">     <strong>FOOD BANK FOR LARIMER COUNTY</strong><br>     1025 Pennock Place Suite 109<br>     Fort Collins, CO 80524<br>     <b>Phone:</b><br><a href="tel:(970) 493-4477">(970) 493-4477</a><br>     <b>Website:</b><br> <a href="http://foodbanklarimer.org/our-programs">FOOD BANK FOR LARIMER COUNTY</a><br>     <b>Services:</b><br> Provides a client choice food pantry for individuals in need. Also distributes the Commodities Supplemental Food Program (CSFP) to eligible seniors and The Emergency Food Assistance Program (TFAP)...     </div>`)[0];
+                popup_6766a58200f02a8d4e03f6742b4a5300.setContent(html_5f205f231ffa2144f2e6ceaebe7a3dc5);
+            
+        
+
+        marker_fb2572a216534cf2bd18117966b88099.bindPopup(popup_6766a58200f02a8d4e03f6742b4a5300)
+        ;
+
+        
+    
+    
+            var marker_d31973cb4c356fc3f00e503e05d143a7 = L.marker(
+                [40.5448426, -105.0812299],
+                {}
+            ).addTo(map_8fc865a6124774d42eccb69960dacf53);
+        
+    
+        var popup_04d3d58fac4ba0a20752e63b2ee66890 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a1fd2b20383184e06e8d7b351acaaff = $(`<div id="html_9a1fd2b20383184e06e8d7b351acaaff" style="width: 100.0%; height: 100.0%;">     <strong>SERVE 6.8 RESOURCE CENTER</strong><br>     305 W Swallow Rd<br>     Fort Collins, CO 80526<br>     <b>Phone:</b><br><a href="tel:(970) 449-5401">(970) 449-5401</a><br>     <b>Website:</b><br> <a href="http://serve68.org/resource-center/">SERVE 6.8 RESOURCE CENTER</a><br>     <b>Services:</b><br> Provides food for those in need. Select locations also provide: Hygiene items Cleaning supplies Pet food     </div>`)[0];
+                popup_04d3d58fac4ba0a20752e63b2ee66890.setContent(html_9a1fd2b20383184e06e8d7b351acaaff);
+            
+        
+
+        marker_d31973cb4c356fc3f00e503e05d143a7.bindPopup(popup_04d3d58fac4ba0a20752e63b2ee66890)
+        ;
+
+        
+    
+    
+            var marker_1e0de0380f2110cfc7c9cdb560acfedd = L.marker(
+                [40.4942339, -105.0615845],
+                {}
+            ).addTo(map_8fc865a6124774d42eccb69960dacf53);
+        
+    
+        var popup_cde4f2311d505d0ddc6fcf0c441ed03e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef61bbbde5636fce93d545fac64aa01b = $(`<div id="html_ef61bbbde5636fce93d545fac64aa01b" style="width: 100.0%; height: 100.0%;">     <strong>SERVE 6.8 RESOURCE CENTER</strong><br>     6630 Brittany Dr<br>     Fort Collins, CO 80525<br>     <b>Phone:</b><br><a href="tel:(970) 449-5401">(970) 449-5401</a><br>     <b>Website:</b><br> <a href="http://serve68.org/resource-center/">SERVE 6.8 RESOURCE CENTER</a><br>     <b>Services:</b><br> Provides food for those in need. Select locations also provide:Hygiene items Cleaning supplies Pet food     </div>`)[0];
+                popup_cde4f2311d505d0ddc6fcf0c441ed03e.setContent(html_ef61bbbde5636fce93d545fac64aa01b);
+            
+        
+
+        marker_1e0de0380f2110cfc7c9cdb560acfedd.bindPopup(popup_cde4f2311d505d0ddc6fcf0c441ed03e)
+        ;
+
+        
+    
+</script>
+</html>

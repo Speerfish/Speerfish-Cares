@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c91ad6905ecccff56db605c577846704 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c91ad6905ecccff56db605c577846704" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c91ad6905ecccff56db605c577846704 = L.map(
+                "map_c91ad6905ecccff56db605c577846704",
+                {
+                    center: [40.015, -105.2705],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_44d7489689fc45a738f672f0adc4bcc7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_44d7489689fc45a738f672f0adc4bcc7.addTo(map_c91ad6905ecccff56db605c577846704);
+        
+    
+            var marker_1fc27e00c6b3096e6e4f367e966721e0 = L.marker(
+                [40.102555, -105.3632079],
+                {}
+            ).addTo(map_c91ad6905ecccff56db605c577846704);
+        
+    
+        var popup_77f09c6fab44a6904f19c12e9fb9227e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fc655921fc5ff062db18aced5c79611 = $(`<div id="html_3fc655921fc5ff062db18aced5c79611" style="width: 100.0%; height: 100.0%;">     <strong>COLORADO PET PANTRY</strong><br>     P.O. Box 323<br>     Boulder, CO 80306<br>     <b>Phone:</b><br><a href="tel:(303) 818-0618">(303) 818-0618</a><br>     <b>Website:</b><br> <a href="http://coloradopetpantry.org/events/category/pet-food-banks/">COLORADO PET PANTRY</a><br>     <b>Services:</b><br> Provides free temporary pet food through various food pantry organizations throughout Colorado.     </div>`)[0];
+                popup_77f09c6fab44a6904f19c12e9fb9227e.setContent(html_3fc655921fc5ff062db18aced5c79611);
+            
+        
+
+        marker_1fc27e00c6b3096e6e4f367e966721e0.bindPopup(popup_77f09c6fab44a6904f19c12e9fb9227e)
+        ;
+
+        
+    
+    
+            var marker_88228bc6cb7888583aa31357d0bf81da = L.marker(
+                [40.058333, -105.2778705],
+                {}
+            ).addTo(map_c91ad6905ecccff56db605c577846704);
+        
+    
+        var popup_44d022ccccb5ae07de9f61e8cea31845 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10256853254392f015fd3e34d47f78e0 = $(`<div id="html_10256853254392f015fd3e34d47f78e0" style="width: 100.0%; height: 100.0%;">     <strong>EMERGENCY FAMILY ASSISTANCE ASSOCIATION</strong><br>     1575 Yarmouth Ave<br>     Boulder, CO 80304<br>     <b>Phone:</b><br><a href="tel:(303) 442-3042">(303) 442-3042</a><br>     <b>Website:</b><br> <a href="http://efaa.org/get-help/food-bank/">EMERGENCY FAMILY ASSISTANCE ASSOCIATION</a><br>     <b>Services:</b><br> Provides a food pantry to people living in the City of Boulder and Boulder County Mountain Communities with access to a kitchen. Eligible households may visit the food bank twice per month...     </div>`)[0];
+                popup_44d022ccccb5ae07de9f61e8cea31845.setContent(html_10256853254392f015fd3e34d47f78e0);
+            
+        
+
+        marker_88228bc6cb7888583aa31357d0bf81da.bindPopup(popup_44d022ccccb5ae07de9f61e8cea31845)
+        ;
+
+        
+    
+    
+            var marker_b4eabbaf0cef28f4069cc21d0cc12254 = L.marker(
+                [39.990138, -105.232704],
+                {}
+            ).addTo(map_c91ad6905ecccff56db605c577846704);
+        
+    
+        var popup_a7a77bd07a508d76cc176336bba1ee8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb7b96947437ee6a01876245354f5eec = $(`<div id="html_bb7b96947437ee6a01876245354f5eec" style="width: 100.0%; height: 100.0%;">     <strong>COMMUNITY FOOD SHARE</strong><br>     4990 Osage Dr<br>     Boulder, CO 80303<br>     <b>Phone:</b><br><a href="tel:(303) 652-3663">(303) 652-3663</a><br>     <b>Website:</b><br> <a href="http://communityfoodshare.org/get-food/services-we-provide/mobile-pantries/">COMMUNITY FOOD SHARE</a><br>     <b>Services:</b><br> Operates a mobile food pantry at rotating locations, offering: Fresh produce Dairy Non-perishable pantry items     </div>`)[0];
+                popup_a7a77bd07a508d76cc176336bba1ee8f.setContent(html_bb7b96947437ee6a01876245354f5eec);
+            
+        
+
+        marker_b4eabbaf0cef28f4069cc21d0cc12254.bindPopup(popup_a7a77bd07a508d76cc176336bba1ee8f)
+        ;
+
+        
+    
+    
+            var marker_17681ab5b64efa63d215779cc38bcf64 = L.marker(
+                [40.0625882, -105.282615],
+                {}
+            ).addTo(map_c91ad6905ecccff56db605c577846704);
+        
+    
+        var popup_918d1222d05bf0308cfb22512c50245e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f1b97ddd9fb1d6343b42a7505366456 = $(`<div id="html_4f1b97ddd9fb1d6343b42a7505366456" style="width: 100.0%; height: 100.0%;">     <strong>ALL ROADS SHELTER</strong><br>     4869 Broadway<br>     Boulder, CO 80304<br>     <b>Phone:</b><br><a href="tel:(303) 442-4646">(303) 442-4646</a><br>     <b>Website:</b><br> <a href="http://allroadsboco.org/">ALL ROADS SHELTER</a><br>     <b>Services:</b><br> Offers shelter intake for individuals experiencing homelessness to have access to shelter and services even if individuals did not stay overnight...     </div>`)[0];
+                popup_918d1222d05bf0308cfb22512c50245e.setContent(html_4f1b97ddd9fb1d6343b42a7505366456);
+            
+        
+
+        marker_17681ab5b64efa63d215779cc38bcf64.bindPopup(popup_918d1222d05bf0308cfb22512c50245e)
+        ;
+
+        
+    
+</script>
+</html>
