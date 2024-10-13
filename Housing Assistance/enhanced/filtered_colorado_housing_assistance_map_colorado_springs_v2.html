@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_35cc7a549de0a04395cea5d6d68e8901 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_35cc7a549de0a04395cea5d6d68e8901" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_35cc7a549de0a04395cea5d6d68e8901 = L.map(
+                "map_35cc7a549de0a04395cea5d6d68e8901",
+                {
+                    center: [38.8591, -104.8135],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9af4c663399dd9cf54bea2598a2ed968 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9af4c663399dd9cf54bea2598a2ed968.addTo(map_35cc7a549de0a04395cea5d6d68e8901);
+        
+    
+            var marker_f4619dc1ad37b4eebb01d1fa16af1ecb = L.marker(
+                [38.8255421, -104.7651236],
+                {}
+            ).addTo(map_35cc7a549de0a04395cea5d6d68e8901);
+        
+    
+        var popup_e4e0e99c59fbe53f13e31afd5ad96a7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c57594e15560f9edf7f3b69671472c0 = $(`<div id="html_0c57594e15560f9edf7f3b69671472c0" style="width: 100.0%; height: 100.0%;">     <strong>DREAM CENTERS</strong><br>     3650 Airport Rd<br>     Colorado Springs, CO 80910<br>     <b>Phone:</b><br><a href="tel:(719) 301-5411">(719) 301-5411</a><br>     <b>Website:</b><br> <a href="http://dreamcenters.com/marys-home/apply/">DREAM CENTERS</a><br>     <b>Services:</b><br> Provides transitional housing for homeless or imminently homeless adult women who are TANF, CCCAP and SNAP eligible, with three or less children eight years of age or younger...     </div>`)[0];
+                popup_e4e0e99c59fbe53f13e31afd5ad96a7a.setContent(html_0c57594e15560f9edf7f3b69671472c0);
+            
+        
+
+        marker_f4619dc1ad37b4eebb01d1fa16af1ecb.bindPopup(popup_e4e0e99c59fbe53f13e31afd5ad96a7a)
+        ;
+
+        
+    
+    
+            var marker_0ea30d82c46fa1bc25fb6423defadd57 = L.marker(
+                [38.8457952, -104.8316252],
+                {}
+            ).addTo(map_35cc7a549de0a04395cea5d6d68e8901);
+        
+    
+        var popup_c727cd86bf7f57978c162ebf68135ca5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_112491fa437aea7bdb256eee578675ce = $(`<div id="html_112491fa437aea7bdb256eee578675ce" style="width: 100.0%; height: 100.0%;">     <strong>ITHAKA HOUSING</strong><br>     321 Mesa Rd<br>     Colorado Springs, CO 80905<br>     <b>Phone:</b><br><a href="tel:(719) 578-1629">(719) 578-1629</a><br>     <b>Website:</b><br> <a href="http://ithakaland.org">ITHAKA HOUSING</a><br>     <b>Services:</b><br> Provides transitional housing, in a group home setting, for individual men aged 25 and older who are willing and able to work full-time...     </div>`)[0];
+                popup_c727cd86bf7f57978c162ebf68135ca5.setContent(html_112491fa437aea7bdb256eee578675ce);
+            
+        
+
+        marker_0ea30d82c46fa1bc25fb6423defadd57.bindPopup(popup_c727cd86bf7f57978c162ebf68135ca5)
+        ;
+
+        
+    
+    
+            var marker_709f7b3a19ea023214daae2f302dbd57 = L.marker(
+                [38.8381918, -104.8303286],
+                {}
+            ).addTo(map_35cc7a549de0a04395cea5d6d68e8901);
+        
+    
+        var popup_00ac586916427053c0247adbea316a74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d0323283e0f738447a82e637c0ffd24 = $(`<div id="html_9d0323283e0f738447a82e637c0ffd24" style="width: 100.0%; height: 100.0%;">     <strong>HASEYA ADVOCATE PROGRAM</strong><br>     I-25<br>     Colorado Springs, CO 80903<br>     <b>Phone:</b><br><a href="tel:(719) 660-3939">(719) 660-3939</a><br>     <b>Website:</b><br> <a href="http://haseya.org">HASEYA ADVOCATE PROGRAM</a><br>     <b>Services:</b><br> Provides transitional housing for Native American/American Indian individuals fleeing domestic violence and/or sexual assault.     </div>`)[0];
+                popup_00ac586916427053c0247adbea316a74.setContent(html_9d0323283e0f738447a82e637c0ffd24);
+            
+        
+
+        marker_709f7b3a19ea023214daae2f302dbd57.bindPopup(popup_00ac586916427053c0247adbea316a74)
+        ;
+
+        
+    
+    
+            var marker_bae7017b0841ee6838c9f72fb1cfdc57 = L.marker(
+                [38.8242437, -104.8293314],
+                {}
+            ).addTo(map_35cc7a549de0a04395cea5d6d68e8901);
+        
+    
+        var popup_3c0845f133084d7c1f632059a9c53d7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ff1209ce73a6aff113acc60fd74706d = $(`<div id="html_4ff1209ce73a6aff113acc60fd74706d" style="width: 100.0%; height: 100.0%;">     <strong>SALVATION ARMY COLORADO SPRINGS CORPS</strong><br>     709 S Sierra Madre St<br>     Colorado Springs, CO 80903<br>     <b>Phone:</b><br><a href="tel:(719) 578-9190">(719) 578-9190</a><br>     <b>Website:</b><br> <a href="http://HelpColoradoSprings.com">SALVATION ARMY COLORADO SPRINGS CORPS</a><br>     <b>Services:</b><br> Provides a shelter for families experiencing homelessness.     </div>`)[0];
+                popup_3c0845f133084d7c1f632059a9c53d7a.setContent(html_4ff1209ce73a6aff113acc60fd74706d);
+            
+        
+
+        marker_bae7017b0841ee6838c9f72fb1cfdc57.bindPopup(popup_3c0845f133084d7c1f632059a9c53d7a)
+        ;
+
+        
+    
+    
+            var marker_73e98e54fdcf3f37f1f377d22b789dcf = L.marker(
+                [38.8457952, -104.8316252],
+                {}
+            ).addTo(map_35cc7a549de0a04395cea5d6d68e8901);
+        
+    
+        var popup_be823e5ea462824d1bafe50be996531f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d4313815107a8b05cbd3610d30263d3 = $(`<div id="html_0d4313815107a8b05cbd3610d30263d3" style="width: 100.0%; height: 100.0%;">     <strong>ITHAKA HOUSING</strong><br>     321 Mesa Rd<br>     Colorado Springs, CO 80905<br>     <b>Phone:</b><br><a href="tel:(719) 578-1629">(719) 578-1629</a><br>     <b>Website:</b><br> <a href="http://ithakaland.org/families.html">ITHAKA HOUSING</a><br>     <b>Services:</b><br> Provides transitional housing for a period of 1 - 2 years as families work to overcome their individual barriers to secure housing...     </div>`)[0];
+                popup_be823e5ea462824d1bafe50be996531f.setContent(html_0d4313815107a8b05cbd3610d30263d3);
+            
+        
+
+        marker_73e98e54fdcf3f37f1f377d22b789dcf.bindPopup(popup_be823e5ea462824d1bafe50be996531f)
+        ;
+
+        
+    
+    
+            var marker_dc538b31324691493af88fcae65c142e = L.marker(
+                [38.8071899, -104.8267632],
+                {}
+            ).addTo(map_35cc7a549de0a04395cea5d6d68e8901);
+        
+    
+        var popup_8d5b85355dd31eb0aefa4bfed00c136d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7dc8608a6786f65601e20356a5868fc = $(`<div id="html_a7dc8608a6786f65601e20356a5868fc" style="width: 100.0%; height: 100.0%;">     <strong>FAMILY LIFE SERVICES</strong><br>     1880 S Cascade Ave<br>     Colorado Springs, CO 80905<br>     <b>Phone:</b><br><a href="tel:(719) 632-4661">(719) 632-4661</a><br>     <b>Website:</b><br> <a href="http://hscs.org">FAMILY LIFE SERVICES</a><br>     <b>Services:</b><br> Provides a two year transitional housing program for working single mothers with minor children.     </div>`)[0];
+                popup_8d5b85355dd31eb0aefa4bfed00c136d.setContent(html_a7dc8608a6786f65601e20356a5868fc);
+            
+        
+
+        marker_dc538b31324691493af88fcae65c142e.bindPopup(popup_8d5b85355dd31eb0aefa4bfed00c136d)
+        ;
+
+        
+    
+    
+            var marker_fc4759f23be09a713e4fbc695323f238 = L.marker(
+                [38.7935847, -104.8176344],
+                {}
+            ).addTo(map_35cc7a549de0a04395cea5d6d68e8901);
+        
+    
+        var popup_7b3669a45e40dd5cba4089f5080edf29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8667d5f955b846c52c8b4f023503750c = $(`<div id="html_8667d5f955b846c52c8b4f023503750c" style="width: 100.0%; height: 100.0%;">     <strong>PARTNERS IN HOUSING</strong><br>     455 Gold Pass Heights<br>     Colorado Springs, CO 80906<br>     <b>Phone:</b><br><a href="tel:(719) 473-8890">(719) 473-8890</a><br>     <b>Website:</b><br> <a href="http://partnersinhousing.org">PARTNERS IN HOUSING</a><br>     <b>Services:</b><br> Provides a 1-year transitional housing and supportive services program for homeless families with minor children. Also assists homeless pregnant women and homeless families who are in the process of having their children placed back into their custody...     </div>`)[0];
+                popup_7b3669a45e40dd5cba4089f5080edf29.setContent(html_8667d5f955b846c52c8b4f023503750c);
+            
+        
+
+        marker_fc4759f23be09a713e4fbc695323f238.bindPopup(popup_7b3669a45e40dd5cba4089f5080edf29)
+        ;
+
+        
+    
+    
+            var marker_a6adca52b3672c355c0dbca3a341e1cf = L.marker(
+                [38.8360787, -104.7913581],
+                {}
+            ).addTo(map_35cc7a549de0a04395cea5d6d68e8901);
+        
+    
+        var popup_3e1e0cb3274110439e4dcffe521fb525 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b10ae5609c25567dafcf6df6e6c40d2 = $(`<div id="html_2b10ae5609c25567dafcf6df6e6c40d2" style="width: 100.0%; height: 100.0%;">     <strong>HOMEWARD PIKES PEAK</strong><br>     2010 E Bijou St<br>     Colorado Springs, CO 80909<br>     <b>Phone:</b><br><a href="tel:(719) 473-5557">(719) 473-5557</a><br>     <b>Website:</b><br> <a href="http://homewardpp.org/housing-crst">HOMEWARD PIKES PEAK</a><br>     <b>Services:</b><br> Housing First provides housing and supportive services for people who suffer from: Mental illness Substance abuse Chronic homelessness Also offers veteran-specific housing for homeless veterans and their families...     </div>`)[0];
+                popup_3e1e0cb3274110439e4dcffe521fb525.setContent(html_2b10ae5609c25567dafcf6df6e6c40d2);
+            
+        
+
+        marker_a6adca52b3672c355c0dbca3a341e1cf.bindPopup(popup_3e1e0cb3274110439e4dcffe521fb525)
+        ;
+
+        
+    
+    
+            var marker_38a502a2e56d976562b95a34871da91c = L.marker(
+                [38.8184191, -104.8263849],
+                {}
+            ).addTo(map_35cc7a549de0a04395cea5d6d68e8901);
+        
+    
+        var popup_da39017913022231370b2a10bd62cd36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b9a5e0708e9842a5a75ededb0b229eb = $(`<div id="html_0b9a5e0708e9842a5a75ededb0b229eb" style="width: 100.0%; height: 100.0%;">     <strong>SPRINGS RESCUE MISSION</strong><br>     5 W Las Vegas St<br>     Colorado Springs, CO 80903<br>     <b>Phone:</b><br><a href="tel:(719) 884-2773">(719) 884-2773</a><br>     <b>Website:</b><br> <a href="http://springsrescuemission.org">SPRINGS RESCUE MISSION</a><br>     <b>Services:</b><br> Provides a shelter for women experiencing homelessness. Pets are allowed but have to be kenneled at the location. This service is on a first come first serve basis...     </div>`)[0];
+                popup_da39017913022231370b2a10bd62cd36.setContent(html_0b9a5e0708e9842a5a75ededb0b229eb);
+            
+        
+
+        marker_38a502a2e56d976562b95a34871da91c.bindPopup(popup_da39017913022231370b2a10bd62cd36)
+        ;
+
+        
+    
+    
+            var marker_45678d0188510e811abb11f787bc6745 = L.marker(
+                [38.8184191, -104.8263849],
+                {}
+            ).addTo(map_35cc7a549de0a04395cea5d6d68e8901);
+        
+    
+        var popup_a922135a7a430e597e1d6fa1f36da53d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c8c6e97b078fa3af3ff724e7c54d808 = $(`<div id="html_2c8c6e97b078fa3af3ff724e7c54d808" style="width: 100.0%; height: 100.0%;">     <strong>SPRINGS RESCUE MISSION</strong><br>     5 W Las Vegas St<br>     Colorado Springs, CO 80903<br>     <b>Phone:</b><br><a href="tel:(719) 632-1822">(719) 632-1822</a><br>     <b>Website:</b><br> <a href="http://springsrescuemission.org">SPRINGS RESCUE MISSION</a><br>     <b>Services:</b><br> Provides a shelter for men experiencing homelessness. Pets are allowed but have to be kenneled at the location. This service is on a first come first serve basis...     </div>`)[0];
+                popup_a922135a7a430e597e1d6fa1f36da53d.setContent(html_2c8c6e97b078fa3af3ff724e7c54d808);
+            
+        
+
+        marker_45678d0188510e811abb11f787bc6745.bindPopup(popup_a922135a7a430e597e1d6fa1f36da53d)
+        ;
+
+        
+    
+    
+            var marker_6f7380cc216b1be1805abc6bfd707c6d = L.marker(
+                [38.9596157, -104.7391191],
+                {}
+            ).addTo(map_35cc7a549de0a04395cea5d6d68e8901);
+        
+    
+        var popup_75a0a5562499ec77cb877f14bc4b472a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e72be171788f4083e23ab9b991767b30 = $(`<div id="html_e72be171788f4083e23ab9b991767b30" style="width: 100.0%; height: 100.0%;">     <strong>MATER FILIUS COLORADO SPRINGS</strong><br>     8773 Scarborough Dr<br>     Colorado Springs, CO 80920<br>     <b>Phone:</b><br><a href="tel:(719) 900-2801">(719) 900-2801</a><br>     <b>Website:</b><br> <a href="http://matercliuscs.org">MATER FILIUS COLORADO SPRINGS</a><br>     <b>Services:</b><br> Offers transitional housing and related services, including: Assistance with healthcare appointments Transportation Spiritual care Nutritious self-prepared meals Access to child enrichmen...     </div>`)[0];
+                popup_75a0a5562499ec77cb877f14bc4b472a.setContent(html_e72be171788f4083e23ab9b991767b30);
+            
+        
+
+        marker_6f7380cc216b1be1805abc6bfd707c6d.bindPopup(popup_75a0a5562499ec77cb877f14bc4b472a)
+        ;
+
+        
+    
+</script>
+</html>

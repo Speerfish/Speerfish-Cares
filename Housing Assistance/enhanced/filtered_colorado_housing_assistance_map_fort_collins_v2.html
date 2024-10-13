@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_94dec53bcc9839686625420645ba5321 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_94dec53bcc9839686625420645ba5321" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_94dec53bcc9839686625420645ba5321 = L.map(
+                "map_94dec53bcc9839686625420645ba5321",
+                {
+                    center: [40.5853, -105.0844],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b1d5a5b0fec59fa2c5adf98a05ee1eef = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b1d5a5b0fec59fa2c5adf98a05ee1eef.addTo(map_94dec53bcc9839686625420645ba5321);
+        
+    
+            var marker_b7616745150f58db4d003b21d8a7ffba = L.marker(
+                [40.5665586, -105.0569249],
+                {}
+            ).addTo(map_94dec53bcc9839686625420645ba5321);
+        
+    
+        var popup_3268a0a3a1aabff410be2a21b2030153 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb2f273cc558110df5550733eb7c3118 = $(`<div id="html_fb2f273cc558110df5550733eb7c3118" style="width: 100.0%; height: 100.0%;">     <strong>FAMILY HOUSING NETWORK</strong><br>     1606 S Lemay Ave Suite 103<br>     Fort Collins, CO 80525<br>     <b>Phone:</b><br><a href="tel:(970) 484-3342">(970) 484-3342</a><br>     <b>Website:</b><br> <a href="http://familyhousingnetwork.org/our-programs">FAMILY HOUSING NETWORK</a><br>     <b>Services:</b><br> Provides a temporary overnight shelter for families for up to 3-4 months. Shelter locations rotate weekly among various faith communities in Fort Collins...     </div>`)[0];
+                popup_3268a0a3a1aabff410be2a21b2030153.setContent(html_fb2f273cc558110df5550733eb7c3118);
+            
+        
+
+        marker_b7616745150f58db4d003b21d8a7ffba.bindPopup(popup_3268a0a3a1aabff410be2a21b2030153)
+        ;
+
+        
+    
+    
+            var marker_8957c2cb07b78fe540cabb8055ba6f69 = L.marker(
+                [40.5947368, -105.0692106],
+                {}
+            ).addTo(map_94dec53bcc9839686625420645ba5321);
+        
+    
+        var popup_582ffe8eeb4587960331eccfe71f6420 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_670e497d480cf0b7cc30278dc7399fa6 = $(`<div id="html_670e497d480cf0b7cc30278dc7399fa6" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES LARIMER COUNTY</strong><br>     460 Linden Center Dr<br>     Fort Collins, CO 80524<br>     <b>Phone:</b><br><a href="tel:(970) 493-0141 (Shelter)">(970) 493-0141 (Shelter)</a><br>     <b>Website:</b><br> <a href="http://ccdenver.org/larimer/">CATHOLIC CHARITIES LARIMER COUNTY</a><br>     <b>Services:</b><br> Provides nightly, year-round overnight shelter for families with children and single adult females.     </div>`)[0];
+                popup_582ffe8eeb4587960331eccfe71f6420.setContent(html_670e497d480cf0b7cc30278dc7399fa6);
+            
+        
+
+        marker_8957c2cb07b78fe540cabb8055ba6f69.bindPopup(popup_582ffe8eeb4587960331eccfe71f6420)
+        ;
+
+        
+    
+    
+            var marker_bd0d797a0e43fe7340af83921bf7dd05 = L.marker(
+                [40.5947368, -105.0692106],
+                {}
+            ).addTo(map_94dec53bcc9839686625420645ba5321);
+        
+    
+        var popup_c9561bbe6dc63aecd1cb80cd3ee6b102 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8be3516905c04d60eb6befb71436351c = $(`<div id="html_8be3516905c04d60eb6befb71436351c" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES LARIMER COUNTY</strong><br>     460 Linden Center Dr<br>     Fort Collins, CO 80524<br>     <b>Phone:</b><br><a href="tel:(970) 493-0141">(970) 493-0141</a><br>     <b>Website:</b><br> <a href="http://ccdenver.org/larimer">CATHOLIC CHARITIES LARIMER COUNTY</a><br>     <b>Services:</b><br> Provides a year-round, extended stay shelter program. Lengths of stay vary based on client needs and progress toward goals with a case manager (establishing income, building savings, and locating permanent housing), but are generally 4 - 6 months long. Additional...     </div>`)[0];
+                popup_c9561bbe6dc63aecd1cb80cd3ee6b102.setContent(html_8be3516905c04d60eb6befb71436351c);
+            
+        
+
+        marker_bd0d797a0e43fe7340af83921bf7dd05.bindPopup(popup_c9561bbe6dc63aecd1cb80cd3ee6b102)
+        ;
+
+        
+    
+</script>
+</html>

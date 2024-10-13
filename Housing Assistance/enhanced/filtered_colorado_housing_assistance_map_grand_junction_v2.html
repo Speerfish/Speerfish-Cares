@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cfa6d7fefbc1e18820a37c821e20ddb1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cfa6d7fefbc1e18820a37c821e20ddb1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cfa6d7fefbc1e18820a37c821e20ddb1 = L.map(
+                "map_cfa6d7fefbc1e18820a37c821e20ddb1",
+                {
+                    center: [39.0714, -108.5497],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b92c85c808d83f5292b1706c08e88939 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b92c85c808d83f5292b1706c08e88939.addTo(map_cfa6d7fefbc1e18820a37c821e20ddb1);
+        
+    
+            var marker_97d21891ead6a3c31f530980a4b94880 = L.marker(
+                [39.0655869, -108.5712505],
+                {}
+            ).addTo(map_cfa6d7fefbc1e18820a37c821e20ddb1);
+        
+    
+        var popup_54869a6f574c5b45389a8fe32b517926 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44afd7b77d2cd8d0e15de1db7e872a29 = $(`<div id="html_44afd7b77d2cd8d0e15de1db7e872a29" style="width: 100.0%; height: 100.0%;">     <strong>GRAND VALLEY CATHOLIC OUTREACH</strong><br>     245 S 1st St<br>     Grand Junction, CO 81501<br>     <b>Phone:</b><br><a href="tel:(970) 241-3658">(970) 241-3658</a><br>     <b>Website:</b><br> <a href="http://catholicoutreach.org">GRAND VALLEY CATHOLIC OUTREACH</a><br>     <b>Services:</b><br> Provides individuals with the opportunity to end homelessness through cooperative living, case management, and training.     </div>`)[0];
+                popup_54869a6f574c5b45389a8fe32b517926.setContent(html_44afd7b77d2cd8d0e15de1db7e872a29);
+            
+        
+
+        marker_97d21891ead6a3c31f530980a4b94880.bindPopup(popup_54869a6f574c5b45389a8fe32b517926)
+        ;
+
+        
+    
+    
+            var marker_62e1a2462adcbd935c4716e6dc0ed62c = L.marker(
+                [39.0655869, -108.5712505],
+                {}
+            ).addTo(map_cfa6d7fefbc1e18820a37c821e20ddb1);
+        
+    
+        var popup_9d5c0b27abbd1bb555aa838d7b6cae52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dce1d1ad10a8938715fe49a194e4b38e = $(`<div id="html_dce1d1ad10a8938715fe49a194e4b38e" style="width: 100.0%; height: 100.0%;">     <strong>GRAND VALLEY CATHOLIC OUTREACH</strong><br>     245 S 1st St<br>     Grand Junction, CO 81501<br>     <b>Phone:</b><br><a href="tel:(970) 241-3658">(970) 241-3658</a><br>     <b>Website:</b><br> <a href="http://catholicoutreach.org">GRAND VALLEY CATHOLIC OUTREACH</a><br>     <b>Services:</b><br> Provides homes to those with mental or physical impairments who have been chronically homeless and are free from drug abuse.     </div>`)[0];
+                popup_9d5c0b27abbd1bb555aa838d7b6cae52.setContent(html_dce1d1ad10a8938715fe49a194e4b38e);
+            
+        
+
+        marker_62e1a2462adcbd935c4716e6dc0ed62c.bindPopup(popup_9d5c0b27abbd1bb555aa838d7b6cae52)
+        ;
+
+        
+    
+    
+            var marker_969f690402a7dec27c06792a736d7914 = L.marker(
+                [39.0646476, -108.5676123],
+                {}
+            ).addTo(map_cfa6d7fefbc1e18820a37c821e20ddb1);
+        
+    
+        var popup_d36aa45fc469be1474d962ac9af65a0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbe6a156f257666b686818276515c4f4 = $(`<div id="html_cbe6a156f257666b686818276515c4f4" style="width: 100.0%; height: 100.0%;">     <strong>GRAND VALLEY CATHOLIC OUTREACH</strong><br>     302 Pitkin Ave<br>     Grand Junction, CO 81501<br>     <b>Phone:</b><br><a href="tel:(970) 263-9445">(970) 263-9445</a><br>     <b>Website:</b><br> <a href="http://catholicoutreach.org">GRAND VALLEY CATHOLIC OUTREACH</a><br>     <b>Services:</b><br> Provides a day center for individuals experiencing homelessness. Addition services and amenities include: Shower and laundry services Telephone services P...     </div>`)[0];
+                popup_d36aa45fc469be1474d962ac9af65a0b.setContent(html_cbe6a156f257666b686818276515c4f4);
+            
+        
+
+        marker_969f690402a7dec27c06792a736d7914.bindPopup(popup_d36aa45fc469be1474d962ac9af65a0b)
+        ;
+
+        
+    
+    
+            var marker_2e0fd49ab7552581f307c02e2babbc1c = L.marker(
+                [39.0768951, -108.5226613],
+                {}
+            ).addTo(map_cfa6d7fefbc1e18820a37c821e20ddb1);
+        
+    
+        var popup_812535a9e5a526195f9ec829016a3c77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_202a2d51337a273090bccdf5ec04effe = $(`<div id="html_202a2d51337a273090bccdf5ec04effe" style="width: 100.0%; height: 100.0%;">     <strong>HOMEWARD BOUND OF THE GRAND VALLEY</strong><br>     2853 North Ave<br>     Grand Junction, CO 81501<br>     <b>Phone:</b><br><a href="tel:(970) 256-9424">(970) 256-9424</a><br>     <b>Website:</b><br> <a href="http://www.homewardboundgv.org">HOMEWARD BOUND OF THE GRAND VALLEY</a><br>     <b>Services:</b><br> Provides a safe year-round emergency shelter, meals, and respectful, compassionate services to individuals who are homeless in Mesa County...     </div>`)[0];
+                popup_812535a9e5a526195f9ec829016a3c77.setContent(html_202a2d51337a273090bccdf5ec04effe);
+            
+        
+
+        marker_2e0fd49ab7552581f307c02e2babbc1c.bindPopup(popup_812535a9e5a526195f9ec829016a3c77)
+        ;
+
+        
+    
+    
+            var marker_c6c60e6a8e1087c797aa437100e1f60d = L.marker(
+                [39.0748282, -108.5332234],
+                {}
+            ).addTo(map_cfa6d7fefbc1e18820a37c821e20ddb1);
+        
+    
+        var popup_8bf71d1e84411fd73ccae41624c98ea0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d59100a9f5e9eab6ab70abc0c403cfb = $(`<div id="html_1d59100a9f5e9eab6ab70abc0c403cfb" style="width: 100.0%; height: 100.0%;">     <strong>VOLUNTEERS OF AMERICA COLORADO</strong><br>     482 28 Rd<br>     Grand Junction, CO 81501<br>     <b>Phone:</b><br><a href="tel:Monday - Friday, 8 a.m. - 4 p.m.">Monday - Friday, 8 a.m. - 4 p.m.</a><br>     <b>Website:</b><br> <a href="(970) 257-3767">VOLUNTEERS OF AMERICA COLORADO</a><br>     <b>Services:</b><br> Provides veterans and their families with the following resources:Case management Temporary financial assistance for security deposits Rent assistance A case manager works with the veteran and their family to     </div>`)[0];
+                popup_8bf71d1e84411fd73ccae41624c98ea0.setContent(html_1d59100a9f5e9eab6ab70abc0c403cfb);
+            
+        
+
+        marker_c6c60e6a8e1087c797aa437100e1f60d.bindPopup(popup_8bf71d1e84411fd73ccae41624c98ea0)
+        ;
+
+        
+    
+    
+            var marker_f979a7e0aa0a7abfdc57fdab2ebc341c = L.marker(
+                [39.0672568, -108.56448],
+                {}
+            ).addTo(map_cfa6d7fefbc1e18820a37c821e20ddb1);
+        
+    
+        var popup_50a31886a16a51ed8b5acb75cc4b4dff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9abebf357f254ecc7927adb888e3e7ef = $(`<div id="html_9abebf357f254ecc7927adb888e3e7ef" style="width: 100.0%; height: 100.0%;">     <strong>KARIS</strong><br>     PO Box 2837<br>     Grand Junction, CO 81502<br>     <b>Phone:</b><br><a href="tel:(970) 234-7004">(970) 234-7004</a><br>     <b>Website:</b><br> <a href="http://thehousegj.org">KARIS</a><br>     <b>Services:</b><br> Provides a two-year transitional housing program for adults 18. Housing includes single rooms with shared bathrooms and kitchen as well as connections to resources and support in the community...     </div>`)[0];
+                popup_50a31886a16a51ed8b5acb75cc4b4dff.setContent(html_9abebf357f254ecc7927adb888e3e7ef);
+            
+        
+
+        marker_f979a7e0aa0a7abfdc57fdab2ebc341c.bindPopup(popup_50a31886a16a51ed8b5acb75cc4b4dff)
+        ;
+
+        
+    
+    
+            var marker_4f560e0d8b1ef61141a861e0c206300b = L.marker(
+                [39.0865925, -108.5145129],
+                {}
+            ).addTo(map_cfa6d7fefbc1e18820a37c821e20ddb1);
+        
+    
+        var popup_2d422e47f20d1f8feab410f7d62061bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3746334a06a061c1a840942773991d8 = $(`<div id="html_b3746334a06a061c1a840942773991d8" style="width: 100.0%; height: 100.0%;">     <strong>HOMEWARD BOUND OF THE GRAND VALLEY</strong><br>     562 29 Rd<br>     Grand Junction, CO 81504<br>     <b>Phone:</b><br><a href="tel:(970) 256-9424">(970) 256-9424</a><br>     <b>Website:</b><br> <a href="http://homewardboundgv.org">HOMEWARD BOUND OF THE GRAND VALLEY</a><br>     <b>Services:</b><br> Provides food and shelter for needy families experiencing homelessness. Other services include: Onsite healthcare professionals Children's library and play area Recovery living program for those seeking treatment for substance abuse Comprehensive case management, which includes: Trainings and coaching Navigation of resources such as employment applications and public assistance Legal services Program that works to ready guests for entry-level jobs in the communit...     </div>`)[0];
+                popup_2d422e47f20d1f8feab410f7d62061bc.setContent(html_b3746334a06a061c1a840942773991d8);
+            
+        
+
+        marker_4f560e0d8b1ef61141a861e0c206300b.bindPopup(popup_2d422e47f20d1f8feab410f7d62061bc)
+        ;
+
+        
+    
+    
+            var marker_e247a9d06b1e43fb095b44bbaa0e7d71 = L.marker(
+                [39.0676234, -108.566324],
+                {}
+            ).addTo(map_cfa6d7fefbc1e18820a37c821e20ddb1);
+        
+    
+        var popup_1a0c0bb8003e5b888f728e70b7c3fa1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dbf5828be61a66878e5cc4fa147e309 = $(`<div id="html_2dbf5828be61a66878e5cc4fa147e309" style="width: 100.0%; height: 100.0%;">     <strong>KARIS</strong><br>     362 Main St<br>     Grand Junction, CO 81501<br>     <b>Phone:</b><br><a href="tel:(970) 234-7004">(970) 234-7004</a><br>     <b>Website:</b><br> <a href="http://thehousegj.org">KARIS</a><br>     <b>Services:</b><br> Offers a youth shelter that provides:10 bedsAssistance with transitioning towards stable and safe housing Case management services Support from advocates, volunteers and mentor...     </div>`)[0];
+                popup_1a0c0bb8003e5b888f728e70b7c3fa1b.setContent(html_2dbf5828be61a66878e5cc4fa147e309);
+            
+        
+
+        marker_e247a9d06b1e43fb095b44bbaa0e7d71.bindPopup(popup_1a0c0bb8003e5b888f728e70b7c3fa1b)
+        ;
+
+        
+    
+    
+            var marker_a7522b71555fcec56c23cd2c1e661a15 = L.marker(
+                [39.0676234, -108.566324],
+                {}
+            ).addTo(map_cfa6d7fefbc1e18820a37c821e20ddb1);
+        
+    
+        var popup_e1189e816efdd45506ee13c229a563b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_402f62f7b1dae1b0dd68e23940685966 = $(`<div id="html_402f62f7b1dae1b0dd68e23940685966" style="width: 100.0%; height: 100.0%;">     <strong>KARIS</strong><br>     362 Main St<br>     Grand Junction, CO 81501<br>     <b>Phone:</b><br><a href="tel:(970) 234-7004">(970) 234-7004</a><br>     <b>Website:</b><br> <a href="http://karisinc.org/">KARIS</a><br>     <b>Services:</b><br> Provides two years of transitional housing across three different facilities for youth who do not have resources or are not ready to rent their own place...     </div>`)[0];
+                popup_e1189e816efdd45506ee13c229a563b3.setContent(html_402f62f7b1dae1b0dd68e23940685966);
+            
+        
+
+        marker_a7522b71555fcec56c23cd2c1e661a15.bindPopup(popup_e1189e816efdd45506ee13c229a563b3)
+        ;
+
+        
+    
+    
+            var marker_becea06c40cb048912ac3c52da5753da = L.marker(
+                [39.0752859, -108.5361005],
+                {}
+            ).addTo(map_cfa6d7fefbc1e18820a37c821e20ddb1);
+        
+    
+        var popup_f4257f81de581b31ae4d87bf466d0324 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68dec910e65584837fd6d0c98ffcf5fe = $(`<div id="html_68dec910e65584837fd6d0c98ffcf5fe" style="width: 100.0%; height: 100.0%;">     <strong>THE JOSEPH CENTER</strong><br>     2511 Belford Ave<br>     Grand Junction, CO 81501<br>     <b>Phone:</b><br><a href="tel:(970) 314-9424">(970) 314-9424</a><br>     <b>Website:</b><br> <a href="http://www.josephcentergj.com">THE JOSEPH CENTER</a><br>     <b>Services:</b><br> The Golden Girls project through The Joseph Center provides transitional housing for middle aged the elderly women 50+. While waiting for SSI/SSDI benefits, survivors benefits, securing employment, and securing permanent housing, Golden Girls can be housed...     </div>`)[0];
+                popup_f4257f81de581b31ae4d87bf466d0324.setContent(html_68dec910e65584837fd6d0c98ffcf5fe);
+            
+        
+
+        marker_becea06c40cb048912ac3c52da5753da.bindPopup(popup_f4257f81de581b31ae4d87bf466d0324)
+        ;
+
+        
+    
+</script>
+</html>

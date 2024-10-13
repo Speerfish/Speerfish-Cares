@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2c4ef3dc68d9b25ffa2c5db67ec9f644 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2c4ef3dc68d9b25ffa2c5db67ec9f644" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2c4ef3dc68d9b25ffa2c5db67ec9f644 = L.map(
+                "map_2c4ef3dc68d9b25ffa2c5db67ec9f644",
+                {
+                    center: [39.5501, -105.7821],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d90f7f7985776d38cd2b4a8cb5cc93d1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d90f7f7985776d38cd2b4a8cb5cc93d1.addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+            var marker_c8bedda09a6dc72581df2f1d2f216e9c = L.marker(
+                [39.7753959, -104.9422916],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_05a0161b2f75b46cff2d9b9251810f4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f5c00b2f7cf3021bd598a01d0b17948 = $(`<div id="html_5f5c00b2f7cf3021bd598a01d0b17948" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF DENVER</strong><br>     6240 Smith Rd<br>     Denver, CO 80207<br>     <b>Phone:</b><br><a href="tel:(720) 799-9400">(720) 799-9400</a><br>     <b>Website:</b><br> <a href="http://ccdenver.org/marisolservices/marisol-homes/">CATHOLIC CHARITIES OF DENVER</a><br>     <b>Services:</b><br> Provides housing and supportive services for pregnant women and women with children, for as long as needed in a communal living environment...     </div>`)[0];
+                popup_05a0161b2f75b46cff2d9b9251810f4d.setContent(html_5f5c00b2f7cf3021bd598a01d0b17948);
+            
+        
+
+        marker_c8bedda09a6dc72581df2f1d2f216e9c.bindPopup(popup_05a0161b2f75b46cff2d9b9251810f4d)
+        ;
+
+        
+    
+    
+            var marker_1c7822be7965acd66828f236a4386900 = L.marker(
+                [39.7556512, -104.9872002],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_1abda8851feb8277004e09dc31c96aca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90fea7d11308b6e7215725ce5574ee57 = $(`<div id="html_90fea7d11308b6e7215725ce5574ee57" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF DENVER</strong><br>     2301 Lawrence St<br>     Denver, CO 80205<br>     <b>Phone:</b><br><a href="tel:(720) 799-9506 (Samaritan House at 48th)">(720) 799-9506 (Samaritan House at 48th)</a><br>     <b>Website:</b><br> <a href="No Website Listed">CATHOLIC CHARITIES OF DENVER</a><br>     <b>Services:</b><br> Provides shelter for up to 6 months for single women in need of housing. Program is intended to prepare individuals for more intensive housing programs...     </div>`)[0];
+                popup_1abda8851feb8277004e09dc31c96aca.setContent(html_90fea7d11308b6e7215725ce5574ee57);
+            
+        
+
+        marker_1c7822be7965acd66828f236a4386900.bindPopup(popup_1abda8851feb8277004e09dc31c96aca)
+        ;
+
+        
+    
+    
+            var marker_7399dbe857386b98c1bcb22b26ca196b = L.marker(
+                [39.7293389, -104.9827188],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_0999f0fdf087dbe260893d9407925230 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b416e5289f6fde992c32f13fa330b5b = $(`<div id="html_7b416e5289f6fde992c32f13fa330b5b" style="width: 100.0%; height: 100.0%;">     <strong>PROVIDENCE NETWORK</strong><br>     801 Logan St<br>     Denver, CO 80203<br>     <b>Phone:</b><br><a href="tel:(303) 860-8404">(303) 860-8404</a><br>     <b>Website:</b><br> <a href="http://providencenetwork.org">PROVIDENCE NETWORK</a><br>     <b>Services:</b><br> Provides transitional housing and wrap-around services for young men who have been experiencing homelessness.     </div>`)[0];
+                popup_0999f0fdf087dbe260893d9407925230.setContent(html_7b416e5289f6fde992c32f13fa330b5b);
+            
+        
+
+        marker_7399dbe857386b98c1bcb22b26ca196b.bindPopup(popup_0999f0fdf087dbe260893d9407925230)
+        ;
+
+        
+    
+    
+            var marker_ab5837c08857f3a1a0dd78cb0c017aca = L.marker(
+                [39.661077, -104.847177],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_55ffe4048042eec34d24537acffa1584 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d48c7e1971cf8bd406780a1c88399637 = $(`<div id="html_d48c7e1971cf8bd406780a1c88399637" style="width: 100.0%; height: 100.0%;">     <strong>BRIDGE HOUSE</strong><br>     3176 S Peoria Ct<br>     Denver, CO 80014<br>     <b>Phone:</b><br><a href="tel:(303) 442-8300">(303) 442-8300</a><br>     <b>Website:</b><br> <a href="http://boulderbridgehouse.org">BRIDGE HOUSE</a><br>     <b>Services:</b><br> Offers employment services that provide:Paid jobsVocational training Support servicesStable housing for individuals re-entering the workforc...     </div>`)[0];
+                popup_55ffe4048042eec34d24537acffa1584.setContent(html_d48c7e1971cf8bd406780a1c88399637);
+            
+        
+
+        marker_ab5837c08857f3a1a0dd78cb0c017aca.bindPopup(popup_55ffe4048042eec34d24537acffa1584)
+        ;
+
+        
+    
+    
+            var marker_c3a7405687501bfe15310c0a6029dfc4 = L.marker(
+                [39.7556512, -104.9872002],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_9f24b2ea40995734554e96940ff9aa9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c18e54dc2099d4b8eacc5c1ed77aa171 = $(`<div id="html_c18e54dc2099d4b8eacc5c1ed77aa171" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF DENVER</strong><br>     2301 Lawrence St<br>     Denver, CO 80205<br>     <b>Phone:</b><br><a href="tel:(303) 295-3366 (Connection Center)">(303) 295-3366 (Connection Center)</a><br>     <b>Website:</b><br> <a href="http://ccdenver.org/denver-samaritan-house/">CATHOLIC CHARITIES OF DENVER</a><br>     <b>Services:</b><br> Provides a short term living shelter to parents/guardians with children. The average stay is 2 weeks. However, extensions may be given for a maximum of 120 days...     </div>`)[0];
+                popup_9f24b2ea40995734554e96940ff9aa9b.setContent(html_c18e54dc2099d4b8eacc5c1ed77aa171);
+            
+        
+
+        marker_c3a7405687501bfe15310c0a6029dfc4.bindPopup(popup_9f24b2ea40995734554e96940ff9aa9b)
+        ;
+
+        
+    
+    
+            var marker_c6cc0327af97b3fd2c0c79b13d179db6 = L.marker(
+                [39.7293389, -104.9827188],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_ccbc155cf779094ab21dd733a838010d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5e4d4643429dcd49de78868484b7cb5 = $(`<div id="html_a5e4d4643429dcd49de78868484b7cb5" style="width: 100.0%; height: 100.0%;">     <strong>PROVIDENCE NETWORK</strong><br>     801 Logan St<br>     Denver, CO 80203<br>     <b>Phone:</b><br><a href="tel:(303) 860-8404">(303) 860-8404</a><br>     <b>Website:</b><br> <a href="http://sites.google.com/providencenetwork.org/joyhouseorientation/home">PROVIDENCE NETWORK</a><br>     <b>Services:</b><br> Provides a 2-year transitional housing program and wrap-around services for women with children who have experienced domestic violence...     </div>`)[0];
+                popup_ccbc155cf779094ab21dd733a838010d.setContent(html_a5e4d4643429dcd49de78868484b7cb5);
+            
+        
+
+        marker_c6cc0327af97b3fd2c0c79b13d179db6.bindPopup(popup_ccbc155cf779094ab21dd733a838010d)
+        ;
+
+        
+    
+    
+            var marker_4ba08204bf5556772836811937f8cc51 = L.marker(
+                [39.7680453, -104.9569554],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_b9589b938d64d4f3273a62c668f0a10d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fb119de1a04818ee00a8194844602e3 = $(`<div id="html_0fb119de1a04818ee00a8194844602e3" style="width: 100.0%; height: 100.0%;">     <strong>FAMILY HOMESTEAD</strong><br>     2520 E 37th Ave<br>     Denver, CO 80205<br>     <b>Phone:</b><br><a href="tel:(303) 623-6514">(303) 623-6514</a><br>     <b>Website:</b><br> <a href="http://familyhomestead.org">FAMILY HOMESTEAD</a><br>     <b>Services:</b><br> Provides transitional housing and case management services to 1 or 2 parent families with children who are experiencing homelessness...     </div>`)[0];
+                popup_b9589b938d64d4f3273a62c668f0a10d.setContent(html_0fb119de1a04818ee00a8194844602e3);
+            
+        
+
+        marker_4ba08204bf5556772836811937f8cc51.bindPopup(popup_b9589b938d64d4f3273a62c668f0a10d)
+        ;
+
+        
+    
+    
+            var marker_bea732f1823b41fc236c338cb7942b6e = L.marker(
+                [39.7504559, -104.9866068],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_7da0366605eb22816f9a6a1546398fcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b011e1ff8dfc327c93f54ba371f3b17 = $(`<div id="html_0b011e1ff8dfc327c93f54ba371f3b17" style="width: 100.0%; height: 100.0%;">     <strong>URBAN PEAK</strong><br>     2100 Stout St<br>     Denver, CO 80205<br>     <b>Phone:</b><br><a href="tel:(303) 974-2900">(303) 974-2900</a><br>     <b>Website:</b><br> <a href="http://urbanpeak.org/cnd-help-now#drop-in">URBAN PEAK</a><br>     <b>Services:</b><br> Offers a drop-in center for youth who are experiencing homelessness. Provides:Temporary daytime shelter Hot breakfast Sack lunches Dinner Laundry services Showers Basic medical services HIV and Hepatitis-C testing Case management Activity-based classes Life skills courses Referrals to community resources Assistance obtaining documentation such as, birth certificates, driver's licenses, and state IDs Also provides an Outreach Team, who seek out youth experiencing homelessness to develop relationships and provide: Hygiene supplies Clothing Food & water Harm reduction supplie...     </div>`)[0];
+                popup_7da0366605eb22816f9a6a1546398fcb.setContent(html_0b011e1ff8dfc327c93f54ba371f3b17);
+            
+        
+
+        marker_bea732f1823b41fc236c338cb7942b6e.bindPopup(popup_7da0366605eb22816f9a6a1546398fcb)
+        ;
+
+        
+    
+    
+            var marker_190347383531fb6fd167f1fe7dbc5cbb = L.marker(
+                [39.7602029, -104.9810533],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_c27080f9ea59ba1dccdc63a5a24db328 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67876e0c469d943d0b61bf7ec158eae0 = $(`<div id="html_67876e0c469d943d0b61bf7ec158eae0" style="width: 100.0%; height: 100.0%;">     <strong>SACRED HEART HOUSE OF DENVER</strong><br>     2844 Lawrence St<br>     Denver, CO 80205<br>     <b>Phone:</b><br><a href="tel:(303) 296-6686">(303) 296-6686</a><br>     <b>Website:</b><br> <a href="http://sacredhearthouse.com">SACRED HEART HOUSE OF DENVER</a><br>     <b>Services:</b><br> Provides short-term (30-day) emergency housing and supportive services for female identifying clients.     </div>`)[0];
+                popup_c27080f9ea59ba1dccdc63a5a24db328.setContent(html_67876e0c469d943d0b61bf7ec158eae0);
+            
+        
+
+        marker_190347383531fb6fd167f1fe7dbc5cbb.bindPopup(popup_c27080f9ea59ba1dccdc63a5a24db328)
+        ;
+
+        
+    
+    
+            var marker_1135350acea4eb7956b9684df41aa69f = L.marker(
+                [39.756521, -105.025345],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_b274395ad2c411fe3f9616696b7d708b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e57dad222af12c4ee0974453b12f427 = $(`<div id="html_8e57dad222af12c4ee0974453b12f427" style="width: 100.0%; height: 100.0%;">     <strong>SALVATION ARMY DENVER</strong><br>     2741 N. Federal Boulevard<br>     Denver, CO 80211<br>     <b>Phone:</b><br><a href="tel:(303) 295-3366">(303) 295-3366</a><br>     <b>Website:</b><br> <a href="http://lambuthfamilycenter.salvationarmy.org">SALVATION ARMY DENVER</a><br>     <b>Services:</b><br> Provides emergency shelter for families and legal guardians with children. Participating families are provided a room to sleep in and intensive case management...     </div>`)[0];
+                popup_b274395ad2c411fe3f9616696b7d708b.setContent(html_8e57dad222af12c4ee0974453b12f427);
+            
+        
+
+        marker_1135350acea4eb7956b9684df41aa69f.bindPopup(popup_b274395ad2c411fe3f9616696b7d708b)
+        ;
+
+        
+    
+    
+            var marker_f9757f524b25244f96730cff27014aed = L.marker(
+                [39.7543166, -104.9860842],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_6b6211b739eea18aa9e4e8b9a745af10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8e4047d1cb1b3ff870233814d464e6b = $(`<div id="html_e8e4047d1cb1b3ff870233814d464e6b" style="width: 100.0%; height: 100.0%;">     <strong>ST FRANCIS CENTER</strong><br>     2323 Curtis Street<br>     Denver, CO 80205<br>     <b>Phone:</b><br><a href="tel:(303) 297-1576">(303) 297-1576</a><br>     <b>Website:</b><br> <a href="http://sfcdenver.org/day_services.html">ST FRANCIS CENTER</a><br>     <b>Services:</b><br> Offers a drop-in day shelter for single adults. Shelter is open year-round. Services include: Phone charging stations Message and mail service Local and long-distance telephone calls Showers Clothing in exchange for chores Storage for 1 bag On-site benefits applications and support with Denver Human Services available on weekdays Assistance with ID vouchers and DMV appointments Limited RTD bus fare, as available (once a month for verified medical, mental health, or parole/probation appointments only...     </div>`)[0];
+                popup_6b6211b739eea18aa9e4e8b9a745af10.setContent(html_e8e4047d1cb1b3ff870233814d464e6b);
+            
+        
+
+        marker_f9757f524b25244f96730cff27014aed.bindPopup(popup_6b6211b739eea18aa9e4e8b9a745af10)
+        ;
+
+        
+    
+    
+            var marker_c49485451f9719be8b0690d7684bfd5f = L.marker(
+                [39.7182486, -104.9732171],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_b99f109fb140acae6c8c46695fccbc5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e01b9fa0b57192d31c91dd9d1466f4ba = $(`<div id="html_e01b9fa0b57192d31c91dd9d1466f4ba" style="width: 100.0%; height: 100.0%;">     <strong>FAMILY PROMISE OF GREATER DENVER</strong><br>     1600 N Downing St<br>     Denver, CO 80218<br>     <b>Phone:</b><br><a href="tel:(303) 675-0713">(303) 675-0713</a><br>     <b>Website:</b><br> <a href="http://fpgd.org/shelter">FAMILY PROMISE OF GREATER DENVER</a><br>     <b>Services:</b><br> Provides shelter and supportive services to families experiencing homelessness.     </div>`)[0];
+                popup_b99f109fb140acae6c8c46695fccbc5a.setContent(html_e01b9fa0b57192d31c91dd9d1466f4ba);
+            
+        
+
+        marker_c49485451f9719be8b0690d7684bfd5f.bindPopup(popup_b99f109fb140acae6c8c46695fccbc5a)
+        ;
+
+        
+    
+    
+            var marker_476a55ad96948e9b181a33c0ac5abf11 = L.marker(
+                [39.7547589, -104.9879997],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_ab0d2751a4d74f0da4eb2132858dc4b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af63ef4e3f675cae685a54ead8fb282d = $(`<div id="html_af63ef4e3f675cae685a54ead8fb282d" style="width: 100.0%; height: 100.0%;">     <strong>DENVER RESCUE MISSION</strong><br>     1130 Park Ave W<br>     Denver, CO 80205<br>     <b>Phone:</b><br><a href="tel:(303) 294-0157">(303) 294-0157</a><br>     <b>Website:</b><br> <a href="http://denverrescuemission.org/location/lawrence-street-shelter">DENVER RESCUE MISSION</a><br>     <b>Services:</b><br> Provides emergency overnight shelter for men who are experiencing homelessness or in need of shelter (including sex offenders).     </div>`)[0];
+                popup_ab0d2751a4d74f0da4eb2132858dc4b8.setContent(html_af63ef4e3f675cae685a54ead8fb282d);
+            
+        
+
+        marker_476a55ad96948e9b181a33c0ac5abf11.bindPopup(popup_ab0d2751a4d74f0da4eb2132858dc4b8)
+        ;
+
+        
+    
+    
+            var marker_723886161b7c4c1c4893557286761f61 = L.marker(
+                [39.7392364, -104.984862],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_fe22764261e7e743a4d8c43b13a2e0ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_181e6ea373e96b1a73292af5ed3f4302 = $(`<div id="html_181e6ea373e96b1a73292af5ed3f4302" style="width: 100.0%; height: 100.0%;">     <strong>DELORES PROJECT</strong><br>     P.O. Box 1406<br>     Denver, CO 80201<br>     <b>Phone:</b><br><a href="tel:(303) 534-5411">(303) 534-5411</a><br>     <b>Website:</b><br> <a href="http://thedeloresproject.org">DELORES PROJECT</a><br>     <b>Services:</b><br> Provides a low-barrier shelter for women and transgender individuals of any gender. Intake includes extended-stay and housing-focused shelter, where guests will be actively engaged in case management and working towards \`nding permanent, stable housing...     </div>`)[0];
+                popup_fe22764261e7e743a4d8c43b13a2e0ed.setContent(html_181e6ea373e96b1a73292af5ed3f4302);
+            
+        
+
+        marker_723886161b7c4c1c4893557286761f61.bindPopup(popup_fe22764261e7e743a4d8c43b13a2e0ed)
+        ;
+
+        
+    
+    
+            var marker_d2360ee3b86270a3c628103326fff04a = L.marker(
+                [39.7306416, -105.0146443],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_d080e4b62f3ad584c5b21ddd5875c7c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11b47b118df4adcd1676cbff45c4c3c4 = $(`<div id="html_11b47b118df4adcd1676cbff45c4c3c4" style="width: 100.0%; height: 100.0%;">     <strong>MILE HIGH MINISTRIES</strong><br>     2330 W Mulberry Pl<br>     Denver, CO 80204<br>     <b>Phone:</b><br><a href="tel:(720) 377-1103">(720) 377-1103</a><br>     <b>Website:</b><br> <a href="http://milehighmin.org/joshua-station/">MILE HIGH MINISTRIES</a><br>     <b>Services:</b><br> Provides assistance to families making the 2 year transformation from homelessness to a healthy, stable living environment with long-term transformational housing...     </div>`)[0];
+                popup_d080e4b62f3ad584c5b21ddd5875c7c1.setContent(html_11b47b118df4adcd1676cbff45c4c3c4);
+            
+        
+
+        marker_d2360ee3b86270a3c628103326fff04a.bindPopup(popup_d080e4b62f3ad584c5b21ddd5875c7c1)
+        ;
+
+        
+    
+    
+            var marker_b66f1dde0334688e9fea4c8a15659bef = L.marker(
+                [39.7447102, -104.9766091],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_dc87580a14ee94f568dc962e69212528 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d63ae7f3e2c0f2f97f56625706c95ee = $(`<div id="html_6d63ae7f3e2c0f2f97f56625706c95ee" style="width: 100.0%; height: 100.0%;">     <strong>SENIOR SUPPORT SERVICES</strong><br>     846 E 18th Ave<br>     Denver, CO 80218<br>     <b>Phone:</b><br><a href="tel:(303) 832-1622">(303) 832-1622</a><br>     <b>Website:</b><br> <a href="http://seniorsupportservices.org">SENIOR SUPPORT SERVICES</a><br>     <b>Services:</b><br> Provides: Meals, as available Telephone Mail service Computer access Transportation assistance Storage for personal items Television room Library Hygiene item...     </div>`)[0];
+                popup_dc87580a14ee94f568dc962e69212528.setContent(html_6d63ae7f3e2c0f2f97f56625706c95ee);
+            
+        
+
+        marker_b66f1dde0334688e9fea4c8a15659bef.bindPopup(popup_dc87580a14ee94f568dc962e69212528)
+        ;
+
+        
+    
+    
+            var marker_7547ef1bf0e490a9d3947c090ebb0685 = L.marker(
+                [39.7753959, -104.9422916],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_8f2a9dbfc22519cc5268e5cc1c9d2e04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ca201a844978df4e34420285b9a67d2 = $(`<div id="html_9ca201a844978df4e34420285b9a67d2" style="width: 100.0%; height: 100.0%;">     <strong>DENVER RESCUE MISSION</strong><br>     6090 Smith Rd<br>     Denver, CO 80207<br>     <b>Phone:</b><br><a href="tel:(303) 953-3963">(303) 953-3963</a><br>     <b>Website:</b><br> <a href="http://denverrescuemission.org/who-we-are/locations/the-crossing">DENVER RESCUE MISSION</a><br>     <b>Services:</b><br> Offers 1-year transitional housing for families, married couples, singles and seniors, as well as the following services:Case management On-site computer lab Three meals per day Laundry facilities Spiritual support Life skills workshops Youth development program...     </div>`)[0];
+                popup_8f2a9dbfc22519cc5268e5cc1c9d2e04.setContent(html_9ca201a844978df4e34420285b9a67d2);
+            
+        
+
+        marker_7547ef1bf0e490a9d3947c090ebb0685.bindPopup(popup_8f2a9dbfc22519cc5268e5cc1c9d2e04)
+        ;
+
+        
+    
+    
+            var marker_992ba5e409924919dae728cc3dcd4fcf = L.marker(
+                [39.7374544, -104.9674456],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_81867e7c5febf25f409c8cd7e6e1cd60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6425798755d926efa1d99e59606e52e = $(`<div id="html_b6425798755d926efa1d99e59606e52e" style="width: 100.0%; height: 100.0%;">     <strong>WARREN VILLAGE</strong><br>     1323 Gilpin St<br>     Denver, CO 80218<br>     <b>Phone:</b><br><a href="tel:(303) 321-2345">(303) 321-2345</a><br>     <b>Website:</b><br> <a href="http://warrenvillage.org">WARREN VILLAGE</a><br>     <b>Services:</b><br> Offers transitional housing to low-income, single-parent families for up to 4 years. Housing options consist of 1-3 bedroom apartments suitable for a parent and up to six children...     </div>`)[0];
+                popup_81867e7c5febf25f409c8cd7e6e1cd60.setContent(html_b6425798755d926efa1d99e59606e52e);
+            
+        
+
+        marker_992ba5e409924919dae728cc3dcd4fcf.bindPopup(popup_81867e7c5febf25f409c8cd7e6e1cd60)
+        ;
+
+        
+    
+    
+            var marker_1bd1c50970c8229cf24cea43a3c927ca = L.marker(
+                [39.7374544, -104.9674456],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_18223516e4ffd8ed9558e84479e5871f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae56bb556441a6bc6a5a20d340355c26 = $(`<div id="html_ae56bb556441a6bc6a5a20d340355c26" style="width: 100.0%; height: 100.0%;">     <strong>WARREN VILLAGE</strong><br>     1323 Gilpin St<br>     Denver, CO 80218<br>     <b>Phone:</b><br><a href="tel:(303) 320-5080">(303) 320-5080</a><br>     <b>Website:</b><br> <a href="http://warrenvillage.org">WARREN VILLAGE</a><br>     <b>Services:</b><br> Offers safe and affordable housing for young mothers interested in pursing high school diploma or GED in partnership with Florence Crittenton Services and other GED/high school diploma programs...     </div>`)[0];
+                popup_18223516e4ffd8ed9558e84479e5871f.setContent(html_ae56bb556441a6bc6a5a20d340355c26);
+            
+        
+
+        marker_1bd1c50970c8229cf24cea43a3c927ca.bindPopup(popup_18223516e4ffd8ed9558e84479e5871f)
+        ;
+
+        
+    
+    
+            var marker_5040b3b7b6ff3b948861a23c7ee51e1b = L.marker(
+                [39.7527751, -104.9915678],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_e05f117c20d04bcbbe55a7707a8d4c61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a673ccfa1ea510c5f762aecca02ac66 = $(`<div id="html_5a673ccfa1ea510c5f762aecca02ac66" style="width: 100.0%; height: 100.0%;">     <strong>SOX PLACE</strong><br>     2017 Lawrence St<br>     Denver, CO 80205<br>     <b>Phone:</b><br><a href="tel:(303) 296-3412">(303) 296-3412</a><br>     <b>Website:</b><br> <a href="http://soxplace.com">SOX PLACE</a><br>     <b>Services:</b><br> Provides a daytime drop-in center offering:A hot meal Snacks Recreation Internet access Clothing Showers Personal hygiene items Crisis intervention Referrals to other resource...     </div>`)[0];
+                popup_e05f117c20d04bcbbe55a7707a8d4c61.setContent(html_5a673ccfa1ea510c5f762aecca02ac66);
+            
+        
+
+        marker_5040b3b7b6ff3b948861a23c7ee51e1b.bindPopup(popup_e05f117c20d04bcbbe55a7707a8d4c61)
+        ;
+
+        
+    
+    
+            var marker_fe4f21461172c7108a0daf1dcfdf8776 = L.marker(
+                [39.7820388, -104.9711284],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_3e16d448c099b943f663cd9b53eff90e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d95f62a4be29653c9d01a041384816d = $(`<div id="html_2d95f62a4be29653c9d01a041384816d" style="width: 100.0%; height: 100.0%;">     <strong>OPEN DOOR MINISTRIES</strong><br>     1530 N Marion St<br>     Denver, CO 80218<br>     <b>Phone:</b><br><a href="tel:(303) 830-2201">(303) 830-2201</a><br>     <b>Website:</b><br> <a href="http://odmdenver.org/need-housing">OPEN DOOR MINISTRIES</a><br>     <b>Services:</b><br> Offers a transitional housing program and supports each individual to establish self-sufficiency through getting a job or enrolling in a school program...     </div>`)[0];
+                popup_3e16d448c099b943f663cd9b53eff90e.setContent(html_2d95f62a4be29653c9d01a041384816d);
+            
+        
+
+        marker_fe4f21461172c7108a0daf1dcfdf8776.bindPopup(popup_3e16d448c099b943f663cd9b53eff90e)
+        ;
+
+        
+    
+    
+            var marker_dd33aa79c1d4c0fd1f6398a27f370e32 = L.marker(
+                [39.7300143, -104.9857543],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_b5ecbc5112e65d248a1a5fbf5f5a0e3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46c8825263615b58a09401bc9726d176 = $(`<div id="html_46c8825263615b58a09401bc9726d176" style="width: 100.0%; height: 100.0%;">     <strong>CHRIST'S BODY MINISTRIES</strong><br>     850 Lincoln St<br>     Denver, CO 80203<br>     <b>Phone:</b><br><a href="tel:(303) 860-1272">(303) 860-1272</a><br>     <b>Website:</b><br> <a href="http://christsbody.org">CHRIST'S BODY MINISTRIES</a><br>     <b>Services:</b><br> Provides, through the usage of mobile trailers and vans, the following services to the community: Hot meals Food assistance Clothing Showers Personal hygiene items Referrals to other agencies Hair cut...     </div>`)[0];
+                popup_b5ecbc5112e65d248a1a5fbf5f5a0e3d.setContent(html_46c8825263615b58a09401bc9726d176);
+            
+        
+
+        marker_dd33aa79c1d4c0fd1f6398a27f370e32.bindPopup(popup_b5ecbc5112e65d248a1a5fbf5f5a0e3d)
+        ;
+
+        
+    
+    
+            var marker_f0cf53aea688e77aca064554606fc737 = L.marker(
+                [39.7056105, -105.0301767],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_f2476c959e3abb434909bcffcc2d3d79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fbbad6b0c40e23e8c96c1c571a2b304 = $(`<div id="html_9fbbad6b0c40e23e8c96c1c571a2b304" style="width: 100.0%; height: 100.0%;">     <strong>VOLUNTEERS OF AMERICA COLORADO</strong><br>     601 S Irving St<br>     Denver, CO 80219<br>     <b>Phone:</b><br><a href="tel:(303) 934-9501">(303) 934-9501</a><br>     <b>Website:</b><br> <a href="http://voacolorado.org/gethelp-denvermetro-ryes-irving">VOLUNTEERS OF AMERICA COLORADO</a><br>     <b>Services:</b><br> Offers temporary housing to single women who experience long time homelessness with mental health issues.     </div>`)[0];
+                popup_f2476c959e3abb434909bcffcc2d3d79.setContent(html_9fbbad6b0c40e23e8c96c1c571a2b304);
+            
+        
+
+        marker_f0cf53aea688e77aca064554606fc737.bindPopup(popup_f2476c959e3abb434909bcffcc2d3d79)
+        ;
+
+        
+    
+    
+            var marker_580f162c556957411bffac045cc576f9 = L.marker(
+                [39.7274809, -105.0020582],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_accbff8ff255a21110b66d6d63bb881e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79e2052564c9a6a1aa9e2f432d98f8f2 = $(`<div id="html_79e2052564c9a6a1aa9e2f432d98f8f2" style="width: 100.0%; height: 100.0%;">     <strong>HAVEN OF HOPE</strong><br>     1101 W 7th Ave<br>     Denver, CO 80204<br>     <b>Phone:</b><br><a href="tel:(303) 607-0855">(303) 607-0855</a><br>     <b>Website:</b><br> <a href="http://thoh.org/">HAVEN OF HOPE</a><br>     <b>Services:</b><br> Offers a day shelter serving the homeless and underserved populations. Services include:Meals (breakfast and lunch) Private showers Laundry services Clothing Document and mail safekeeping Free phone access Free wireless internet Travel hygiene packs Food boxes...     </div>`)[0];
+                popup_accbff8ff255a21110b66d6d63bb881e.setContent(html_79e2052564c9a6a1aa9e2f432d98f8f2);
+            
+        
+
+        marker_580f162c556957411bffac045cc576f9.bindPopup(popup_accbff8ff255a21110b66d6d63bb881e)
+        ;
+
+        
+    
+    
+            var marker_5163a44e0d2fc32c2002d70996e427da = L.marker(
+                [39.7656152, -104.987605],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_12095981bc58b174ddd4ef7f19d8cef9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8ca29c9df52c2762d54d370c365d0ea = $(`<div id="html_a8ca29c9df52c2762d54d370c365d0ea" style="width: 100.0%; height: 100.0%;">     <strong>SALVATION ARMY DENVER</strong><br>     1901 29th St<br>     Denver, CO 80216<br>     <b>Phone:</b><br><a href="tel:(720) 305-4640">(720) 305-4640</a><br>     <b>Website:</b><br> <a href="http://crossroadscenter.salvationarmy.org">SALVATION ARMY DENVER</a><br>     <b>Services:</b><br> Provides emergency overnight shelter for single men. Shelter offers: Dinner and breakfast Showers Laundry Lockers Kennels for dogs, based on availability Weekly bed rental...     </div>`)[0];
+                popup_12095981bc58b174ddd4ef7f19d8cef9.setContent(html_a8ca29c9df52c2762d54d370c365d0ea);
+            
+        
+
+        marker_5163a44e0d2fc32c2002d70996e427da.bindPopup(popup_12095981bc58b174ddd4ef7f19d8cef9)
+        ;
+
+        
+    
+    
+            var marker_5b8f6487e57b9194be51f7e9a0a64e45 = L.marker(
+                [39.7556512, -104.9872002],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_44beb04b9813d130b30372894c3122a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9be16b07696c839ab9891a4b91f23a7d = $(`<div id="html_9be16b07696c839ab9891a4b91f23a7d" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF DENVER</strong><br>     2301 Lawrence St<br>     Denver, CO 80205<br>     <b>Phone:</b><br><a href="tel:(303) 294-0241">(303) 294-0241</a><br>     <b>Website:</b><br> <a href="http://ccdenver.org/denver-samaritan-house/">CATHOLIC CHARITIES OF DENVER</a><br>     <b>Services:</b><br> Provides an emergency shelter for single women on a first-come, first-served basis. Participants are provided with nutritious meals and matched to a Samaritan House facility that best meets their needs...     </div>`)[0];
+                popup_44beb04b9813d130b30372894c3122a1.setContent(html_9be16b07696c839ab9891a4b91f23a7d);
+            
+        
+
+        marker_5b8f6487e57b9194be51f7e9a0a64e45.bindPopup(popup_44beb04b9813d130b30372894c3122a1)
+        ;
+
+        
+    
+    
+            var marker_2a4fb9d825ecc40f2782a99e3bd9622d = L.marker(
+                [39.747357, -104.9874],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_f25eef2aacff701e69d3aa009ca82456 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61960f0258b1a0ab8f5b1538d950e6a8 = $(`<div id="html_61960f0258b1a0ab8f5b1538d950e6a8" style="width: 100.0%; height: 100.0%;">     <strong>MERCY HOUSING</strong><br>     1600 N Broadway Suite 2000<br>     Denver, CO 80202<br>     <b>Phone:</b><br><a href="tel:(303) 830-3300">(303) 830-3300</a><br>     <b>Website:</b><br> <a href="http://mercyhousing.org">MERCY HOUSING</a><br>     <b>Services:</b><br> Provides affordable housing, including supportive housing for the formerly homeless, and permanent rentals.     </div>`)[0];
+                popup_f25eef2aacff701e69d3aa009ca82456.setContent(html_61960f0258b1a0ab8f5b1538d950e6a8);
+            
+        
+
+        marker_2a4fb9d825ecc40f2782a99e3bd9622d.bindPopup(popup_f25eef2aacff701e69d3aa009ca82456)
+        ;
+
+        
+    
+    
+            var marker_5c58df5188d42614c92e441aa68557a2 = L.marker(
+                [39.7362019, -104.9991069],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_d58e0c24722ce9f51f10b88dac8f8bb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c85c8904958f6109f7399818e295fee6 = $(`<div id="html_c85c8904958f6109f7399818e295fee6" style="width: 100.0%; height: 100.0%;">     <strong>VOLUNTEERS OF AMERICA COLORADO</strong><br>     1247 Santa Fe Dr<br>     Denver, CO 80204<br>     <b>Phone:</b><br><a href="tel:(720) 501-3369">(720) 501-3369</a><br>     <b>Website:</b><br> <a href="http://voacolorado.org/veteran-services-center">VOLUNTEERS OF AMERICA COLORADO</a><br>     <b>Services:</b><br> Provides the following services for women Veterans experiencing homelessness or at-risk of experiencing homelessness: Emergency and Transitional Housing Housing Search Assistance Intensive Case Management Employment and Education Assistanc...     </div>`)[0];
+                popup_d58e0c24722ce9f51f10b88dac8f8bb5.setContent(html_c85c8904958f6109f7399818e295fee6);
+            
+        
+
+        marker_5c58df5188d42614c92e441aa68557a2.bindPopup(popup_d58e0c24722ce9f51f10b88dac8f8bb5)
+        ;
+
+        
+    
+    
+            var marker_dfdea5e8e7bac85074a3a5ea4b76ee80 = L.marker(
+                [39.7362019, -104.9991069],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_1a5d78a426687d75842e656d38419342 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10b9ae391043f93fb41670a25fa3baaf = $(`<div id="html_10b9ae391043f93fb41670a25fa3baaf" style="width: 100.0%; height: 100.0%;">     <strong>VOLUNTEERS OF AMERICA COLORADO</strong><br>     1247 Santa Fe Dr<br>     Denver, CO 80204<br>     <b>Phone:</b><br><a href="tel:(720) 234-5195">(720) 234-5195</a><br>     <b>Website:</b><br> <a href="No Website Listed">VOLUNTEERS OF AMERICA COLORADO</a><br>     <b>Services:</b><br> Provides a shelter with supportive services and housing case management.     </div>`)[0];
+                popup_1a5d78a426687d75842e656d38419342.setContent(html_10b9ae391043f93fb41670a25fa3baaf);
+            
+        
+
+        marker_dfdea5e8e7bac85074a3a5ea4b76ee80.bindPopup(popup_1a5d78a426687d75842e656d38419342)
+        ;
+
+        
+    
+    
+            var marker_1a32014894a8a97c343691562a5bbf57 = L.marker(
+                [39.7753959, -104.9422916],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_3f624be6d8557aecce8f94a6809488cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ff055b736da05198210e9e5fe91db3a = $(`<div id="html_9ff055b736da05198210e9e5fe91db3a" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF DENVER</strong><br>     6240 Smith Rd<br>     Denver, CO 80207<br>     <b>Phone:</b><br><a href="tel:(720) 799-9400">(720) 799-9400</a><br>     <b>Website:</b><br> <a href="http://ccdenver.org/marisolservices/marisol-homes/">CATHOLIC CHARITIES OF DENVER</a><br>     <b>Services:</b><br> Provides housing and supportive services for pregnant women and women with children, for as long as needed in a communal living environment...     </div>`)[0];
+                popup_3f624be6d8557aecce8f94a6809488cd.setContent(html_9ff055b736da05198210e9e5fe91db3a);
+            
+        
+
+        marker_1a32014894a8a97c343691562a5bbf57.bindPopup(popup_3f624be6d8557aecce8f94a6809488cd)
+        ;
+
+        
+    
+    
+            var marker_a52bb94bd324261d59e9866b7ceb394e = L.marker(
+                [39.7833193, -104.9371448],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_5ca49359140dcedf8b8a0b65980a398d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d00b85f1caa5d0aead6a9b1bd9671ed = $(`<div id="html_8d00b85f1caa5d0aead6a9b1bd9671ed" style="width: 100.0%; height: 100.0%;">     <strong>CATHOLIC CHARITIES OF DENVER</strong><br>     4330 E 48th Ave<br>     Denver, CO 80216<br>     <b>Phone:</b><br><a href="tel:(720) 799-9506">(720) 799-9506</a><br>     <b>Website:</b><br> <a href="http://ccdenver.org/colorado-homeless-shelters/">CATHOLIC CHARITIES OF DENVER</a><br>     <b>Services:</b><br> Offers a shelter for single women on a first-come, first-served basis. Shelter provides: Nutritious meals, 3 times a dayShower and laundry services Case management support Counseling Employment supportConnection to housing referrals and community based resource...     </div>`)[0];
+                popup_5ca49359140dcedf8b8a0b65980a398d.setContent(html_8d00b85f1caa5d0aead6a9b1bd9671ed);
+            
+        
+
+        marker_a52bb94bd324261d59e9866b7ceb394e.bindPopup(popup_5ca49359140dcedf8b8a0b65980a398d)
+        ;
+
+        
+    
+    
+            var marker_367fbc337993d1b46ed43c7d82c737b2 = L.marker(
+                [39.7504559, -104.9866068],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_1dc432be7f1299f69cf7ae1f4fa71a3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9ac4e45068653107c2d9a7ec3712239 = $(`<div id="html_f9ac4e45068653107c2d9a7ec3712239" style="width: 100.0%; height: 100.0%;">     <strong>URBAN PEAK</strong><br>     2100 Stout St<br>     Denver, CO 80205<br>     <b>Phone:</b><br><a href="tel:(303) 974-2900">(303) 974-2900</a><br>     <b>Website:</b><br> <a href="http://urbanpeak.org/services#housing">URBAN PEAK</a><br>     <b>Services:</b><br> Provides a variety of supportive housing options for youth experiencing homelessness. All youth have access to intensive strengths-based case management and have access to the following services and community partners:Education Employment Mental health Substance...     </div>`)[0];
+                popup_1dc432be7f1299f69cf7ae1f4fa71a3a.setContent(html_f9ac4e45068653107c2d9a7ec3712239);
+            
+        
+
+        marker_367fbc337993d1b46ed43c7d82c737b2.bindPopup(popup_1dc432be7f1299f69cf7ae1f4fa71a3a)
+        ;
+
+        
+    
+    
+            var marker_0bffdb96350d8160ce0cc6f933ec6eda = L.marker(
+                [39.7543166, -104.9860842],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_3c7092f3029a110d6c95948ee8ff4f22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c63c1c8b1ab97d3aa2c24fad0954757 = $(`<div id="html_2c63c1c8b1ab97d3aa2c24fad0954757" style="width: 100.0%; height: 100.0%;">     <strong>ST FRANCIS CENTER</strong><br>     2323 Curtis Street<br>     Denver, CO 81501<br>     <b>Phone:</b><br><a href="tel:(303) 297-1576">(303) 297-1576</a><br>     <b>Website:</b><br> <a href="http://sfcdenver.org">ST FRANCIS CENTER</a><br>     <b>Services:</b><br> Assists individuals who are experiencing homelessness with locating family members and provides one-time financial assistance for travel to family members who are able to provide housing...     </div>`)[0];
+                popup_3c7092f3029a110d6c95948ee8ff4f22.setContent(html_2c63c1c8b1ab97d3aa2c24fad0954757);
+            
+        
+
+        marker_0bffdb96350d8160ce0cc6f933ec6eda.bindPopup(popup_3c7092f3029a110d6c95948ee8ff4f22)
+        ;
+
+        
+    
+    
+            var marker_1f1a172323321e98df5ee9d025a8adbf = L.marker(
+                [39.740758, -104.9650989],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_b44fd48ab7c1b71a40631b7442e83b3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d346e6cbd3c933f2546e408bf8057a2 = $(`<div id="html_9d346e6cbd3c933f2546e408bf8057a2" style="width: 100.0%; height: 100.0%;">     <strong>GATHERING PLACE</strong><br>     1535 High St<br>     Denver, CO 80218<br>     <b>Phone:</b><br><a href="tel:(303) 321-4198">(303) 321-4198</a><br>     <b>Website:</b><br> <a href="http://tgpdenver.org">GATHERING PLACE</a><br>     <b>Services:</b><br> Offers the following short-term services through a resource center:Shower Laundry facilities Assistance with Colorado IDs Food pantry Clothing Onsite computers 3 meals a da...     </div>`)[0];
+                popup_b44fd48ab7c1b71a40631b7442e83b3e.setContent(html_9d346e6cbd3c933f2546e408bf8057a2);
+            
+        
+
+        marker_1f1a172323321e98df5ee9d025a8adbf.bindPopup(popup_b44fd48ab7c1b71a40631b7442e83b3e)
+        ;
+
+        
+    
+    
+            var marker_5ce6a2b6800b062ec1dd25f4dfcd2161 = L.marker(
+                [39.721851, -104.987541],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_96f5c6f3d02f57f1dc7fc8659cc355f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a29bbb5bdb9d6f1d390d52c374e96b4 = $(`<div id="html_2a29bbb5bdb9d6f1d390d52c374e96b4" style="width: 100.0%; height: 100.0%;">     <strong>PROVIDENCE NETWORK</strong><br>     357 N Broadway<br>     Denver, CO 80203<br>     <b>Phone:</b><br><a href="tel:(303) 860-8404">(303) 860-8404</a><br>     <b>Website:</b><br> <a href="http://sites.google.com/providencenetwork.org/joyhouseorientation/home">PROVIDENCE NETWORK</a><br>     <b>Services:</b><br> Provides a 2-year transitional housing program and wrap-around services for women with children who have experienced domestic violence...     </div>`)[0];
+                popup_96f5c6f3d02f57f1dc7fc8659cc355f9.setContent(html_2a29bbb5bdb9d6f1d390d52c374e96b4);
+            
+        
+
+        marker_5ce6a2b6800b062ec1dd25f4dfcd2161.bindPopup(popup_96f5c6f3d02f57f1dc7fc8659cc355f9)
+        ;
+
+        
+    
+    
+            var marker_54e6c3966dd08654f743c2573a2d6d40 = L.marker(
+                [39.7547589, -104.9879997],
+                {}
+            ).addTo(map_2c4ef3dc68d9b25ffa2c5db67ec9f644);
+        
+    
+        var popup_fb72fbf1a01ba1cc011074d256173916 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c6a0a3b53cd0f8649c84dc07e42ad17 = $(`<div id="html_4c6a0a3b53cd0f8649c84dc07e42ad17" style="width: 100.0%; height: 100.0%;">     <strong>DENVER RESCUE MISSION</strong><br>     1130 Park Ave W<br>     Denver, CO 80205<br>     <b>Phone:</b><br><a href="tel:(303) 294-0157">(303) 294-0157</a><br>     <b>Website:</b><br> <a href="http://denverrescuemission.org/who-we-are/locations/lawrence-street-community-center">DENVER RESCUE MISSION</a><br>     <b>Services:</b><br> Offers: BreakfastLunchDinnerShowers (must sign up)Laundry (must sign up)Socks Underwear Toiletries, such as: Toothbrushes Toothpaste Combs Feminine hygiene products Outdoor courtyard space to stay in during the da...     </div>`)[0];
+                popup_fb72fbf1a01ba1cc011074d256173916.setContent(html_4c6a0a3b53cd0f8649c84dc07e42ad17);
+            
+        
+
+        marker_54e6c3966dd08654f743c2573a2d6d40.bindPopup(popup_fb72fbf1a01ba1cc011074d256173916)
+        ;
+
+        
+    
+</script>
+</html>
